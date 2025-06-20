@@ -25,7 +25,7 @@ const Hero = () => {
           <Button
             variant='primary'
             className={styles.btn}
-            href={hero.tertiary.link}
+            href={hero.primary.link}
           >
             {hero.primary.label}
           </Button>
