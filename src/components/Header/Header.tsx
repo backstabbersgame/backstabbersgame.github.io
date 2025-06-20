@@ -34,22 +34,22 @@ const Header = ({ variant, isGame, gameTitle }: HeaderProps) => {
   };
 
   const handleLogoClick = () => {
-    router.push('/');
-    setActiveItem('inicio');
+    // router.push('/');
+    setActiveItem('');
     setOpenSubMenu(undefined);
-    scrollToHash('#inicio');
+    scrollToHash('');
   };
 
   const handleMenuClick = () => {
     setIsMenuOpen(true);
   };
 
-  const handleToggleSubMenu = (id?: string) => {
-    if (id === 'jogos') {
-      setOpenSubMenu((currentState) => (currentState === id ? undefined : id));
-      setActiveItem('jogos');
-    }
-  };
+  // const handleToggleSubMenu = (id?: string) => {
+  //   if (id === 'jogos') {
+  //     setOpenSubMenu((currentState) => (currentState === id ? undefined : id));
+  //     setActiveItem('jogos');
+  //   }
+  // };
 
   const handleLinkClick = (href: string) => {
     // router.push(href);
@@ -91,7 +91,7 @@ const Header = ({ variant, isGame, gameTitle }: HeaderProps) => {
     setOpenSubMenu(undefined);
     const menuItem = menuItems.find(
       (item) =>
-        item.href === href || item.subItems?.some((sub) => sub.href === href)
+        item.href === href //|| item.subItems?.some((sub) => sub.href === href)
     );
 
     if (menuItem) {
@@ -118,10 +118,10 @@ const Header = ({ variant, isGame, gameTitle }: HeaderProps) => {
         activeItem={activeItem}
         onItemSelect={handleItemSelect}
         customItems={menuItems}
-        openSubMenu={openSubMenu}
-        onToggleSubMenu={handleToggleSubMenu}
+        // openSubMenu={openSubMenu}
+        // onToggleSubMenu={handleToggleSubMenu}
         onNavigate={handleNavigate}
-        isSubpage={true}
+        isSubpage={false}
         customFooterItems={undefined}
         // footerButton={
         //   isMobile

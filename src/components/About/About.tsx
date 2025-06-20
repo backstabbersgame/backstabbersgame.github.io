@@ -37,14 +37,14 @@ const About = () => {
             </div>
           </header>
           <div className={styles['about-content']}>
-            <div className={styles.picture}>
+            {/* <div className={styles.picture}>
               <Image
                 width={isMobile ? 356.64 : 524}
                 height={isMobile ? 237.56 : 288}
                 src={`${about.picture}`}
                 alt={about.pictureAlt}
               />
-            </div>
+            </div> */}
             <div className={styles['about-side']}>
               <p className={styles['about-p']}>
                 {about.description.replace(/\\n/g, '\n')}

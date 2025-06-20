@@ -20,9 +20,19 @@ const Home = () => {
         </div>
       </div>
       <Game />
+      <div
+        style={{
+          width: '100%',
+          height: '4px',
+          backgroundColor: 'white',
+          position: 'relative',
+          zIndex: '5',
+          marginTop: '-2px',
+        }}
+      ></div>
       <div className={styles.gradient}>
         <About />
-        <Store />
+        {/* <Store /> */}
       </div>
       {/* <Newsletter />
       <Footer /> */}

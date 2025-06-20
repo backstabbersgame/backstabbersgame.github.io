@@ -68,8 +68,10 @@
 
 .about-p {
   color: colors.$neutral-600;
-  font-size: typography.$font-size-14;
+  // font-size: typography.$font-size-14;
+  font-size: typography.$font-size-20;
   font-weight: typography.$font-weight-regular;
+  padding-top: 20px;
 }
 
 .about-p strong {
@@ -119,6 +121,9 @@
   .btn {
     transform: translateX(0);
   }
+  .about-p {
+    padding-top: 40px;
+  }
 }
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
@@ -131,7 +136,8 @@
     margin-top: 40px;
     width: 100%;
     height: fit-content;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: center;
   }
 
   .picture {
@@ -155,6 +161,8 @@
   .about-p {
     width: fit-content;
     white-space: pre-line;
+
+    padding-top: 40px;
   }
 
   .about-data {
@@ -181,7 +189,8 @@
     margin-top: 40px;
     width: 100%;
     height: fit-content;
-    justify-content: space-between;
+    // justify-content: space-between;
+    justify-content: center;
   }
 
   .picture {
@@ -203,6 +212,7 @@
   .about-p {
     width: fit-content;
     white-space: pre-line;
+    
   }
 
   .about-data {

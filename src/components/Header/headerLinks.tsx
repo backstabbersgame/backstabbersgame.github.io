@@ -13,7 +13,7 @@ export const links = [
   { name: 'Início', href: '' },
   { name: 'Jogos', href: '#games' },
   { name: 'Sobre', href: '#about' },
-  { name: 'Lojinha', href: '#store' },
+  // { name: 'Lojinha', href: '#store' },
   { name: 'Newsletter', href: '#newsletter' },
   // { name: 'Lojinha', href: '/lojinha' },
   // { name: 'Contato', href: '/contato' },
@@ -32,10 +32,10 @@ export const menuItems = [
     icon: <Rocket size={24} />,
     href: '#games',
     hasSubMenu: false,
-    subItems: [
-      { id: '', label: '', href: '' },
-      { id: '', label: '', href: '' },
-    ],
+    // subItems: [
+    //   { id: '', label: '', href: '' },
+    //   { id: '', label: '', href: '' },
+    // ],
   },
   {
     id: 'sobre',
@@ -43,12 +43,12 @@ export const menuItems = [
     icon: <UsersThree size={24} />,
     href: '#about',
   },
-  {
-    id: 'store',
-    label: 'Lojinha',
-    icon: <ShoppingBag size={24} />,
-    href: '#store',
-  },
+  // {
+  //   id: 'store',
+  //   label: 'Lojinha',
+  //   icon: <ShoppingBag size={24} />,
+  //   href: '#store',
+  // },
   {
     id: 'newsletter',
     label: 'Newsletter',

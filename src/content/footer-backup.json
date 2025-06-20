@@ -1,0 +1,62 @@
+{
+  "logo": {
+    "alt": "Solara logo",
+    "mobile": "/images/solara-horizontal-light.svg",
+    "desktop": "/images/solara-light.svg"
+  },
+  "sections": [
+    {
+      "title": "Ajuda",
+      "className": "ajuda",
+      "links": [
+        { "icon": "Chats", "label": "Fale com a gente", "href": "" },
+        { "icon": "Bag", "label": "Quero vender", "href": "" },
+        { "icon": "Truck", "label": "Política de frete", "href": "" }
+      ]
+    },
+    {
+      "title": "Produtos",
+      "className": "produtos",
+      "links": [
+        { "icon": "Sword", "label": "Nossos jogos", "href": "" },
+        { "icon": "HourglassLow", "label": "Em breve!", "href": "" },
+        { "icon": "ShoppingCart", "label": "Lojinha", "href": "" }
+      ]
+    },
+    {
+      "title": "Solara",
+      "className": "solara",
+      "links": [
+        { "icon": "UsersThree", "label": "Quem somos", "href": "" },
+        { "icon": "ThumbsUp", "label": "Parcerias", "href": "" },
+        { "icon": "Question", "label": "FAQ", "href": "" }
+      ]
+    },
+    {
+      "title": "Redes sociais",
+      "className": "sociais",
+      "links": [
+        {
+          "icon": "InstagramLogo",
+          "label": "Instagram",
+          "href": "https://www.instagram.com/solarabg/"
+        },
+        {
+          "icon": "YoutubeLogo",
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@BackstabbersGame"
+        },
+        {
+          "icon": "TiktokLogo",
+          "label": "Tik Tok",
+          "href": "https://www.tiktok.com/@backstabbersgame"
+        }
+      ]
+    }
+  ],
+  "legal": [
+    { "label": "Privacidade", "href": "" },
+    { "label": "Termos de Uso", "href": "" }
+  ],
+  "copyright": "Copyright 2025 © Solara Studios"
+}
