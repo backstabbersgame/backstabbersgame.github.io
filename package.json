@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d out -r https://x-access-token:${GITHUB_TOKEN}@github.com/backstabbersgame/backstabbersgame.github.io.git"
   },
   "dependencies": {
-    "@backstabbersgame/design-system": "1.0.24",
+    "@backstabbersgame/design-system": "1.0.25",
     "@hookform/resolvers": "^4.1.3",
     "@phosphor-icons/react": "^2.1.7",
     "@reduxjs/toolkit": "^2.6.1",
