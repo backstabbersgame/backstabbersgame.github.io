@@ -1,0 +1,20 @@
+{
+  "title": "Venha ser um solariano!",
+  "description": "Cadastre seu email para saber de todas as novidades \ndo nosso universo!",
+  "emailPlaceholder": "E-mail*",
+  "buttonLabel": "Assinar a newsletter",
+  "buttonIcon": {
+    "src": "/images/paper-plane.svg",
+    "alt": "Avião de papel"
+  },
+  "image": {
+    "alt": "Personagem",
+    "mobile": "/images/mobile/dealer.png",
+    "desktop": "/images/desktop/dealer.png"
+  },
+  "message": {
+    "success": "Obrigado por se inscrever!",
+    "error": "Erro ao salvar. Tente novamente.",
+    "invalid": "Por favor, insira um e-mail válido."
+  }
+}

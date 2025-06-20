@@ -1,0 +1,78 @@
+[
+  {
+    "id": 1,
+    "name": "Backstabbers Expansion",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/backstabbers-expansion.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/backstabbers-expansion.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Mais de 1000 cópias vendidas",
+        "description": "Sucesso do Catarse em 2024, Backstabbers é o novo\nqueridinho das mesas!"
+      },
+      {
+        "iconSrc": "/images/sword.svg",
+        "iconAlt": "Espada",
+        "title": "5 modos de jogo",
+        "description": "Além da forma tradicional, Backstabbers pode ser \njogado de mais 4 modos. Jogue um modo rápido, um \njogo completo em apenas uma partida, conquiste \ntodas as moedas dos oponentes ou jogue em dupla."
+      },
+      {
+        "iconSrc": "/images/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Evolua enquanto joga",
+        "description": "Além de 5 níveis onde o jogo cresce com o jogador, \nBackstabbers também conta com 3 expansões que \naumentam ainda mais a diversão!"
+      }
+    ],
+    "link": "https://www.catarse.me/backstabbers_latepledge",
+    "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 2,
+    "name": "Backstabbers Expansion",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/backstabbers-expansion.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/backstabbers-expansion.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Mais de 1000 cópias vendidas",
+        "description": "Sucesso do Catarse em 2024, Backstabbers é o novo\nqueridinho das mesas!"
+      },
+      {
+        "iconSrc": "/images/sword.svg",
+        "iconAlt": "Espada",
+        "title": "5 modos de jogo",
+        "description": "Além da forma tradicional, Backstabbers pode ser \njogado de mais 4 modos. Jogue um modo rápido, um \njogo completo em apenas uma partida, conquiste \ntodas as moedas dos oponentes ou jogue em dupla."
+      },
+      {
+        "iconSrc": "/images/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Evolua enquanto joga",
+        "description": "Além de 5 níveis onde o jogo cresce com o jogador, \nBackstabbers também conta com 3 expansões que \naumentam ainda mais a diversão!"
+      }
+    ],
+    "link": "https://www.catarse.me/backstabbers_latepledge",
+    "buttonText": "Detalhes do jogo"
+  }
+]

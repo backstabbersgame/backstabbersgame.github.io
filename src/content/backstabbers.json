@@ -1,0 +1,40 @@
+{
+  "logo": "backstabbers",
+  "title": "BACKSTABBERS",
+  "description": "Em uma sociedade onde cada um quer ser mais\\npoderoso que o outro e onde seus desejos são\\nmaiores que o próximo, ninguém medirá seus\\nesforços para atingir seus objetivos. Não confie\\nem ninguém,",
+  "descriptionBold": "nem mesmo em você!",
+  "links": [
+    {
+      "label": "Como jogar",
+      "href": "jogos/backstabbers/como-jogar"
+    },
+    { "label": "Componentes", "href": "jogos/backstabbers/componentes" },
+    {
+      "label": "Casos especiais",
+      "href": "jogos/backstabbers/casos-especiais"
+    },
+    {
+      "label": "Regras opcionais",
+      "href": "jogos/backstabbers/regras-opcionais"
+    }
+  ],
+  "gameplayIcon": "/images/play.svg",
+  "gameplay": "Nossas gameplays",
+  "channel": "Acessar o canal",
+  "mainImage": {
+    "src": "/images/backstabbers.png",
+    "alt": "Capa do backstabbers"
+  },
+
+  "mobile": {
+    "main": {
+      "width": 360,
+      "height": 171
+    },
+    "newsletter": {
+      "src": "/images/mobile/vidente.png",
+      "width": 363,
+      "height": 318
+    }
+  }
+}

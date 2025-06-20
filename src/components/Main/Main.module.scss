@@ -1,0 +1,40 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.main {
+  width: 100vw;
+}
+
+.image-container {
+  padding-top: 60px;
+  height: fit-content;
+  background-color: colors.$neutral-0;
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+}
+
+.content-container {
+  margin-top: -1px;
+  padding: 16px 20px;
+  background-color: colors.$neutral-0;
+}
+
+.content-container p {
+  color: colors.$neutral-600;
+  font-family: typography.$base-font-family;
+  font-weight: typography.$font-weight-regular;
+  font-size: typography.$font-size-14;
+
+  strong {
+    font-weight: typography.$font-weight-bold;
+  }
+}
+
+.grid-container {
+  
+}
