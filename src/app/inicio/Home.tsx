@@ -33,6 +33,7 @@ const Home = () => {
       ></div>
       <div className={styles.gradient}>
         <About />
+        {/* <Contact/> */}
         {/* <Store /> */}
       </div>
       {/* <Newsletter />
