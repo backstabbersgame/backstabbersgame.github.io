@@ -19,12 +19,15 @@
     { "value": "Tabuleria", "label": "Tabuleria" }
   ],
   "submitLabel": "Enviar",
+  "loadingLabel": "Enviando",
+  "successLabel": "Enviado!",
   "communityTitle": "Entre para nossa comunidade",
   "communityButton": "Entrar na comunidade",
+  "communityLink": "https://chat.whatsapp.com/HAbqyndzA2aLPQjgCH82hr",
   "socialsTitle": "Siga nossas redes etc",
   "socialLinks": [
-    { "icon": "InstagramLogo", "href": "https://www.instagram.com/" },
-    { "icon": "YoutubeLogo", "href": "https://www.youtube.com/" },
-    { "icon": "TiktokLogo", "href": "https://www.tiktok.com/" }
+    { "icon": "InstagramLogo", "href": "https://www.instagram.com/solarabg/" },
+    { "icon": "YoutubeLogo", "href": "https://www.youtube.com/@BackstabbersGame" },
+    { "icon": "TiktokLogo", "href": "https://www.tiktok.com/@backstabbersgame" }
   ]
 }
