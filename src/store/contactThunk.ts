@@ -8,6 +8,9 @@ export interface AttachmentData {
   content: string; // base64
 }
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3000';
+
+
 function fileToBase64(file: File): Promise<AttachmentData> {
   return new Promise((resolve, reject) => {
     const reader = new FileReader();
@@ -51,7 +54,7 @@ export const sendContactEmail = createAsyncThunk<
       attachments,
     };
 
-    const response = await fetch('/api/contact', {
+    const response = await fetch(`${API_URL}/api/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
