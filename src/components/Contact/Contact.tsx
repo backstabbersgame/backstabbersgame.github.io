@@ -12,14 +12,14 @@ import {
   Upload,
 } from '@backstabbersgame/design-system';
 import {
-  AtIcon,
-  HeartIcon,
-  InstagramLogoIcon,
-  TiktokLogoIcon,
-  YoutubeLogoIcon,
+  At,
+  Heart,
+  InstagramLogo,
+  TiktokLogo,
+  YoutubeLogo,
 } from '@phosphor-icons/react/dist/ssr';
 import contactContent from '../../content/contact.json';
-import ContactForm from '../ContactForm/ContactForm';
+// import ContactForm from '../ContactForm/ContactForm';
 
 const contact = contactContent;
 
@@ -51,11 +51,48 @@ const Contact = () => {
           </div>
         </header>
         <section className={styles['contact-form']}>
-          <ContactForm />
+          {/* <ContactForm /> */}
+          {/* <div className={styles['contact-inputs']}>
+            <div className={styles['contact-inputs-1']}>
+              <InputText
+                placeholder={contact.placeholders.name}
+                className={styles.nome}
+              />
+              <InputText
+                placeholder={contact.placeholders.email}
+                className={styles.email}
+              />
+            </div>
+            <div className={styles['contact-inputs-2']}>
+              <InputSelect
+                options={options}
+                className={styles.eusou}
+              />
+              <InputText
+                placeholder={contact.placeholders.subject}
+                className={styles.assunto}
+              />
+            </div>
+          </div>
+          <InputTextArea
+            placeholder={contact.placeholders.message}
+            value={value}
+            onChange={(e) => setValue(e.target.value)}
+            className={styles.mensagem}
+          />
+          <Upload className={styles.upload} />
+          <div className={styles['submit-container']}>
+            <Button
+              className={styles.submit}
+              arrowRight
+            >
+              {contact.submitLabel}
+            </Button>
+          </div> */}
         </section>
         <section className={styles.community}>
           <div>
-            <HeartIcon
+            <Heart
               size={24}
               className={styles.heart}
             />
@@ -64,14 +101,13 @@ const Contact = () => {
           <Button
             variant='secondary'
             className={styles['community-btn']}
-            href={contact.communityLink}
           >
             {contact.communityButton}
           </Button>
         </section>
         <section className={styles.socials}>
           <div className={styles['socials-header']}>
-            <AtIcon
+            <At
               size={24}
               className={styles.at}
             />
@@ -87,19 +123,19 @@ const Contact = () => {
                 className={styles['social-link']}
               >
                 {social.icon === 'InstagramLogo' && (
-                  <InstagramLogoIcon
+                  <InstagramLogo
                     size={24}
                     className={styles.instagram}
                   />
                 )}
                 {social.icon === 'YoutubeLogo' && (
-                  <YoutubeLogoIcon
+                  <YoutubeLogo
                     size={24}
                     className={styles.youtube}
                   />
                 )}
                 {social.icon === 'TiktokLogo' && (
-                  <TiktokLogoIcon
+                  <TiktokLogo
                     size={24}
                     className={styles.tiktok}
                   />

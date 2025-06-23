@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { validateName } from '../utils/validateName';
 import { validateEmail } from '../utils/validateEmail';
 
-export const supportedTypes = [
+const supportedTypes = [
   'image/jpeg',
   'image/png',
   'image/gif',
@@ -31,20 +31,24 @@ export const contactSchema = yup.object({
   subject: yup.string().optional(),
   message: yup.string().required('Mensagem é obrigatória'),
   contactType: yup.string().optional(),
-  files: yup
-    .array()
-    .of(
-      yup
-        .mixed<File>()
-        .test('fileType', 'Tipo de arquivo inválido', (file) =>
-          file ? supportedTypes.includes(file.type) : true
-        )
-        .test('fileSize', 'Arquivo muito grande', (file) =>
-          file ? file.size <= 1024 * 1024 : true
-        )
-    )
-    .max(5, 'Máximo de 5 arquivos.')
-    .optional(),
+  file: yup
+    .mixed<File>()
+    .nullable()
+    .optional()
+    .test('file-type', 'Tipo de arquivo inválido', (file) => {
+      if (!file) return true;
+      return supportedTypes.includes(file.type);
+    })
+    .test(
+      'file-size',
+      `Tamanho máximo do arquivo ${(MAX_FILE_SIZE / (1024 * 1024)).toFixed(
+        0
+      )} MB`,
+      (file) => {
+        if (!file) return true;
+        return file.size <= MAX_FILE_SIZE;
+      }
+    ),
 });
 
-export type ContactFormInputs = yup.InferType<typeof contactSchema>;
+export type ContactFormValues = yup.InferType<typeof contactSchema>;
