@@ -1,172 +1,141 @@
-// 'use client';
-// import React, { useEffect, useState } from 'react';
-// // import { useController, SubmitHandler, useForm } from 'react-hook-form';
-// import * as yup from 'yup';
-// import { yupResolver } from '@hookform/resolvers/yup';
-// import { useDispatch, useSelector } from 'react-redux';
-// import { AppDispatch, RootState } from 'src/store';
-// import axios from 'axios';
+'use client';
 
-// import {
-//   Button,
-//   InputSelect,
-//   InputText,
-//   InputTextArea,
-//   Upload,
-// } from '@backstabbersgame/design-system';
-// import styles from './ContactForm.module.scss';
-// import contactContent from '../../content/contact.json';
-// import { contactSchema, ContactFormValues } from '../../constants/contactSchema';
-// import { sendContact } from 'src/store/contactThunk';
-// const ContactForm = () => {
-//   const dispatch = useDispatch();
-//   const [form, setForm] = useState<ContactFormValues>({
-//     name: '',
-//     email: '',
-//     contactType: '',
-//     subject: '',
-//     file: null,
-//     message: '',
-//   });
-//   const [errors, setErrors] = useState<Partial<ContactFormValues>>({});
-//   const { loading, error, success } = useSelector(
-//     (state: RootState) => state.contact
-//   );
-//   const options = contact.selectOptions;
+import React from 'react';
+import { Controller, useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import { useDispatch, useSelector } from 'react-redux';
+import { AppDispatch, RootState } from '../../store';
+import {
+  ContactFormInputs,
+  contactSchema,
+  supportedTypes,
+} from '../../schemas/contactSchema';
+import { sendContactEmail } from '../../store/contactThunk';
+import { resetContactState } from '../../store/contactSlice';
+import styles from './ContactForm.module.scss';
+import {
+  Button,
+  InputSelect,
+  InputText,
+  InputTextArea,
+  Upload,
+} from '@backstabbersgame/design-system';
+import contactData from '../../content/contact.json';
 
-//   const handleChange = (
-//     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-//   ) => {
-//     const { name, value, files } = e.target as any;
-//     setForm((prev) =>
-//       name === 'file'
-//         ? { ...prev, file: files && files[0] ? files[0] : null }
-//         : { ...prev, [name]: value }
-//     );
-//   };
+export const useAppDispatch = () => useDispatch<AppDispatch>();
 
-//   const handleInputChange = (
-//     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-//   ) => {
-//     const { name, value } = e.target;
-//     setForm((prev) => ({
-//       ...prev,
-//       [name]: value,
-//     }));
-//     setErrors((prev) => ({ ...prev, [name]: undefined }));
-//   };
+const ContactForm = () => {
+  const dispatch = useAppDispatch();
+  const { loading, success, error } = useSelector(
+    (state: RootState) => state.contact
+  );
 
-//   const handleBlur = async (
-//     e: React.FocusEvent<HTMLInputElement | HTMLTextAreaElement>
-//   ) => {
-//     const { name, value } = e.target;
-//     try {
-//       await contactSchema.validateAt(name, { ...form, [name]: value });
-//       setErrors((prev) => ({ ...prev, [name]: undefined }));
-//     } catch (err: any) {
-//       setErrors((prev) => ({ ...prev, [name]: err.message }));
-//     }
-//   };
+  const {
+    register,
+    handleSubmit,
+    control,
+    reset,
+    formState: { errors },
+  } = useForm<ContactFormInputs>({
+    resolver: yupResolver(contactSchema),
+    mode: 'all',
+  });
 
-//   const handleSubmit = async (e: React.FormEvent) => {
-//     e.preventDefault();
-//     console.log("entrou no handle");
-//     try {
-//       await contactSchema.validate(form, { abortEarly: false });
-//       setErrors({});
-//       dispatch(sendContact(form) as any);
-//     } catch (err: any) {
-//       const formErrors: Partial<ContactFormValues> = {};
-//       if (err.inner) {
-//         err.inner.forEach((validationError: any) => {
-//           formErrors[validationError.path as keyof ContactFormValues] =
-//             validationError.message;
-//         });
-//       }
-//       setErrors(formErrors);
-//     }
-//   };
+  const onSubmit = async (data: ContactFormInputs) => {
+    const files: File[] = (data.files ?? []).filter((f): f is File => !!f);
+    await dispatch(
+      sendContactEmail({
+        ...data,
+        files,
+      })
+    );
+    reset();
+    setTimeout(() => dispatch(resetContactState()), 4000);
+  };
 
+  return (
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      noValidate
+      className={styles['contact-form']}
+    >
+      <div className={styles['contact-inputs']}>
+        <div className={styles['contact-inputs-1']}>
+          <InputText
+            key='name'
+            placeholder={contactData.placeholders.name}
+            className={styles.nome}
+            required
+            error={errors.name?.message}
+            {...register('name')}
+          />
+          <InputText
+            key='email'
+            placeholder={contactData.placeholders.email}
+            className={styles.email}
+            type='email'
+            required
+            error={errors.email?.message}
+            {...register('email')}
+          />
+        </div>
+        <div className={styles['contact-inputs-2']}>
+          <InputSelect
+            key='contactType'
+            options={contactData.selectOptions}
+            className={styles.eusou}
+            error={errors.contactType?.message}
+            {...register('contactType')}
+          />
+          <InputText
+            key='subject'
+            placeholder={contactData.placeholders.subject}
+            className={styles.assunto}
+            error={errors.subject?.message}
+            {...register('subject')}
+          />
+        </div>
+      </div>
+      <InputTextArea
+        key='message'
+        placeholder={contactData.placeholders.message}
+        className={styles.mensagem}
+        required
+        error={errors.message?.message}
+        {...register('message')}
+      />
 
-//   return (
-//     <>
-//       <form
-//         className={styles['contact-form']}
-//         onSubmit={handleSubmit}
-//         noValidate
-//       >
-//         <div className={styles['contact-inputs']}>
-//           <div className={styles['contact-inputs-1']}>
-//             <InputText
-//               key='name'
-//               placeholder={contact.placeholders.name}
-//               className={styles.nome}
-//               onChange={handleInputChange}
-//               onBlur={handleBlur}
-//               required
-//               error={errors.name}
-//             />
-//             <InputText
-//               key='email'
-//               placeholder={contact.placeholders.email}
-//               className={styles.email}
-//               onChange={handleInputChange}
-//               onBlur={handleBlur}
-//               required
-//               error={errors.email}
-//             />
-//           </div>
-//           <div className={styles['contact-inputs-2']}>
-//             <InputSelect
-//               key='contactType'
-//               options={options}
-//               className={styles.eusou}
-//               // onChange={handleInputChange}
-//               // onBlur={handleBlur}
-//               error={errors.contactType}
-//             />
-//             <InputText
-//               key='subject'
-//               placeholder={contact.placeholders.subject}
-//               className={styles.assunto}
-//               onChange={handleInputChange}
-//               onBlur={handleBlur}
-//               error={errors.subject}
-//             />
-//           </div>
-//         </div>
-//         <InputTextArea
-//           key='message'
-//           placeholder={contact.placeholders.message}
-//           className={styles.mensagem}
-//           onChange={handleInputChange}
-//           onBlur={handleBlur}
-//           required
-//           error={errors.message}
-//         />
+      <Controller
+        control={control}
+        name='files'
+        defaultValue={[]}
+        render={({ field: { value, onChange }, fieldState: { error } }) => (
+          <Upload
+            value={value?.filter((f): f is File => !!f)}
+            onChange={onChange}
+            accept={supportedTypes.join(',')}
+            multiple={true}
+            error={error?.message}
+          />
+        )}
+      />
+      <div className={styles['submit-container']}>
+        <Button
+          type='submit'
+          className={styles.submit}
+          disabled={loading}
+          arrowRight
+        >
+          {loading
+            ? contactData.loadingLabel
+            : success
+              ? contactData.successLabel
+              : contactData.submitLabel}
+        </Button>
+      </div>
+      {error && <div>{error}</div>}
+    </form>
+  );
+};
 
-//         <Upload
-//           key='file'
-//           className={styles.upload}
-//           // onChange={handleChange}
-//           // error={errors.file}
-//         />
-
-//         <div className={styles['submit-container']}>
-//           <Button
-//             type='submit'
-//             className={styles.submit}
-//             disabled={loading}
-//             arrowRight
-//           >
-//             {contact.submitLabel}
-//           </Button>
-//         </div>
-//         {success && <div>Mensagem enviada!</div>}
-//         {error && <div>{error}</div>}
-//       </form>
-//     </>
-//   );
-// };
-
-// export default ContactForm;
+export default ContactForm;
