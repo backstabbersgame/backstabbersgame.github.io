@@ -1,63 +1,48 @@
-import { createSlice } from '@reduxjs/toolkit';
-import { sendContactEmail } from './contactThunk';
+'use client';
 
-export interface AttachmentData {
-  name: string;
-  type: string;
-  size: number;
-  content: string; // base64
-}
+import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+import { sendContact } from './contactThunk';
 
-export interface ContactFormData {
-  name: string;
-  email: string;
-  subject?: string;
-  message: string;
-  contactType?: string;
-  files: File[]; // frontend apenas
-}
-
-export interface ContactState {
+interface ContactState {
   loading: boolean;
-  success: boolean;
   error: string | null;
+  success: boolean;
 }
 
 const initialState: ContactState = {
   loading: false,
-  success: false,
   error: null,
+  success: false,
 };
 
 const contactSlice = createSlice({
   name: 'contact',
   initialState,
   reducers: {
-    resetContactState: (state) => {
+    resetStatus(state) {
       state.loading = false;
-      state.success = false;
       state.error = null;
+      state.success = false;
     },
   },
   extraReducers: (builder) => {
     builder
-      .addCase(sendContactEmail.pending, (state) => {
+      .addCase(sendContact.pending, (state) => {
         state.loading = true;
-        state.success = false;
         state.error = null;
+        state.success = false;
       })
-      .addCase(sendContactEmail.fulfilled, (state) => {
+      .addCase(sendContact.fulfilled, (state) => {
         state.loading = false;
         state.success = true;
-        state.error = null;
       })
-      .addCase(sendContactEmail.rejected, (state, action) => {
+      .addCase(sendContact.rejected, (state, action) => {
         state.loading = false;
+        state.error = action.payload as string;
         state.success = false;
-        state.error = (action.payload as string) || 'Erro ao enviar contato';
       });
   },
 });
 
-export const { resetContactState } = contactSlice.actions;
+export const { resetStatus } = contactSlice.actions;
 export default contactSlice.reducer;

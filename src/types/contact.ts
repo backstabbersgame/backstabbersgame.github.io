@@ -1,8 +1,8 @@
-export interface ContactFormData {
+export interface ContactForm {
   name: string;
   email: string;
   subject?: string;
   message: string;
-  contactType?: string;
-  files: File[];
+  type?: string;
+  files?: File[];
 }
