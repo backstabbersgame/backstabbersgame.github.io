@@ -8,6 +8,7 @@ import About from 'src/components/About/About';
 import Store from 'src/components/Store/Store';
 // import Newsletter from 'src/components/Newsletter/Newsletter';
 import Header from 'src/components/Header/Header';
+// import Contact from 'src/components/Contact/Contact';
 // import Footer from 'src/components/Footer/Footer';
 
 const Home = () => {
