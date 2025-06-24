@@ -1,69 +1,68 @@
+'use client';
+
 import { createAsyncThunk } from '@reduxjs/toolkit';
-import { ContactFormData } from '../types/contact';
+import * as yup from 'yup';
+import axios from 'axios';
+import { ContactFormValues } from '../constants/contactSchema';
 
-export interface AttachmentData {
-  name: string;
-  type: string;
-  size: number;
-  content: string; // base64
-}
-
-function fileToBase64(file: File): Promise<AttachmentData> {
-  return new Promise((resolve, reject) => {
-    const reader = new FileReader();
-    reader.onload = () => {
-      const content = (reader.result as string).split(',')[1];
-      resolve({
-        name: file.name,
-        type: file.type,
-        size: file.size,
-        content,
-      });
-    };
-    reader.onerror = () => reject(reader.error);
-    reader.readAsDataURL(file);
-  });
-}
-
-export const sendContactEmail = createAsyncThunk<
-  void,
-  ContactFormData,
-  { rejectValue: string }
->('contact/sendContactEmail', async (formData, { rejectWithValue }) => {
-  try {
-    if (formData.files.length > 5) {
-      return rejectWithValue('Máximo de 5 arquivos permitidos.');
-    }
-    for (const file of formData.files) {
-      if (file.size > 1 * 1024 * 1024) {
-        return rejectWithValue('Cada arquivo deve ter no máximo 1MB.');
+// Envio para uma API fictícia "/api/contact"
+export const sendContact = createAsyncThunk(
+  'contact/sendContact',
+  async (data: ContactFormValues, { rejectWithValue }) => {
+    try {
+      const formData = new FormData();
+      formData.append('name', data.name);
+      formData.append('email', data.email);
+      if (data.contactType) formData.append('contactType', data.contactType);
+      if (data.subject) formData.append('subject', data.subject);
+      formData.append('message', data.message);
+      if (data.file) {
+        formData.append('file', data.file);
       }
+
+      const response = await axios.post('/api/contact', formData, {
+        headers: {
+          'Content-Type': 'multipart/form-data',
+        },
+      });
+
+      return response.data;
+    } catch (err: any) {
+      if (err.response && err.response.data && err.response.data.message) {
+        return rejectWithValue(err.response.data.message);
+      }
+      return rejectWithValue(err.message || 'Erro ao enviar contato');
     }
-
-    const attachments = await Promise.all(formData.files.map(fileToBase64));
-
-    const payload = {
-      name: formData.name,
-      email: formData.email,
-      subject: formData.subject,
-      message: formData.message,
-      contactType: formData.contactType,
-      attachments,
-    };
-
-    const response = await fetch('/api/contact', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(payload),
-    });
-
-    if (!response.ok) {
-      const data = await response.json().catch(() => null);
-      return rejectWithValue(data?.error || 'Erro ao enviar contato');
-    }
-  } catch (error: any) {
-    return rejectWithValue(error?.message || 'Erro desconhecido');
   }
-});
+);
+
+// type ContactFormData = yup.InferType<typeof contactSchema>;
+
+// export const sendContactForm = createAsyncThunk(
+//   'contact/sendContactForm',
+//   async (data: ContactFormData, { rejectWithValue }) => {
+//     try {
+//       const formData = new FormData();
+
+//       formData.append('name', data.name);
+//       formData.append('email', data.email);
+//       formData.append('message', data.message);
+//       if (data.subject) formData.append('subject', data.subject);
+//       if (data.type) formData.append('type', data.type);
+//       // if (data.file) formData.append('file', data.file);
+
+//       const response = await axios.post('/api/contact', formData, {
+//         headers: {
+//           'Content-Type': 'multipart/form-data',
+//         },
+//       });
+//       return await response.data;
+//     } catch (error: any) {
+//       return rejectWithValue(
+//         error.response?.data?.message || 'Erro ao enviar formulário'
+//       );
+//     }
+
+//     // return await res.json();
+//   }
+// );
