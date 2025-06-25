@@ -1,0 +1,12 @@
+{
+  "name": "solarastudios-api",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "next": "15.2.2",
+    "resend": "^4.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
