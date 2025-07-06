@@ -3,4 +3,5 @@ export type Variant =
   | 'backstabbers'
   | 'ordem'
   | 'rebeliao'
-  | 'armada';
+  | 'armada'
+  | 'decodica';

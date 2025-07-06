@@ -1,0 +1,71 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.background {
+  background-color: colors.$neutral-0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 16px 0;
+  width: 88vw;
+}
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.list {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  gap: 4px;
+}
+
+.h3 {
+  color: colors.$neutral-600;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: colors.$primary-500;
+  margin: 7px 7px 0 7px;
+}
+
+.p {
+  font-size: typography.$font-size-14;
+  font-weight: typography.$font-weight-regular;
+  color: colors.$neutral-600;
+  width: 95%;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .background {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .container {
+    padding: 16px 0;
+    width: 100%;
+  }
+  .list {
+    gap: 8px;
+  }
+}
+

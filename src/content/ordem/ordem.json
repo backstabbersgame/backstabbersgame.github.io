@@ -1,0 +1,173 @@
+{
+  "main": {
+    "logo": {
+      "src": "/images/logos/ordem.svg",
+      "alt": "Logo ordem ao caos",
+      "width": 260,
+      "height": 172
+    },
+    "title": "ORDEM AO CAOS",
+    "description1": "Tentando se tornar a nova líder da Gangue dos Gatos, Catuaba\\ncolocou em prática uma estratégia para aumentar sua influência:\\ndesestabilizar a Armada dos Cães. Mas seus planos ruíram quando a\\nArmada descobriu que o cocô no pátio era, na verdade, felino!",
+    "description2": "Mesmo com o culpado revelado, o caos se instaurou. Agora, com\\nambos os grupos em conflito interno e externo, Nala e Valerius não\\nveem outra alternativa: é hora de unirem forças para restabelecer a\\npaz. Você deve interferir na confusão e pôr um fim a essa guerra —\\n interna aos grupos e entre as espécies.",
+    "gameplayIcon": "/images/icons/play-circle.svg",
+    "gameplay": "Nossas gameplays",
+    "channel": "Acessar o canal",
+    "mainImage": {
+      "src": "/images/ordem.png",
+      "alt": "Capa ordem ao caos"
+    }
+  },
+  "comoJogar": {
+    "src": "/jogos/ordem-ao-caos/como-jogar",
+    "overview": {
+      "title": "Visão geral",
+      "item1": "3 a 6 jogadores",
+      "item2": "Maiores de 14 anos",
+      "item3": "30 minutos, em média"
+    },
+    "goal": {
+      "title": "Objetivo",
+      "item1": "Restabeleça a paz entre Cães e Gatos somando 40 pontos ou mais ao final de uma rodada."
+    },
+    "preparation": {
+      "title": "Preparação",
+      "item1": "Remova todas as cartas de pontos (elas não serão utilizadas);",
+      "item2": "Embaralhe todas as demais cartas (exceto as de cocô) em um único baralho;",
+      "item3": "Distribua 5 cartas para cada jogador;",
+      "item4": "Entregue 1 carta de cocô a cada jogador;",
+      "item5": "Embaralhe as cartas de cocô junto ao baralho e forme a Pilha de Compras;",
+      "item6": "Deixe os tokens de pontos ao alcance de todos;",
+      "item7": "Vire a primeira carta da pilha para iniciar o Descarte (referido nas cartas como Pátio ou Caixa de Areia)."
+    },
+    "components": {
+      "title": "Componentes",
+      "item1": "60 cartas de pontos",
+      "item2": "54 cartas de poderes",
+      "item3": "25 cartas de cocô",
+      "item4": "2 marcadores de ataque",
+      "item5": "60 tokens de 1 ponto",
+      "item6": "36 tokens de 5 pontos",
+      "item7": "24 tokens de 10 pontos",
+      "item8": "Manual",
+      "card": {
+        "src": "/images/cards/card-ordem.png",
+        "alt": "Cartas ordem ao caos",
+        "width": 591.34,
+        "height": 302
+      }
+    },
+    "generalRules": {
+      "title": "Regras gerais",
+      "item1": "O jogo segue em turnos, no sentido horário. Começa quem interagiu com um gato e um cachorro no mesmo ambiente mais recentemente.",
+      "item2": {
+        "title": "No seu turno:",
+        "steps": {
+          "1": "1. Descarte uma carta da sua mão.",
+          "2": "2. Execute a ação da carta.",
+          "3": "3. Finalize seu turno."
+        }
+      },
+      "item3": "Bônus: se a carta jogada tiver o mesmo valor da última carta do descarte, o jogador pode escolher alguém (inclusive a si mesmo) para comprar uma carta."
+    },
+    "endRound": {
+      "title": "Fim da rodada",
+      "item1": {
+        "title": "A rodada termina quando:",
+        "steps": {
+          "1": "Um jogador tiver 5 cartas de cocô na mão;",
+          "2": "Ou um jogador ficar sem cartas de gato e de cachorro na mão."
+        }
+      },
+      "item2": {
+        "title": "Neste momento:",
+        "steps": {
+          "1": "Todos os jogadores somam seus pontos;",
+          "2": "A nova rodada começa com o jogador que atingiu a condição de fim de rodada."
+        }
+      },
+      "item3": "Em caso de empate, comece pelo jogador mais próximo (à esquerda) do último a jogar."
+    },
+    "score": {
+      "title": "Pontuação",
+      "item1": {
+        "title": "O jogo termina quando um jogador atinge 40 ou mais pontos ao final de uma rodada.",
+        "steps": {
+          "1": "O jogador com mais pontos é declarado o pacificador de Etheria!",
+          "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
+          "3": "Se o empate continuar, os jogadores compartilham a vitória."
+        }
+      }
+    },
+    "endGame": {
+      "title": "Fim do jogo",
+      "item1": {
+        "title": "O jogo termina quando um jogador atinge 40 ou mais pontos ao final de uma rodada.",
+        "steps": {
+          "1": "O jogador com mais pontos é declarado o pacificador de Etheria!",
+          "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
+          "3": "Se o empate continuar, os jogadores compartilham a vitória."
+        }
+      }
+    }
+  },
+  "videoGallery": {
+    "channel": "https://www.youtube.com/@BackstabbersGame",
+    "videos": [
+      {
+        "videoId": "O_aSVOkB4es",
+        "title": "Conheça Backstabbers!",
+        "thumbnail": "/images/background1.png"
+      },
+      {
+        "videoId": "kvdfhqdWy4s",
+        "title": "Modo Infinito",
+        "thumbnail": "/images/background2.png"
+      },
+      {
+        "videoId": "z1k7ECoCkgU",
+        "title": "Modo Ataque",
+        "thumbnail": "/images/background3.png"
+      },
+      {
+        "videoId": "Sy9zkjsRJxo",
+        "title": "Expansão Duelo",
+        "thumbnail": "/images/background4.png"
+      },
+      {
+        "videoId": "mDrhWpb9v40",
+        "title": "Modo Duo",
+        "thumbnail": "/images/background1.png"
+      },
+      {
+        "videoId": "hCIEz5U7RXg",
+        "title": "Modo Ganância",
+        "thumbnail": "/images/background2.png"
+      },
+      {
+        "videoId": "xPHkVJFvPNY",
+        "title": "Expansão Avançadas",
+        "thumbnail": "/images/background3.png"
+      },
+      {
+        "videoId": "8vVNimpNkFs",
+        "title": "Expansão Constituição",
+        "thumbnail": "/images/background4.png"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Venha ser um solariano!",
+    "description": "Cadastre seu email para saber de todas\\nas novidades do nosso universo!",
+    "emailPlaceholder": "E-mail*",
+    "buttonLabel": "Assinar a newsletter",
+    "buttonIcon": {
+      "src": "/images/icons/paper-plane.svg",
+      "alt": "Avião de papel"
+    },
+    "image": {
+      "alt": "Gato da raça sphynx",
+      "mobile": "/images/mobile/sphynx.png",
+      "desktop": "/images/desktop/sphynx.png"
+    }
+  }
+}

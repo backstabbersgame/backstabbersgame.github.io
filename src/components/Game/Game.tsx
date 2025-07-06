@@ -6,8 +6,8 @@ import styles from './Game.module.scss';
 import Image from 'next/image';
 import { Button, Carousel } from '@backstabbersgame/design-system';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import gamesData from '../../content/gamesData.json';
-import gameContent from '../../content/game.json';
+import gamesData from '../../content/solara/gamesData.json';
+import gameContent from '../../content/solara/game.json';
 
 const game = gameContent;
 
@@ -24,7 +24,7 @@ const Game = () => {
   return (
     <section
       className={styles.game}
-      id='games'
+      id='jogos'
     >
       <div className={styles['game-container']}>
         <section className={styles.header}>
@@ -49,7 +49,7 @@ const Game = () => {
         <div className={styles.carousel}>
           <Carousel
             games={games}
-            autoPlay={true}
+            autoPlay={false}
           />
         </div>
         {/* <Button

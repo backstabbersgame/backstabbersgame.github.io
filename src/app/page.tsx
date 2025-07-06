@@ -1,11 +1,7 @@
 'use client';
 
-import Home from './inicio/Home';
+import Solara from './Solara';
 
 export default function App() {
-  return (
-    <main>
-      <Home />
-    </main>
-  );
+  return <Solara />;
 }

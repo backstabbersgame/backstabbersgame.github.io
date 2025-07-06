@@ -18,7 +18,7 @@ import {
   TiktokLogoIcon,
   YoutubeLogoIcon,
 } from '@phosphor-icons/react/dist/ssr';
-import contactContent from '../../content/contact.json';
+import contactContent from '../../content/solara/contact.json';
 import ContactForm from '../ContactForm/ContactForm';
 
 const contact = contactContent;
@@ -32,7 +32,7 @@ const Contact = () => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
-    <section className={styles.contact}>
+    <section className={styles.contact} id='contato'>
       <div className={styles['contact-container']}>
         <header className={styles['contact-header']}>
           <Image

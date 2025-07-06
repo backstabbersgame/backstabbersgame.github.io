@@ -2,7 +2,7 @@
 
 import React from 'react';
 import styles from './BackButton.module.scss';
-import { ArrowLeft } from '@phosphor-icons/react/dist/ssr';
+import { ArrowLeftIcon } from '@phosphor-icons/react/dist/ssr';
 
 const BackButton = ({...props}) => {
   return (
@@ -10,7 +10,7 @@ const BackButton = ({...props}) => {
       className={styles.backButton}
       {...props}
     >
-      <ArrowLeft
+      <ArrowLeftIcon
         size={24}
         className={styles.arrow}
       />

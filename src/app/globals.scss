@@ -19,6 +19,7 @@ body {
   background: linear-gradient(178.53deg, #171424 1.25%, #0c032b 85.26%);
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 main {
@@ -27,6 +28,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   overflow-x: hidden;
   overflow-y: hidden;
 }
