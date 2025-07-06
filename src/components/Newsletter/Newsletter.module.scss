@@ -11,18 +11,35 @@
   align-items: center;
   background-color: colors.$neutral-0;
   margin-top: -1px;
+  margin-bottom: 48px;
 }
 
 .newsletter-container {
   width: 88vw;
   background: linear-gradient(90deg, #4547a9 0%, #282960 100%);
-  height: fit-content;
+  // height: clamp(500px, 55vh, 600px);
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 16px 0 16px;
+  padding-top: 32px;
   border-radius: 48px;
   margin: 20px 0;
+  z-index: 0;
+  position: relative;
+  overflow: visible;
+}
+
+@media only screen and (width: 768px) {
+  .newsletter-container {
+    height: 75vh;
+  }
+}
+
+.newsletter-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 16px;
 }
 
 .newsletter-title {
@@ -43,8 +60,9 @@
   color: colors.$neutral-300;
   font-size: typography.$font-size-14;
   font-weight: typography.$font-weight-regular;
-  white-space: pre-line;
+  white-space: normal;
   text-align: center;
+  width: 350px;
 }
 
 .email {
@@ -55,6 +73,7 @@
   width: 100%;
   justify-content: center;
   margin-top: 23px;
+  z-index: 50;
 }
 
 .status-container {
@@ -82,46 +101,68 @@
   color: colors.$feedback-danger-500;
 }
 
-.dealer {
-  width: 80%;
-  height: auto;
-  margin-top: 24px;
-  bottom: -1px;
-  position: relative;
+.image-container {
+  // position: absolute;
+  // left: 0;
+  // right: 0;
+  // bottom: 0;
+  // z-index: 1;
+  // display: flex;
+  // justify-content: center;
 }
 
-@media only screen and (min-width: breakpoints.$laptop-min) {
+.image {
+  max-width: none;
+  margin: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+@media only screen and (min-width: breakpoints.$tablet-min) {
   .newsletter {
     height: fit-content;
-    justify-content: flex-end;
-    overflow: visible;
-    position: relative;
-    padding: 100px 0 56px 0;
+    justify-content: center;
+    overflow-y: visible;
+    overflow-x: hidden;
+    padding: 48px 0;
   }
 
   .newsletter-container {
-    height: 70%;
+    height: 294px;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
-    align-items: normal;
     margin: 0;
-    position: relative;
     padding: 0;
+    justify-content: space-around;
+    align-items: flex-end;
+    min-height: 0;
+
   }
 
   .newsletter-content {
-    width: 35%;
-    height: fit-content;
+    height: 100%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 48px 0;
-    right: -15vw;
-    position: relative;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  // .newsletter-content {
+  //   position: relative;
+  //   z-index: 2;
+  //   padding: 0 16px;
+  // }
+
+  .newsletter-title {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
   }
 
   .header {
-    font-size: typography.$font-size-32;
+    font-size: typography.$font-size-20;
   }
 
   .p {
@@ -134,24 +175,50 @@
 
   .btn {
     width: 308px;
+    margin-top: 0;
   }
 
-  .dealer {
-    width: auto;
-    height: 120%;
-    margin-top: 0;
-    left: 7vw;
-    bottom: 0;
-    position: absolute;
+  // .image-container {
+  //   position: relative;
+  //   z-index: 1;
+  //   display: flex;
+  //   justify-content: center;
+  // }
+
+  // .image {
+  //   position: relative;
+  //   bottom: 0;
+  // }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .newsletter {
+    padding: 88px 0;
+  }
+
+  .newsletter-container {
+    height: 325px;
+    justify-content: normal;
+  }
+
+  .newsletter-content {
+    height: 100%;
+    width: 50%;
+
+  }
+
+  .header {
+    font-size: typography.$font-size-32;
+  }
+
+  .p {
+    white-space: pre-line;
+    font-size: typography.$font-size-16;
   }
 }
 
 @media only screen and (min-width: breakpoints.$ultra-wide-screen) {
   .newsletter-container {
     width: 70vw;
-  }
-
-  .newsletter-content {
-    right: -13vw;
   }
 }

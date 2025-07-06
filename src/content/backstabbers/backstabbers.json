@@ -1,0 +1,191 @@
+{
+  "main": {
+    "logo": {
+      "src": "/images/logos/backstabbers.svg",
+      "alt": "Logo backstabbers",
+      "width": 416,
+      "height": 107.3
+    },
+    "title": "BACKSTABBERS",
+    "description": "Em uma sociedade onde cada um quer ser mais\\npoderoso que o outro e onde seus desejos são\\nmaiores que o próximo, ninguém medirá seus\\nesforços para atingir seus objetivos. Não confie\\nem ninguém,",
+    "descriptionBold": "nem mesmo em você!",
+    "gameplayIcon": "/images/icons/play-circle.svg",
+    "gameplay": "Nossas gameplays",
+    "channel": "Acessar o canal",
+    "mainImage": {
+      "src": "/images/backstabbers.png",
+      "alt": "Capa do backstabbers"
+    }
+  },
+  "videoGallery": {
+    "channel": "https://www.youtube.com/@BackstabbersGame",
+    "videos": [
+      {
+        "videoId": "O_aSVOkB4es",
+        "title": "Conheça Backstabbers!",
+        "thumbnail": "/images/background1.png"
+      },
+      {
+        "videoId": "kvdfhqdWy4s",
+        "title": "Modo Infinito",
+        "thumbnail": "/images/background2.png"
+      },
+      {
+        "videoId": "z1k7ECoCkgU",
+        "title": "Modo Ataque",
+        "thumbnail": "/images/background3.png"
+      },
+      {
+        "videoId": "Sy9zkjsRJxo",
+        "title": "Expansão Duelo",
+        "thumbnail": "/images/background4.png"
+      },
+      {
+        "videoId": "mDrhWpb9v40",
+        "title": "Modo Duo",
+        "thumbnail": "/images/background1.png"
+      },
+      {
+        "videoId": "hCIEz5U7RXg",
+        "title": "Modo Ganância",
+        "thumbnail": "/images/background2.png"
+      },
+      {
+        "videoId": "xPHkVJFvPNY",
+        "title": "Expansão Avançadas",
+        "thumbnail": "/images/background3.png"
+      },
+      {
+        "videoId": "8vVNimpNkFs",
+        "title": "Expansão Constituição",
+        "thumbnail": "/images/background4.png"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Venha ser um solariano!",
+    "description": "Cadastre seu email para saber de todas\\nas novidades do nosso universo!",
+    "emailPlaceholder": "E-mail*",
+    "buttonLabel": "Assinar a newsletter",
+    "buttonIcon": {
+      "src": "/images/icons/paper-plane.svg",
+      "alt": "Avião de papel"
+    },
+    "image": {
+      "alt": "Personagem vidente",
+      "mobile": "/images/mobile/vidente.png",
+      "desktop": "/images/desktop/vidente.png"
+    }
+  },
+  "comoJogar": {
+    "src": "/jogos/backstabbers/como-jogar",
+    "overview": {
+      "title": "Visão geral",
+      "item1": "3 a 8 jogadores",
+      "item2": "Maiores de 16 anos",
+      "item3": "45 minutos, em média"
+    },
+    "goal": {
+      "title": "Objetivo",
+      "item1": "Elimine jogadores e permaneça vivo para ganhar moedas.",
+      "item2": "Junte 5 moedas para se tornar o novo Soberano."
+    },
+    "preparation": {
+      "title": "Preparação",
+      "item1": "Selecione o nível do jogo;",
+      "item2": "Embaralhe todas as cartas que serão utilizadas;",
+      "item3": "Distribua 2 (duas) cartas para cada jogador;",
+      "item4": "Coloque uma carta no cemitério;",
+      "item5": "Coloque o restante das cartas na pilha de compras."
+    },
+    "table": {
+      "title": "Montagem da mesa",
+      "card1": {
+        "src": "/images/cards/card1.svg",
+        "alt": "Carta horizontal com logo do Backstabbers",
+        "width": 131.27,
+        "height": 86.41
+      },
+      "card2": {
+        "src": "/images/cards/card2.svg",
+        "alt": "Carta vertical com logo do Backstabbers",
+        "width": 86.41,
+        "height": 131.27
+      },
+      "card3": {
+        "src": "/images/cards/card3.svg",
+        "alt": "Carta do Assassino",
+        "width": 86.41,
+        "height": 131.27
+      },
+      "item1": {
+        "title": "Cemitério",
+        "subtitle": "Área destinada às cartas que estão fora do jogo."
+      },
+      "item2": {
+        "title": "Pilha de Compras",
+        "subtitle": "Área onde ficam as cartas que serão compradas."
+      },
+      "item3": {
+        "title": "Descarte",
+        "subtitle": "Pilha de cartas inativas, que pode ser consultada a qualquer momento."
+      }
+    },
+    "field": {
+      "title": "Seu campo",
+      "subtitle": "Área em frente ao jogador, onde ficam suas cartas Permanentes ativas e o Líder.",
+      "card4": {
+        "src": "/images/cards/card4.svg",
+        "alt": "Carta com logo do Backstabbers",
+        "width": 72.88,
+        "height": 108.02
+      },
+      "card5": {
+        "src": "/images/cards/card5.svg",
+        "alt": "Carta com logo do Backstabbers",
+        "width": 108.02,
+        "height": 72.88
+      },
+      "card6": {
+        "src": "/images/cards/card6.svg",
+        "alt": "Carta com logo do Backstabbers",
+        "width": 134.19,
+        "height": 113.68
+      },
+      "item4": {
+        "title": "Reserva",
+        "subtitle": "No turno do jogador, se houver uma carta na Reserva, ele deve comprá-la em vez de pegar da Pilha de Compras."
+      },
+      "item5": {
+        "title": "Líder",
+        "subtitle": "Carta escolhida para realizar ações e representar o jogador durante a próxima rodada."
+      },
+      "item6": {
+        "title": "Área Permanente",
+        "subtitle": "Parte do Campo destinada exclusivamente às cartas dos tipos Permanente ou Turno."
+      }
+    },
+    "generalRules": {
+      "title": "Regras gerais",
+      "item1": {
+        "title": "Em seu turno, você deve realizar as seguintes ações nesta ordem:",
+        "steps": {
+          "1": "1. Compre uma carta;",
+          "2": "2. Mova seu Líder atual para o Descarte ou Área Permanente;",
+          "3": "3. Escolha uma ação de uma das cartas em sua mão;",
+          "4": "4. Realize sua ação colocando a carta escolhida como o seu Líder."
+        }
+      },
+      "item2": "Após o seu turno, o jogo segue para o próximo jogador, em sentido horário. Os turnos continuam até que reste apenas um jogador com cartas na mão.",
+      "item3": "Um jogador é eliminado quando perde todas as cartas da sua mão. O jogador que eliminar o oponente recebe uma moeda.",
+      "item4": "Não é permitido compartilhar informações adquiridas com outros jogadores.",
+      "item5": "Se um jogador for pego mentindo, será imediatamente eliminado da rodada."
+    },
+    "endGame": {
+      "title": "Fim do jogo",
+      "item1": "O último jogador que tiver cartas na mão ganha duas moedas.",
+      "item2": "Se, nesse momento, algum jogador tiver 5 moedas ou mais, o jogador com mais moedas se torna o novo Soberano e o jogo é encerrado.",
+      "item3": "Caso contrário, inicia-se uma nova partida, começando pelo jogador que venceu a rodada anterior."
+    }
+  }
+}

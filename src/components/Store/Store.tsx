@@ -4,7 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './Store.module.scss';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import storeContent from '../../content/store.json';
+import storeContent from '../../content/solara/store.json';
 
 const store = storeContent;
 
@@ -30,7 +30,7 @@ const Store = () => {
     <>
       <section
         className={styles.store}
-        id='store'
+        id='lojinha'
       >
         <div className={styles['store-container']}>
           <header className={styles['store-header']}>

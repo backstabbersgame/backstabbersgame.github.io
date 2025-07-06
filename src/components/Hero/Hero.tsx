@@ -4,7 +4,7 @@ import React from 'react';
 import styles from './Hero.module.scss';
 import Image from 'next/image';
 import { Button } from '@backstabbersgame/design-system';
-import heroContent from '../../content/hero.json';
+import heroContent from '../../content/solara/hero.json';
 
 const hero = heroContent;
 

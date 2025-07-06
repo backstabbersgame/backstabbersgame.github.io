@@ -1,8 +1,8 @@
 {
   "logo": {
     "alt": "Solara logo",
-    "mobile": "/images/solara-horizontal-light.svg",
-    "desktop": "/images/solara-light.svg"
+    "mobile": "/images/logos/solara-horizontal-light.svg",
+    "desktop": "/images/logos/solara-light.svg"
   },
   "sections": [
 

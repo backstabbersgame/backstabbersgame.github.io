@@ -7,15 +7,15 @@ import useBreakpoint from '../../hooks/useBreakpoint';
 import { Variant } from '../../types/variant';
 import { ButtonSpecial } from '@backstabbersgame/design-system';
 import { usePathname } from 'next/navigation';
+import { MenuItemsArray, MenuItem } from '../../types/links';
 
 interface MainProps {
-  variant: Variant;
   data: any;
+  menuItems: MenuItemsArray;
 }
 
-const Main = ({ variant, data }: MainProps) => {
+const Main = ({ data, menuItems }: MainProps) => {
   const path = usePathname();
-  console.log(path);
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
@@ -23,11 +23,49 @@ const Main = ({ variant, data }: MainProps) => {
 
   const game = { ...data };
 
-  const mainImageSrc = `${game.mainImage.src}`;
-  const mainImageAlt = `${game.mainImage.alt}`;
+  const mainImageSrc = `${basePath}${game.main.mainImage.src}`;
+  const mainImageAlt = `${basePath}${game.main.mainImage.alt}`;
   const mainImageWidth = isMobile ? 360 : isTablet ? 834 : 1440;
   const mainImageHeight = isMobile ? 171 : isTablet ? 396.15 : 684;
 
+  const getItems = () => {
+    if (menuItems.length === 5) {
+      return -4;
+    }
+    if (menuItems.length === 4) {
+      return -3;
+    }
+  };
+
+  const links = Object.values(menuItems).slice(getItems());
+
+  const description = () => {
+    if (game.main.description && game.main.descriptionBold) {
+      return (
+        <p className={styles.text}>
+          {game.main.description.replace(/\\n/g, '\n')}
+          <strong>&nbsp;{game.main.descriptionBold}</strong>
+        </p>
+      );
+    } else if (game.main.description1 && game.main.description2) {
+      return (
+        <div className={styles.descriptions}>
+          <p className={styles.text}>
+            {game.main.description1.replace(/\\n/g, '\n')}
+          </p>
+          <p className={styles.text}>
+            {game.main.description2.replace(/\\n/g, '\n')}
+          </p>
+        </div>
+      );
+    } else {
+      return (
+        <p className={styles.text}>
+          {game.main.description.replace(/\\n/g, '\n')}
+        </p>
+      );
+    }
+  };
 
   return (
     <section className={styles.main}>
@@ -41,20 +79,42 @@ const Main = ({ variant, data }: MainProps) => {
         />
       </div>
       <div className={styles['content-container']}>
-        <p>
-          {game.description.replace(/\\n/g, '\n')}
-          <strong>&nbsp;{game.descriptionBold}</strong>
-        </p>
-        <div className={`${styles['grid-container']} has-${game.links}`}>
-          {game.links.map((link: { label: any; href: any; }, index: React.Key | null | undefined) => (
-            <ButtonSpecial
-              key={index}
-              className='grid-item'
-              icon={undefined}
-              label={`${link.label}`}
-              href={`/${link.href}`}
-            />
-          ))}
+        <div className={styles.content}>
+          <div
+            className={!isMobile && !isTablet ? styles['logo-container'] : ''}
+          >
+            {!isMobile && !isTablet && (
+              <Image
+                src={game.main.logo.src}
+                alt={game.main.logo.alt}
+                width={game.main.logo.width}
+                height={game.main.logo.height}
+                className={styles.logo}
+              />
+            )}
+            {description()}
+          </div>
+
+          <div
+            className={`${styles['grid-container']} ${
+              styles[`has-${links.length}`]
+            }`}
+          >
+            {links.map((link: MenuItem, index: number) => (
+              <ButtonSpecial
+                key={index}
+                className='grid-item'
+                icon={
+                  React.isValidElement(link.icon)
+                    ? link.icon
+                    : link.icon.svgActive
+                }
+                label={`${link.label}`}
+                href={link.href}
+                size={isMobile ? 'small' : 'big'}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </section>

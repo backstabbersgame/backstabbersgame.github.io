@@ -1,0 +1,169 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.background {
+  background-color: colors.$neutral-0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.container {
+  padding: 16px 0 24px 0;
+  width: 88vw;
+}
+
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.h3 {
+  color: colors.$neutral-600;
+}
+
+.list {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.number {
+  color: colors.$primary-500;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.p {
+  font-size: typography.$font-size-14;
+  font-weight: typography.$font-weight-semi-bold;
+  color: colors.$neutral-600;
+}
+
+.sub {
+  font-size: typography.$font-size-12;
+  font-weight: typography.$font-weight-regular;
+  color: colors.$neutral-500;
+  padding-left: 16px;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  width: 88vw;
+  padding-top: 16px;
+}
+
+.img {
+  height: auto;
+  width: auto;
+}
+
+.imgV {
+  height: auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 0 24px 0;
+  }
+
+  .header {
+    order: 1;
+  }
+
+  .h3 {
+    font-size: typography.$font-size-24;
+  }
+
+  .content {
+    order: 2;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .number {
+    font-size: typography.$font-size-16;
+  }
+  .p {
+    font-size: typography.$font-size-16;
+  }
+  .sub {
+    font-size: typography.$font-size-14;
+  }
+
+  .cards {
+    justify-content: flex-start;
+    padding-left: 24px;
+    padding-top: 52px;
+  }
+
+  .img {
+    height: auto;
+    width: 255px;
+  }
+
+  .imgV {
+    height: 255px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .content {
+    order: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .number {
+    font-size: typography.$font-size-16;
+  }
+  .p {
+    font-size: typography.$font-size-16;
+  }
+  .sub {
+    font-size: typography.$font-size-14;
+  }
+
+  .cards {
+    justify-content: flex-end;
+    padding-top: 0;
+    gap: 20px;
+  }
+  .img {
+    height: auto;
+    width: 300px;
+  }
+
+  .imgV {
+    height: 300px;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$ultra-wide-screen) {
+  .container {
+    width: 70vw;
+  }
+}

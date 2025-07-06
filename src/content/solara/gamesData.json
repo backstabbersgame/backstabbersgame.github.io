@@ -1,0 +1,154 @@
+[
+  {
+    "id": 1,
+    "name": "Backstabbers Expansion",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/backstabbers-expansion.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/backstabbers-expansion.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Mais de 1000 cópias vendidas",
+        "description": "Sucesso do Catarse em 2024, Backstabbers é o novo\nqueridinho das mesas!"
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "5 modos de jogo",
+        "description": "Além da forma tradicional, Backstabbers pode ser \njogado de mais 4 modos. Jogue um modo rápido, um \njogo completo em apenas uma partida, conquiste \ntodas as moedas dos oponentes ou jogue em dupla."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Evolua enquanto joga",
+        "description": "Além de 5 níveis onde o jogo cresce com o jogador, \nBackstabbers também conta com 3 expansões que \naumentam ainda mais a diversão!"
+      }
+    ],
+    "link": "/jogos/backstabbers",
+    "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 2,
+    "name": "Ordem ao Caos",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/ordem-ao-caos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/ordem-ao-caos.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "3 em 1",
+        "description": "Dois jogos que se juntam em um terceiro jogo."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Expandindo o universo",
+        "description": "Conheça mais sobre a Gangue dos Gatos e a Armada \ndos Guardiões."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Em breve",
+        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+      }
+    ],
+    "link": "/jogos/ordem-ao-caos",
+    "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 3,
+    "name": "Rebelião dos Gatos",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/rebeliao-dos-gatos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/rebeliao-dos-gatos.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Confusão na gangue",
+        "description": "O reinado de Nala está em perigo!"
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Essa cor eu não tenho",
+        "description": "Várias raças de gatinhos para se apaixonar e adotar"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Em breve",
+        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+      }
+    ],
+    "link": "/jogos/rebeliao-dos-gatos",
+    "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 4,
+    "name": "Armada dos Cães",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/armada-dos-caes.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/armada-dos-caes.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Foi ele!",
+        "description": "Defenda sua honra e distribua cocos para os oponentes."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Conheça mais",
+        "description": "Novas raças de guardiões, qual seu cachorro favorito?"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Em breve",
+        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+      }
+    ],
+    "link": "/jogos/armada-dos-caes",
+    "buttonText": "Detalhes do jogo"
+  }
+]

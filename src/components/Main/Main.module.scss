@@ -20,11 +20,20 @@
 
 .content-container {
   margin-top: -1px;
-  padding: 16px 20px;
+  width: 100vw;
   background-color: colors.$neutral-0;
+  display: flex;
+  justify-content: center;
 }
 
-.content-container p {
+.content {
+  width: 88vw;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.text {
+  width: 88vw;
   color: colors.$neutral-600;
   font-family: typography.$base-font-family;
   font-weight: typography.$font-weight-regular;
@@ -36,5 +45,89 @@
 }
 
 .grid-container {
-  
+  margin-top: 20px;
+  display: grid;
+  gap: 12px;
+
+  grid-template-columns: 1fr;
+
+  &.has-4 {
+    grid-template-columns: 1fr 1fr; // 2 colunas x 2 linhas
+  }
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .grid-container {
+    margin-bottom: 32px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+  }
+
+  .content {
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+
+  .text {
+    font-size: typography.$font-size-20;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .image-container {
+    padding-top: 0;
+  }
+  .grid-container {
+    &.has-4 {
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    &.has-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .descriptions {
+    width: 50%;
+  }
+
+  .descriptions .text {
+    width: 100%;
+  }
+
+  .text {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$ultra-wide-screen) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    width: 70vw;
+  }
+
+  .image-container {
+    width: 100%;
+    background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    height: 100%;
+    width: 70%;
+  }
 }

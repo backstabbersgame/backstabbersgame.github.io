@@ -20,7 +20,7 @@ import {
   InputTextArea,
   Upload,
 } from '@backstabbersgame/design-system';
-import contactData from '../../content/contact.json';
+import contactData from '../../content/solara/contact.json';
 
 export const useAppDispatch = () => useDispatch<AppDispatch>();
 

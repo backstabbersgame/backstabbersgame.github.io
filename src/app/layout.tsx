@@ -3,7 +3,6 @@ import './globals.scss';
 import 'dotenv/config';
 import ClientProvider from './ClientProvider';
 import '@backstabbersgame/design-system/styles/index.css';
-import Newsletter from '../components/Newsletter/Newsletter';
 import Footer from '../components/Footer/Footer';
 
 export const metadata: Metadata = {
@@ -24,7 +23,6 @@ export default function RootLayout({
     >
       <body>
         <ClientProvider>{children}</ClientProvider>
-        <Newsletter />
         <Footer />
       </body>
     </html>
