@@ -74,9 +74,22 @@
 }
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
+
   .image-container {
     padding-top: 0;
+    height: 700px;
+    width: 100%;
+    overflow: hidden;  
+    position: relative;
   }
+  
+  .image {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover; 
+  }
+
   .grid-container {
     &.has-4 {
       grid-template-columns: repeat(4, 1fr);
@@ -118,16 +131,16 @@
     width: 70vw;
   }
 
-  .image-container {
-    width: 100%;
-    background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  // .image-container {
+  //   width: 100%;
+  //   background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+  //   display: flex;
+  //   flex-direction: column;
+  //   align-items: center;
+  // }
 
-  .image {
-    height: 100%;
-    width: 70%;
-  }
+  // .image {
+  //   height: 100%;
+  //   width: 70%;
+  // }
 }

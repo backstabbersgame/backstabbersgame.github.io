@@ -57,20 +57,6 @@ export const VideoGallery = ({ data }: VideoGalleryProps) => {
       left: scrollTo,
       behavior: 'smooth',
     });
-    // const carouselRect = carousel.getBoundingClientRect();
-    // const thumbRect = thumb.getBoundingClientRect();
-
-    // if (thumbRect.right > carouselRect.right - 300) {
-    //   carousel.scrollBy({
-    //     left: thumbRect.right - carouselRect.right + 300,
-    //     behavior: 'smooth',
-    //   });
-    // } else if (thumbRect.left < carouselRect.left + 300) {
-    //   carousel.scrollBy({
-    //     left: thumbRect.left - carouselRect.left - 300,
-    //     behavior: 'smooth',
-    //   });
-    // }
   }, [mainIndex]);
 
   return (
@@ -83,13 +69,13 @@ export const VideoGallery = ({ data }: VideoGalleryProps) => {
             src={`/images/icons/play-circle.svg`}
             alt={'Símbolo de Play com gradiente verde e azul'}
           />
-          <h2 className={styles.h2}>
-            <span className={styles.highlight}>Nossas</span> gameplays
-          </h2>
-          <p className={styles.p}>
-            Lorem ipsum dolor sit amet consectetur. Sit aliquet\\nelementum enim
-            sed sed tristique fringilla.
-          </p>
+          <div className={styles.title}>
+            <h2 className={`${styles.h2} ${styles.highlight}`}>
+              {game.videoGallery.titleHighlight}&nbsp;
+            </h2>
+            <h2 className={styles.h2}>{game.videoGallery.title}</h2>
+          </div>
+          <p className={styles.p}>{game.videoGallery.description}</p>
         </div>
 
         <div className={styles.videoGrid}>

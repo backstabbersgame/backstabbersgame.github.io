@@ -26,6 +26,10 @@
   padding-bottom: 16px;
 }
 
+.title {
+  display: flex;
+}
+
 .h2 {
   margin: 0;
   font-family: typography.$heading-font;

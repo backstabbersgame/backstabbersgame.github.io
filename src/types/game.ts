@@ -20,6 +20,7 @@ export interface GameDetail {
 
 export interface GameData {
   id: number;
+  link: string;
   name: string;
   images: GameImages;
   details: GameDetail[];
