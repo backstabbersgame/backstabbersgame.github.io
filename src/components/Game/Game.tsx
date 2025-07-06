@@ -49,7 +49,7 @@ const Game = () => {
         <div className={styles.carousel}>
           <Carousel
             games={games}
-            autoPlay={false}
+            autoPlay={true}
           />
         </div>
         {/* <Button
