@@ -11,9 +11,9 @@ import newsletterContent from '../../content/solara/newsletter.json';
 import { validateEmail } from '../../utils/validateEmail';
 import { Variant } from '../../types/variant';
 import {
-  handleContainer,
-  handleImageContainer,
-  handleImageSize,
+  HandleContainer,
+  HandleImageContainer,
+  HandleImageSize,
 } from './handleStyles';
 
 interface NewsletterProps {
@@ -69,7 +69,7 @@ const Newsletter = ({ variant, data }: NewsletterProps) => {
       <div
         id='newsletter'
         className={styles['newsletter-container']}
-        style={handleContainer(variant)}
+        style={HandleContainer(variant)}
       >
         <div className={styles['newsletter-content']}>
           <div className={styles['newsletter-title']}>
@@ -143,7 +143,7 @@ const Newsletter = ({ variant, data }: NewsletterProps) => {
         </div>
         <div
           // className={styles['image-container']}
-          style={handleImageContainer(variant)}
+          style={HandleImageContainer(variant)}
         >
           <Image
             width={imageWidth}
@@ -151,7 +151,7 @@ const Newsletter = ({ variant, data }: NewsletterProps) => {
             src={`${basePath}${imageSrc}`}
             alt={content.newsletter.image.alt}
             className={styles.image}
-            style={handleImageSize(variant)}
+            style={HandleImageSize(variant)}
           />
         </div>
       </div>

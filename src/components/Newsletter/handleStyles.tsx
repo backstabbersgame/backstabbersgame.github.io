@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Variant } from 'src/types/variant';
 import useBreakpoint from '../../hooks/useBreakpoint';
 
-export const handleContainer = (variant: Variant) => {
+export const HandleContainer = (variant: Variant) => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isTablet = currentBreakpoint === 'tablet';
@@ -86,7 +86,7 @@ export const handleContainer = (variant: Variant) => {
   }
 };
 
-export const handleImageContainer = (variant: Variant): React.CSSProperties => {
+export const HandleImageContainer = (variant: Variant): React.CSSProperties => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isTablet = currentBreakpoint === 'tablet';
@@ -206,7 +206,7 @@ export const handleImageContainer = (variant: Variant): React.CSSProperties => {
   return {};
 };
 
-export const handleImageSize = (variant: Variant): React.CSSProperties => {
+export const HandleImageSize = (variant: Variant): React.CSSProperties => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isTablet = currentBreakpoint === 'tablet';
