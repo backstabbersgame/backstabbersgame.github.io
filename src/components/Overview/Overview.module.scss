@@ -39,7 +39,7 @@
   fill: colors.$primary-500;
 }
 
-.h3 {
+.h2 {
   color: colors.$neutral-600;
 }
 
@@ -56,6 +56,7 @@
     display: flex;
     justify-content: center;
   }
+
   .container {
     padding: 16px 0;
     width: 100%;
@@ -63,6 +64,11 @@
 
   .list {
     gap: 12px;
+  }
+
+  .p {
+    font-size: typography.$font-size-16;
+    width: 100%;
   }
 }
 

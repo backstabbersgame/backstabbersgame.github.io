@@ -38,10 +38,19 @@
   font-family: typography.$base-font-family;
   font-weight: typography.$font-weight-regular;
   font-size: typography.$font-size-14;
+  margin-bottom: 16px;
 
   strong {
     font-weight: typography.$font-weight-bold;
   }
+}
+
+.descriptions {
+  margin-bottom: 32px;
+}
+
+.colab {
+  height: auto;
 }
 
 .grid-container {
@@ -61,6 +70,10 @@
     margin-bottom: 32px;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
+
+    &.has-1 {
+      grid-template-columns: 1fr;
+    }
   }
 
   .content {
@@ -74,20 +87,19 @@
 }
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
-
   .image-container {
     padding-top: 0;
     height: 700px;
     width: 100%;
-    overflow: hidden;  
+    overflow: hidden;
     position: relative;
   }
-  
+
   .image {
     display: block;
     height: 100%;
     width: 100%;
-    object-fit: cover; 
+    object-fit: cover;
   }
 
   .grid-container {
@@ -97,6 +109,12 @@
 
     &.has-3 {
       grid-template-columns: repeat(3, 1fr);
+    }
+
+    &.has-1 {
+      grid-template-columns: 1fr 1fr;
+      padding-top: 16px;
+      padding-right: 32px;
     }
   }
 
@@ -130,17 +148,4 @@
   .content {
     width: 70vw;
   }
-
-  // .image-container {
-  //   width: 100%;
-  //   background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  // }
-
-  // .image {
-  //   height: 100%;
-  //   width: 70%;
-  // }
 }

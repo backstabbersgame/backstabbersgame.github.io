@@ -2,20 +2,23 @@
 
 import React from 'react';
 import Image from 'next/image';
-import styles from './Components.module.scss';
 import useBreakpoint from '../../hooks/useBreakpoint';
+import styles from './NumberedList.module.scss';
+import { textBold } from '../../utils/textBold';
 
-interface ComponentsProps {
+interface Props {
   data: any;
+  section: string;
+  color: string;
 }
 
-const Components = ({ data }: ComponentsProps) => {
-  const content = { ...data.comoJogar };
+const NumberedList = ({ data, section, color }: Props) => {
+  const content = { ...data[section] };
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
 
   const filterItems = Object.entries(
-    (content.components as Record<string, string>) ?? {}
+    (content as Record<string, string>) ?? {}
   ).filter(([key]) => key.startsWith('item'));
 
   const items = filterItems.map((value: [string, string], idx: number) => (
@@ -23,13 +26,12 @@ const Components = ({ data }: ComponentsProps) => {
       key={idx}
       className={styles.item}
     >
-      <span className={styles.dot} />
-      <p className={styles.p}>{value[1]}</p>
+      <p className={styles.number}>{idx + 1}.</p>
+      <p className={styles.p}>{textBold(value[1])}</p>
     </li>
   ));
-
   return (
-    <div className={styles.background}>
+    <div className={`${styles.background} ${styles[color]}`}>
       <div className={styles.container}>
         <div className={styles.header}>
           <Image
@@ -38,21 +40,12 @@ const Components = ({ data }: ComponentsProps) => {
             src={`/images/icons/star.svg`}
             alt={'Estrela com gradiente azul e lilás'}
           />
-          <h2 className={styles.h2}>{content.components.title}</h2>
+          <h2 className={styles.h2}>{content.title}</h2>
         </div>
-        <div className={styles.content}>
-          <Image
-            src={content.components.card.src}
-            alt={content.components.card.alt}
-            width={content.components.card.width}
-            height={content.components.card.height}
-            className={styles.card}
-          />
-          <ul className={styles.list}>{items}</ul>
-        </div>
+        <ul className={styles.list}>{items}</ul>
       </div>
     </div>
   );
 };
 
-export default Components;
+export default NumberedList;

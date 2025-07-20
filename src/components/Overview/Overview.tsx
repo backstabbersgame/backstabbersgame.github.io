@@ -3,6 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import styles from './Overview.module.scss';
+import useBreakpoint from '../../hooks/useBreakpoint';
 import {
   ClockIcon,
   UserIcon,
@@ -15,17 +16,20 @@ interface OverviewProps {
 
 const Overview = ({ data }: OverviewProps) => {
   const content = { ...data.comoJogar };
+  const { currentBreakpoint } = useBreakpoint();
+  const isMobile = currentBreakpoint === 'mobile';
+
   return (
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.header}>
           <Image
-            width={20}
-            height={20}
+            width={isMobile ? 20 : 32}
+            height={isMobile ? 20 : 32}
             src={`/images/icons/star.svg`}
             alt={'Estrela com gradiente azul e lilás'}
           />
-          <h3 className={styles.h3}>{content.overview.title}</h3>
+          <h2 className={styles.h2}>{content.overview.title}</h2>
         </div>
         <ul className={styles.list}>
           <li className={styles.item}>

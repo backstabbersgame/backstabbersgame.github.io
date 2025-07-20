@@ -1,7 +1,7 @@
 import Header from '../../../components/Header/Header';
-import { footerItems, links, menuItems } from '../../../content/armada/links';
+import { footerItems, links, menuItems } from '../../../content/decodica/links';
 
-export default function ArmadaLayout({
+export default function DecodicaLayout({
   children,
 }: {
   children: React.ReactNode;
@@ -9,11 +9,11 @@ export default function ArmadaLayout({
   return (
     <>
       <Header
-        variant={'armada'}
+        variant={'decodica'}
         links={links}
         menuItems={menuItems}
         isGame={true}
-        gameTitle={'ARMADA DOS CÃES'}
+        gameTitle={'Decodica'}
         isSubpage={true}
         subpageLink={links[0].href}
         footerItems={footerItems}

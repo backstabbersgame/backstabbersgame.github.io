@@ -27,6 +27,11 @@
   margin-top: 60px;
 }
 
+.h2 {
+  margin-top: 16px;
+  margin-left: 6vw;
+}
+
 @media only screen and (min-width: breakpoints.$tablet-min) {
   .background {
     width: 100%;
@@ -47,7 +52,7 @@
   .h1 {
     color: colors.$neutral-800;
   }
-  
+
   .content {
     display: flex;
     flex-direction: row;
@@ -87,6 +92,11 @@
     flex-direction: row;
     width: 88vw;
     gap: 16px;
+  }
+
+  .h2 {
+    margin-top: 64px;
+    margin-left: 0;
   }
 }
 

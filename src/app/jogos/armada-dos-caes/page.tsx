@@ -7,20 +7,37 @@ import { menuItems } from '../../../content/armada/links';
 import { VideoGallery } from '../../../components/VideoGallery/VideoGallery';
 import Newsletter from '../../../components/Newsletter/Newsletter';
 
-const Ordem = () => {
+const componentsMap = {
+  Main: () => (
+    <Main
+      data={data}
+      menuItems={menuItems}
+    />
+  ),
+  VideoGallery: () => <VideoGallery data={data} />,
+  Newsletter: () => (
+    <Newsletter
+      variant='armada'
+      data={data}
+    />
+  ),
+};
+
+const Armada = () => {
   return (
     <>
-      <Main
-        data={data}
-        menuItems={menuItems}
-      />
-      {/* <VideoGallery data={data} /> */}
-      <Newsletter
-        variant={'armada'}
-        data={data}
-      />
+      {data.inicio.sections
+        .filter((section) => section.visible)
+        .map((section) => {
+          const Component = (componentsMap as any)[section.component];
+          return Component ? (
+            <React.Fragment key={section.component}>
+              {Component()}
+            </React.Fragment>
+          ) : null;
+        })}
     </>
   );
 };
 
-export default Ordem;
+export default Armada;

@@ -150,5 +150,43 @@
     ],
     "link": "/jogos/armada-dos-caes",
     "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 5,
+    "name": "DECODICA",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/decodica.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/decodica.png",
+        "width": 629,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Jogue como quiser",
+        "description": "Várias formas de jogar, cartas versáteis e muita diversão."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Treine suas habilidades",
+        "description": "Interpretação, velocidade, improvisação, memória, persuasão. Quem será o melhor?"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Personalize",
+        "description": "Monte sua caixa como quiser com adesivos das cartas"
+      }
+    ],
+    "link": "/jogos/decodica",
+    "buttonText": "Detalhes do jogo"
   }
 ]

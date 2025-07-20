@@ -2,8 +2,8 @@
 
 import React from 'react';
 import Main from '../../../components/Main/Main';
-import data from '../../../content/ordem/ordem.json';
-import { menuItems } from '../../../content/ordem/links';
+import data from '../../../content/decodica/decodica.json';
+import { menuItems } from '../../../content/decodica/links';
 import { VideoGallery } from '../../../components/VideoGallery/VideoGallery';
 import Newsletter from '../../../components/Newsletter/Newsletter';
 
@@ -17,13 +17,12 @@ const componentsMap = {
   VideoGallery: () => <VideoGallery data={data} />,
   Newsletter: () => (
     <Newsletter
-      variant='ordem'
+      variant='decodica'
       data={data}
     />
   ),
 };
-
-const Ordem = () => {
+const Decodica = () => {
   return (
     <>
       {data.inicio.sections
@@ -40,4 +39,4 @@ const Ordem = () => {
   );
 };
 
-export default Ordem;
+export default Decodica;
