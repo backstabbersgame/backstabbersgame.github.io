@@ -1,5 +1,10 @@
 {
-  "main": {
+  "inicio": {
+    "sections": [
+      { "component": "Main", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "logo": {
       "src": "/images/logos/ordem.svg",
       "alt": "Logo ordem ao caos",
@@ -18,6 +23,11 @@
     }
   },
   "comoJogar": {
+    "sections": [
+      { "component": "Content", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "src": "/jogos/ordem-ao-caos/como-jogar",
     "overview": {
       "title": "Visão geral",
@@ -26,15 +36,19 @@
       "item3": "30 minutos, em média"
     },
     "goal": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Objetivo",
       "item1": "Restabeleça a paz entre Cães e Gatos somando 40 pontos ou mais ao final de uma rodada."
     },
     "preparation": {
+      "backgroundMobile": "gradient",
+      "background": "transparent",
       "title": "Preparação",
       "item1": "Remova todas as cartas de pontos (elas não serão utilizadas);",
       "item2": "Embaralhe todas as demais cartas (exceto as de cocô) em um único baralho;",
-      "item3": "Distribua 5 cartas para cada jogador;",
-      "item4": "Entregue 1 carta de cocô a cada jogador;",
+      "item3": "Distribua *5* cartas para cada jogador;",
+      "item4": "Entregue *1* carta de cocô a cada jogador;",
       "item5": "Embaralhe as cartas de cocô junto ao baralho e forme a Pilha de Compras;",
       "item6": "Deixe os tokens de pontos ao alcance de todos;",
       "item7": "Vire a primeira carta da pilha para iniciar o Descarte (referido nas cartas como Pátio ou Caixa de Areia)."
@@ -57,6 +71,8 @@
       }
     },
     "generalRules": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
       "title": "Regras gerais",
       "item1": "O jogo segue em turnos, no sentido horário. Começa quem interagiu com um gato e um cachorro no mesmo ambiente mais recentemente.",
       "item2": {
@@ -70,6 +86,8 @@
       "item3": "Bônus: se a carta jogada tiver o mesmo valor da última carta do descarte, o jogador pode escolher alguém (inclusive a si mesmo) para comprar uma carta."
     },
     "endRound": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Fim da rodada",
       "item1": {
         "title": "A rodada termina quando:",
@@ -88,9 +106,11 @@
       "item3": "Em caso de empate, comece pelo jogador mais próximo (à esquerda) do último a jogar."
     },
     "score": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
       "title": "Pontuação",
       "item1": {
-        "title": "O jogo termina quando um jogador atinge 40 ou mais pontos ao final de uma rodada.",
+        "title": "O jogo termina quando um jogador atinge *40 ou mais pontos* ao final de uma rodada.",
         "steps": {
           "1": "O jogador com mais pontos é declarado o pacificador de Etheria!",
           "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
@@ -99,6 +119,8 @@
       }
     },
     "endGame": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Fim do jogo",
       "item1": {
         "title": "O jogo termina quando um jogador atinge 40 ou mais pontos ao final de uma rodada.",

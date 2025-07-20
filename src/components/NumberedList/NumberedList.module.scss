@@ -3,17 +3,35 @@
 @use '@backstabbersgame/design-system/styles/partials/breakpoints' as
   breakpoints;
 
-.background {
+.white {
   background-color: colors.$neutral-0;
+}
+
+.gray {
+  background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+
+.background {
+  // background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
   width: 100vw;
   display: flex;
   justify-content: center;
 }
 
 .container {
-  padding: 16px 0 24px 0;
+  padding: 16px 0;
   width: 88vw;
 }
+
 .header {
   display: flex;
   gap: 8px;
@@ -30,54 +48,39 @@
 
 .item {
   display: flex;
+  align-items: center;
   gap: 4px;
 }
 
-.subList {
-  list-style: none;
-}
-
-.sub{
-  display: flex;
-}
-
-.h3 {
+.h2 {
   color: colors.$neutral-600;
 }
 
-.dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: colors.$primary-500;
-  margin: 7px 7px 0 7px;
+.number {
+  color: colors.$primary-500;
+  align-self: baseline;
 }
 
 .p {
   font-size: typography.$font-size-14;
   font-weight: typography.$font-weight-regular;
   color: colors.$neutral-600;
-  width: 95%;
 }
 
 @media only screen and (min-width: breakpoints.$tablet-min) {
   .background {
-    width: 100%;
+    background: transparent;
     display: flex;
     justify-content: center;
   }
+
   .container {
-    padding: 48px 0;
+    padding: 16px 0 0 0;
+    width: 100%;
   }
 
   .list {
-    padding-top: 32px;
     gap: 8px;
-  }
-
-  .h3 {
-    font-size: typography.$font-size-24;
   }
 
   .p {
@@ -88,12 +91,10 @@
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
   .background {
-    background-color: transparent;
     width: 100%;
   }
-  
+
   .container {
     width: 100%;
-    padding: 64px 0;
   }
 }

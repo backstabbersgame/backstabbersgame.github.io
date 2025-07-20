@@ -1,7 +1,7 @@
 import Header from '../../../components/Header/Header';
 import { footerItems, links, menuItems } from '../../../content/rebeliao/links';
 
-export default function OrdemLayout({
+export default function RebeliaoLayout({
   children,
 }: {
   children: React.ReactNode;

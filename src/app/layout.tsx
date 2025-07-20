@@ -8,7 +8,7 @@ import Footer from '../components/Footer/Footer';
 export const metadata: Metadata = {
   title: 'Solara Studios',
   description:
-    'A Solara é seu novo destino para diversão entre amigos! Um estúdio brasileiro, cheio de personalidade e representatividade',
+    'A Solara é seu novo destino para diversão entre amigos! Um estúdio brasileiro, cheio de personalidade e representatividade.',
 };
 
 export default function RootLayout({

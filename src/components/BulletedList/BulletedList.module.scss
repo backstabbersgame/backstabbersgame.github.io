@@ -3,8 +3,23 @@
 @use '@backstabbersgame/design-system/styles/partials/breakpoints' as
   breakpoints;
 
-.background {
+.white {
+  background-color: colors.$neutral-0;
+}
+
+.gray {
   background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.background {
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -12,37 +27,40 @@
 
 .container {
   padding: 16px 0 24px 0;
-  width: 88vw;
+  display: flex;
+  flex-direction: column;
 }
+
 .header {
   display: flex;
   gap: 8px;
   align-items: center;
 }
 
+.h2 {
+  color: colors.$neutral-600;
+}
+
 .list {
   padding-top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
   list-style: none;
 }
 
 .item {
   display: flex;
   gap: 4px;
+  width: 100%;
 }
 
 .subList {
   list-style: none;
 }
 
-.sub{
+.sub {
   display: flex;
-}
-
-.h3 {
-  color: colors.$neutral-600;
 }
 
 .dot {
@@ -63,21 +81,16 @@
 
 @media only screen and (min-width: breakpoints.$tablet-min) {
   .background {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    // background-color: transparent;
   }
+
   .container {
     padding: 48px 0;
+    width: 100%;
   }
 
   .list {
     padding-top: 32px;
-    gap: 8px;
-  }
-
-  .h3 {
-    font-size: typography.$font-size-24;
   }
 
   .p {
@@ -88,10 +101,9 @@
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
   .background {
-    background-color: transparent;
     width: 100%;
   }
-  
+
   .container {
     width: 100%;
     padding: 64px 0;

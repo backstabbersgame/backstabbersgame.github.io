@@ -2,7 +2,9 @@
 
 import React from 'react';
 import Image from 'next/image';
-import styles from './EndGame.module.scss';
+import useBreakpoint from '../../hooks/useBreakpoint';
+import styles from './MixedList.module.scss';
+import { textBold } from '../../utils/textBold';
 
 interface Steps {
   [key: string]: string;
@@ -13,14 +15,19 @@ interface ItemWithSteps {
   steps: Steps;
 }
 
-interface EndGameProps {
+interface Props {
   data: any;
+  section: string;
+  color: string;
 }
 
-const EndGame = ({ data }: EndGameProps) => {
-  const content = { ...data.comoJogar };
+const MixedList = ({ data, section, color }: Props) => {
+  const content = { ...data[section] };
+  const { currentBreakpoint } = useBreakpoint();
+  const isMobile = currentBreakpoint === 'mobile';
+  const isTablet = currentBreakpoint === 'tablet';
 
-  const filterItems = Object.entries(content.endGame).filter(([key]) =>
+  const filterItems = Object.entries(content).filter(([key]) =>
     key.startsWith('item')
   );
 
@@ -32,19 +39,19 @@ const EndGame = ({ data }: EndGameProps) => {
           className={styles.item}
         >
           <span className={styles.dot} />
-          <p className={styles.p}>{value}</p>
+          <p className={styles.p}>{textBold(value)}</p>
         </li>
       );
     }
     const { title, steps } = value as ItemWithSteps;
-
     return (
       <>
         <li
           key={key}
           className={styles.item}
         >
-          <p className={styles.p}>{title}</p>
+          <span className={styles.dot} />
+          <p className={styles.p}>{textBold(title)}</p>
         </li>
         {steps && (
           <ul className={styles.subList}>
@@ -53,8 +60,7 @@ const EndGame = ({ data }: EndGameProps) => {
                 key={stepIdx}
                 className={styles.sub}
               >
-                <span className={styles.dot} />
-                <p className={styles.p}>{step}</p>
+                <p className={styles.p}>{textBold(step)}</p>
               </li>
             ))}
           </ul>
@@ -64,16 +70,25 @@ const EndGame = ({ data }: EndGameProps) => {
   });
 
   return (
-    <div className={styles.background}>
-      <div className={styles.container}>
+    <div className={`${styles.background} ${styles[color]}`}>
+      <div
+        className={styles.container}
+        style={
+          isMobile || isTablet
+            ? section === 'goal'
+              ? { width: 'auto' }
+              : { width: '88vw' }
+            : { width: 'auto' }
+        }
+      >
         <div className={styles.header}>
           <Image
-            width={20}
-            height={20}
+            width={isMobile ? 20 : 32}
+            height={isMobile ? 20 : 32}
             src={`/images/icons/star.svg`}
             alt={'Estrela com gradiente azul e lilás'}
           />
-          <h3 className={styles.h3}>{content.endGame.title}</h3>
+          <h2 className={styles.h2}>{content.title}</h2>
         </div>
         <ul className={styles.list}>{items}</ul>
       </div>
@@ -81,4 +96,4 @@ const EndGame = ({ data }: EndGameProps) => {
   );
 };
 
-export default EndGame;
+export default MixedList;

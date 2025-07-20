@@ -1,5 +1,11 @@
 {
-  "main": {
+  
+  "inicio": {
+    "sections": [
+      { "component": "Main", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "logo": {
       "src": "/images/logos/backstabbers.svg",
       "alt": "Logo backstabbers",
@@ -7,8 +13,7 @@
       "height": 107.3
     },
     "title": "BACKSTABBERS",
-    "description": "Em uma sociedade onde cada um quer ser mais\\npoderoso que o outro e onde seus desejos são\\nmaiores que o próximo, ninguém medirá seus\\nesforços para atingir seus objetivos. Não confie\\nem ninguém,",
-    "descriptionBold": "nem mesmo em você!",
+    "description": "Em uma sociedade onde cada um quer ser mais\\npoderoso que o outro e onde seus desejos são\\nmaiores que o próximo, ninguém medirá seus\\nesforços para atingir seus objetivos. Não confie\\nem ninguém, *nem mesmo em você!*",
     "gameplayIcon": "/images/icons/play-circle.svg",
     "gameplay": "Nossas gameplays",
     "channel": "Acessar o canal",
@@ -81,6 +86,11 @@
     }
   },
   "comoJogar": {
+    "sections": [
+      { "component": "Content", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "src": "/jogos/backstabbers/como-jogar",
     "overview": {
       "title": "Visão geral",
@@ -89,15 +99,19 @@
       "item3": "45 minutos, em média"
     },
     "goal": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Objetivo",
       "item1": "Elimine jogadores e permaneça vivo para ganhar moedas.",
       "item2": "Junte 5 moedas para se tornar o novo Soberano."
     },
     "preparation": {
+      "backgroundMobile": "gradient",
+      "background": "transparent",
       "title": "Preparação",
       "item1": "Selecione o nível do jogo;",
       "item2": "Embaralhe todas as cartas que serão utilizadas;",
-      "item3": "Distribua 2 (duas) cartas para cada jogador;",
+      "item3": "Distribua *2* (duas) cartas para cada jogador;",
       "item4": "Coloque uma carta no cemitério;",
       "item5": "Coloque o restante das cartas na pilha de compras."
     },
@@ -169,6 +183,8 @@
       }
     },
     "generalRules": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
       "title": "Regras gerais",
       "item1": {
         "title": "Em seu turno, você deve realizar as seguintes ações nesta ordem:",
@@ -185,9 +201,11 @@
       "item5": "Se um jogador for pego mentindo, será imediatamente eliminado da rodada."
     },
     "endGame": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Fim do jogo",
       "item1": "O último jogador que tiver cartas na mão ganha duas moedas.",
-      "item2": "Se, nesse momento, algum jogador tiver 5 moedas ou mais, o jogador com mais moedas se torna o novo Soberano e o jogo é encerrado.",
+      "item2": "Se, nesse momento, algum jogador tiver *5 moedas* ou mais, o jogador com mais moedas se torna o novo Soberano e o jogo é encerrado.",
       "item3": "Caso contrário, inicia-se uma nova partida, começando pelo jogador que venceu a rodada anterior."
     }
   }

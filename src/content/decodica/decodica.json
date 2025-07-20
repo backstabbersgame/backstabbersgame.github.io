@@ -1,0 +1,362 @@
+{
+  "inicio": {
+    "sections": [
+      { "component": "Main", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
+    "logo": {
+      "src": "/images/logos/decodica.svg",
+      "alt": "Logo decodica",
+      "width": 220.03,
+      "height": 161.41
+    },
+    "title": "DECODICA",
+    "description1": "*DecoDica* é um party/social game super versátil que pode ser jogado de 5 formas distintas, onde os jogadores são desafiados a trabalhar sua criatividade, velocidade e capacidade de interpretação.",
+    "description2": "DecoDica é uma colaboração com a *Forja Game Studio.*",
+    "descriptionImage": {
+      "src": "/images/logos/solara-forja.svg",
+      "alt": "Logo decodica",
+      "width": 401.36,
+      "height": 48
+    },
+    "gameplayIcon": "/images/icons/play-circle.svg",
+    "gameplay": "Nossas gameplays",
+    "channel": "Acessar o canal",
+    "mainImage": {
+      "src": "/images/decodica.png",
+      "alt": "Capa decodica"
+    }
+  },
+  "comoJogar": {
+    "sections": [
+      { "component": "Content", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
+    "src": "/jogos/decodica/como-jogar",
+    "overview": {
+      "title": "Visão geral",
+      "item1": "3 a 8 jogadores",
+      "item2": "Maiores de 12 anos",
+      "item3": "20 minutos, em média"
+    },
+    "goal": {
+      "backgroundMobile": "white",
+      "background": "transparent",
+      "title": "Objetivo Geral",
+      "item1": "Trabalhe diferentes habilidades em cada modo um dos modos de jogo a seguir."
+    },
+    "mechanics": {
+      "backgroundMobile": "gradient",
+      "background": "transparent",
+      "title": "Mecânicas do jogo",
+      "item1": "Combinação",
+      "item2": "Correspondência rápida",
+      "item3": "Memória",
+      "item4": "Perguntas e respostas"
+    },
+    "components": {
+      "title": "Componentes",
+      "item1": "100 cartas",
+      "item8": "Manual",
+      "card": {
+        "src": "/images/cards/card-decodica.png",
+        "alt": "Cartas decodica",
+        "width": 632.86,
+        "height": 335
+      }
+    },
+    "deco": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
+      "title": "DECO",
+      "goalD": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Objetivo",
+        "item1": "Trabalhe a persuasão criando a melhor associação entre palavras aleatórias e ganhe os votos dos concorrentes."
+      },
+      "preparation": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Preparação",
+        "item1": "Embaralhe todas as cartas formando a pilha de compras"
+      },
+      "generalRules": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Regras gerais",
+        "item1": "O primeiro jogador deverá comprar duas cartas e colocá-las no centro da mesa.",
+        "item2": "Começando por ele, cada jogador deverá fazer uma associação qualquer, não existem regras nem limites, mas lembre-se que você deve convencer os outros jogadores de que a sua foi a melhor.",
+        "item3": "Caso mais de um jogador queira fazer uma associação, a preferência é do jogador que comprou as cartas, depois a ordem vai seguindo o sentido do jogo.",
+        "item4": "Qualquer jogador pode decidir por não participar."
+      },
+      "endRound": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim da rodada",
+        "item1": "Depois de todos os jogadores, que desejarem, fizerem sua associação, todos ao mesmo tempo devem votar na melhor associação, apontando para o jogador que fez ela.",
+        "item2": "Não é permitido votar em si mesmo, nem em branco.",
+        "item3": "Depois da votação, o próximo jogador compra novas cartas e inicia uma nova rodada."
+      },
+      "score": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Pontuação",
+        "item1": "O jogador mais votado ganha 1 ponto, representado pelas duas cartas associadas.",
+        "item2": "Em caso de empate, os jogadores empatados disputam uma rodada só entre eles, com todos os outros jogadores votando na melhor associação.",
+        "item3": "Quem ganhar leva 1 ponto."
+      },
+      "endGame": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim de jogo",
+        "item1": "Quando um jogador conseguir 3 pontos, ele se torna o ganhador, encerrando assim o jogo."
+      }
+    },
+    "dica": {
+      "title": "DICA",
+      "goalD": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Objetivo",
+        "item1": "Trabalhe sua criatividade dando personalidade a objetos e descrevendo como ele se comportaria sendo uma pessoa. Mas não seja óbvio, pois você não pontua se todos acertarem…"
+      },
+      "preparation": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Preparação",
+        "item1": "Embaralhe todas as cartas e distribua em um gride de 3x3, o restante fica separado na pilha de compras."
+      },
+      "generalRules": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Regras gerais",
+        "item1": {
+          "title": "Cada jogador, em seu turno, terá que escolher uma carta para personificar. O jogador deve começar contando um pouco sobre ela:",
+          "steps": {
+            "1": "1. Ela é uma pessoa muito querida por todos",
+            "2": "2. Ela gosta muito de ouvir música",
+            "3": "3. Ela é uma pessoa que adora cidade"
+          }
+        },
+        "item2": "Qualquer coisa que acredite que a carta faria como pessoa, enquanto isso, os outros jogadores podem fazer perguntas.",
+        "item3": "As respostas devem sempre ter a ver com a carta, cuidado para não fugir muito, pois alguém ainda precisa acertar."
+      },
+      "endRound": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim da rodada",
+        "item1": "A rodada dura 3 minutos, os jogadores devem contar esse tempo enquanto fazem perguntas e o jogador descreve a carta. ",
+        "item2": "Passados os 3 minutos, os jogadores devem votar em qual carta acreditam que esteja sendo personificada.",
+        "item3": "Depois disso, um novo grid é montado para o próximo jogador iniciar sua rodada."
+      },
+      "score": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Pontuação",
+        "item1": "Caso todos os jogadores errem, ninguém pontua.",
+        "item2": "Caso todos os jogadores acertem, cada jogador que acertar ganha 1 carta do grid. Quem descreveu não ganha nada.",
+        "item3": "Caso algumas pessoas errem e outras acertem, o jogador que descreveu recebe duas cartas do grid e os outros que acertaram recebem 1 carta."
+      },
+      "endGame": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim de jogo",
+        "item1": "Quando todos os jogadores tiverem personificado 2 cartas, o jogador que recebeu mais cartas será o vencedor. Em caso de empate, os jogadores compartilham a vitória."
+      }
+    },
+    "doca": {
+      "title": "DOCA",
+      "goalD": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Objetivo",
+        "item1": "Trabalhe sua estratégia fazendo a melhor combinação da mesa com as cartas da sua mão."
+      },
+      "preparation": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Preparação",
+        "item1": "Embaralhe todas as cartas, distribua 5 para cada jogador e coloque o restante na pilha de compras.",
+        "item2": "Depois abra uma carta e deixe mais uma carta aberta no topo da pilha de compras."
+      },
+      "generalRules": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Regras gerais",
+        "item1": "O primeiro jogador deverá usar uma de suas cartas para fazer uma associação com a carta comprada. Na ordem do jogo, cada outro jogador fará o mesmo, sempre combinando com a carta que foi comprada no início da rodada.",
+        "item2": "A carta no topo da pilha de compras será a carta da próxima rodada, os jogadores podem observar esta carta para criar estratégias sobre as próximas cartas que irão utilizar."
+      },
+      "endRound": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim da rodada",
+        "item1": "Quando todos os jogadores jogarem suas cartas, os jogadores deverão então votar, ao mesmo tempo, apontando para a carta do jogador que fez a melhor associação.",
+        "item2": "Não é permitido votar em si mesmo e nem em branco.",
+        "item3": "No fim da votação, a carta da pilha de compras é colocada na mesa, os jogadores repõem as cartas da mão até ficarem com 5, uma nova carta é revelada no topo da pilha de compras e a nova rodada se inicia pelo próximo jogador no sentido do jogo."
+      },
+      "score": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Pontuação",
+        "item1": "O jogador mais votado ganha 1 ponto, representado pelas duas cartas associadas.",
+        "item2": "Em caso de empate, os jogadores empatados disputam uma rodada só entre eles, com todos os outros jogadores votando na melhor associação. Quem ganhar leva 1 ponto."
+      },
+      "endGame": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim de jogo",
+        "item1": "Quando um jogador conseguir 3 pontos, ele se torna o ganhador, encerrando assim o jogo."
+      }
+    },
+    "caco": {
+      "title": "CACO",
+      "goalD": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Objetivo",
+        "item1": "Trabalhe seu improviso juntando os cacos de uma história mirabolante e seja o primeiro a acabar com as cartas da mão."
+      },
+      "preparation": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Preparação",
+        "item1": "Embaralhe todas as cartas, distribua 5 para cada jogador e coloque o restante na pilha de compras. Depois abra uma carta."
+      },
+      "generalRules": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Regras gerais",
+        "item1": "Não existe ordem, os jogadores deverão fazer associações com as cartas da mão e qualquer carta que estiver na mesa, seja ela a inicial ou uma carta jogada por outro jogador.",
+        "item2": {
+          "title": "Só existem duas regras:",
+          "steps": {
+            "1": "1. Não é permitido jogar duas cartas seguidas, você deve esperar outro jogador fazer uma associação para que você possa fazer uma nova.",
+            "2": "2. As associações precisam fazer sentido."
+          }
+        }
+      },
+      "endGame": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim de jogo",
+        "item1": "O jogo acaba quando um jogador terminar todas as cartas da mão com associações válidas, tornando-se o vencedor."
+      }
+    },
+    "cade": {
+      "title": "CADE",
+      "goalD": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Objetivo",
+        "item1": "Trabalhe sua memória criando associações e lembrando onde estão as cartas das associações feitas pelos outros jogadores."
+      },
+      "preparation": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Preparação",
+        "item1": "Embaralhe todas as cartas e distribua em um gride de 4x4, o restante fica separado na pilha de compras."
+      },
+      "generalRules": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Regras gerais",
+        "item1": "Os jogadores devem tirar um momento para memorizar as cartas e montar associações em sua cabeça, sempre de 2 em 2 cartas. O tempo pode ser definido pela mesa.",
+        "item2": "Em seguida, as cartas devem ser viradas de cabeça para baixo e um jogador deverá descrever uma associação entre 2 cartas.",
+        "item3": "Seguindo o sentido do jogo, cada outro jogador pode virar duas cartas para tentar encontrar as que representam a associação descrita. O jogador que descreveu deverá informar quantas estão corretas."
+      },
+      "endRound": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Fim da rodada",
+        "item1": "Os jogadores continuam virando cartas até alguém acertar as duas cartas ou voltar para quem realizou a associação. Nesse momento, o próximo jogador terá a chance de descrever uma nova associação."
+      },
+      "score": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Pontuação",
+        "item1": "Quando um jogador acerta a associação, as duas cartas são removidas do grid, uma para quem acertou e outra para quem associou."
+      },
+      "table": {
+        "backgroundMobile": "white",
+        "background": "transparent",
+        "title": "Repondo a mesa",
+        "item1": "Caso metade das cartas do grid sejam removidas, as cartas deverão ser viradas para cima e o grid deverá ser completado com novas cartas.",
+        "item2": "Os jogadores terão mais um tempo para fazer novas associações e memorizar o novo grid.",
+        "item3": "Em seguida, vire as cartas para baixo e continue o jogo de onde parou."
+      },
+      "endGame": {
+        "backgroundMobile": "gray",
+        "background": "transparent",
+        "title": "Fim da rodada",
+        "item1": "Quando um jogador conseguir 3 pontos, ele se torna o ganhador, encerrando assim o jogo.",
+        "item2": "Em caso de empate, os jogadores compartilham a vitória."
+      }
+    }
+  },
+  "videoGallery": {
+    "titleHighlight": "Nossas",
+    "title": "gameplays",
+    "description": "",
+    "channel": "https://www.youtube.com/@BackstabbersGame",
+    "videos": [
+      {
+        "videoId": "O_aSVOkB4es",
+        "title": "Conheça Backstabbers!",
+        "thumbnail": "/images/conheca.png"
+      },
+      {
+        "videoId": "kvdfhqdWy4s",
+        "title": "Modo Infinito",
+        "thumbnail": "/images/infinito.png"
+      },
+      {
+        "videoId": "z1k7ECoCkgU",
+        "title": "Modo Ataque",
+        "thumbnail": "/images/ataque.png"
+      },
+      {
+        "videoId": "Sy9zkjsRJxo",
+        "title": "Expansão Duelo",
+        "thumbnail": "/images/duelo.png"
+      },
+      {
+        "videoId": "mDrhWpb9v40",
+        "title": "Modo Duo",
+        "thumbnail": "/images/duo.png"
+      },
+      {
+        "videoId": "hCIEz5U7RXg",
+        "title": "Modo Ganância",
+        "thumbnail": "/images/ganancia.png"
+      },
+      {
+        "videoId": "xPHkVJFvPNY",
+        "title": "Expansão Avançadas",
+        "thumbnail": "/images/avancadas.png"
+      },
+      {
+        "videoId": "8vVNimpNkFs",
+        "title": "Expansão Constituição",
+        "thumbnail": "/images/constituicao.png"
+      }
+    ]
+  },
+  "newsletter": {
+    "title": "Venha ser um solariano!",
+    "description": "Cadastre seu email para saber de todas\\nas novidades do nosso universo!",
+    "emailPlaceholder": "E-mail*",
+    "buttonLabel": "Assinar a newsletter",
+    "buttonIcon": {
+      "src": "/images/icons/paper-plane.svg",
+      "alt": "Avião de papel"
+    },
+    "image": {
+      "alt": "Cuscuz",
+      "mobile": "/images/mobile/cuscuz.png",
+      "desktop": "/images/desktop/cuscuz.png"
+    }
+  }
+}

@@ -1,5 +1,10 @@
 {
-  "main": {
+  "inicio": {
+    "sections": [
+      { "component": "Main", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "logo": {
       "src": "/images/logos/rebeliao.svg",
       "alt": "Logo rebelião dos gatos",
@@ -7,8 +12,8 @@
       "height": 153.4
     },
     "title": "REBELIÃO DOS GATOS",
-    "description": "A gangue dos gatos organizou uma rebelião contra o comando da chefe Nala, montando um golpe que tirou a grande felina do poder. Agora as facções estão lutando para conseguir o maior número de gatos e tomar o poder da lendária gangue.",
-    "descriptionBold": "Será que você vai conseguir dominar essas feras?",
+    "description1": "A gangue dos gatos organizou uma rebelião contra o comando da chefe Nala, montando um golpe que tirou a grande felina do poder. Agora as facções estão lutando para conseguir o maior número de gatos e tomar o poder da lendária gangue.",
+    "description2": "*Será que você vai conseguir dominar essas feras?*",
     "gameplayIcon": "/images/icons/play-circle.svg",
     "gameplay": "Nossas gameplays",
     "channel": "Acessar o canal",
@@ -18,6 +23,11 @@
     }
   },
   "comoJogar": {
+    "sections": [
+      { "component": "Content", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
     "src": "/jogos/rebeliao-dos-gatos/como-jogar",
     "overview": {
       "title": "Visão geral",
@@ -26,15 +36,19 @@
       "item3": "20 minutos, em média"
     },
     "goal": {
+      "backgroundMobile" : "white",
+      "background" : "transparent",
       "title": "Objetivo",
       "item1": "Seu objetivo é recrutar o maior número possível de gatos para a sua gangue.",
       "item2": "Cada ponto representa um gato conquistado.",
-      "item3": "O primeiro jogador a alcançar 30 tokens de pontos se torna o novo Líder da Gangue dos Gatos."
+      "item3": "O primeiro jogador a alcançar *30 tokens de pontos* se torna o novo Líder da Gangue dos Gatos."
     },
     "preparation": {
+      "backgroundMobile": "gradient",
+      "background": "transparent",
       "title": "Preparação",
       "item1": "Embaralhe todas as cartas;",
-      "item2": "Distribua 5 cartas para cada jogador;",
+      "item2": "Distribua *5* cartas para cada jogador;",
       "item3": "Coloque o restante como pilha de compra no centro da mesa;",
       "item4": "Deixe os tokens de pontos ao alcance de todos;",
       "item5": "Vire a primeira carta da Pilha de Compra e a posicione como início da Caixa de Areia (a pilha de descarte)."
@@ -56,6 +70,8 @@
       }
     },
     "generalRules": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
       "title": "Regras gerais",
       "item1": "O jogo segue em turnos, no sentido horário. Começa quem limpou uma caixa de areia mais recentemente.",
       "item2": {
@@ -69,6 +85,8 @@
       "item3": "Bônus: se a carta descartada tiver o mesmo valor da carta anterior da Caixa de Areia, compre uma nova carta."
     },
     "endRound": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Fim da rodada",
       "item1": "Uma rodada termina quando um jogador ficar sem cartas na mão.",
       "item2": {
@@ -82,9 +100,11 @@
       }
     },
     "score": {
+      "backgroundMobile": "gray",
+      "background": "transparent",
       "title": "Pontuação",
       "item1": {
-        "title": "Ao final de cada rodada, os jogadores contam apenas as cartas de gatos em suas mãos:",
+        "title": "Ao final de cada rodada, os jogadores contam apenas as *cartas de gatos* em suas mãos:",
         "steps": {
           "1": "O valor da carta equivale ao número de gatos conquistados;",
           "2": "Cada valor só pode ser contabilizado uma vez por rodada."
@@ -92,9 +112,11 @@
       }
     },
     "endGame": {
+      "backgroundMobile": "white",
+      "background": "transparent",
       "title": "Fim do jogo",
       "item1": {
-        "title": "O jogo termina quando um jogador atinge 30 ou mais gatos, representados pelos tokens de pontos ao final de uma rodada.",
+        "title": "O jogo termina quando um jogador atinge *30 ou mais gatos*, representados pelos tokens de pontos ao final de uma rodada.",
         "steps": {
           "1": "Esse jogador é declarado o novo Líder da Gangue dos Gatos!",
           "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
