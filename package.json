@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 8080",
     "start": "next start",
     "lint": "next lint",
     "copy-ds-public": "cp -R node_modules/@backstabbersgame/design-system/public/* public/images/ || true",

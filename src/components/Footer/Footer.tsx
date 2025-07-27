@@ -5,18 +5,18 @@ import styles from './Footer.module.scss';
 import Image from 'next/image';
 import { Button } from '@backstabbersgame/design-system';
 import {
-  Bag,
-  Chats,
-  HourglassLow,
-  InstagramLogo,
-  Question,
-  ShoppingCart,
-  Sword,
-  ThumbsUp,
-  TiktokLogo,
-  Truck,
-  UsersThree,
-  YoutubeLogo,
+  BagIcon,
+  ChatsIcon,
+  HourglassLowIcon,
+  InstagramLogoIcon,
+  QuestionIcon,
+  ShoppingCartIcon,
+  SwordIcon,
+  ThumbsUpIcon,
+  TiktokLogoIcon,
+  TruckIcon,
+  UsersThreeIcon,
+  YoutubeLogoIcon,
 } from '@phosphor-icons/react/dist/ssr';
 import useBreakpoint from '../../hooks/useBreakpoint';
 import footerContent from '../../content/footer.json';
@@ -64,24 +64,30 @@ const Footer = () => {
                       className={styles.button}
                       href={link.href}
                     >
-                      {link.icon === 'Chats' && <Chats size={24} />}
-                      {link.icon === 'Bag' && <Bag size={24} />}
-                      {link.icon === 'Truck' && <Truck size={24} />}
-                      {link.icon === 'Sword' && <Sword size={24} />}
+                      {link.icon === 'Chats' && <ChatsIcon size={24} />}
+                      {link.icon === 'Bag' && <BagIcon size={24} />}
+                      {link.icon === 'Truck' && <TruckIcon size={24} />}
+                      {link.icon === 'Sword' && <SwordIcon size={24} />}
                       {link.icon === 'HourglassLow' && (
-                        <HourglassLow size={24} />
+                        <HourglassLowIcon size={24} />
                       )}
                       {link.icon === 'ShoppingCart' && (
-                        <ShoppingCart size={24} />
+                        <ShoppingCartIcon size={24} />
                       )}
-                      {link.icon === 'UsersThree' && <UsersThree size={24} />}
-                      {link.icon === 'ThumbsUp' && <ThumbsUp size={24} />}
-                      {link.icon === 'Question' && <Question size={24} />}
+                      {link.icon === 'UsersThree' && (
+                        <UsersThreeIcon size={24} />
+                      )}
+                      {link.icon === 'ThumbsUp' && <ThumbsUpIcon size={24} />}
+                      {link.icon === 'Question' && <QuestionIcon size={24} />}
                       {link.icon === 'InstagramLogo' && (
-                        <InstagramLogo size={24} />
+                        <InstagramLogoIcon size={24} />
                       )}
-                      {link.icon === 'YoutubeLogo' && <YoutubeLogo size={24} />}
-                      {link.icon === 'TiktokLogo' && <TiktokLogo size={24} />}
+                      {link.icon === 'YoutubeLogo' && (
+                        <YoutubeLogoIcon size={24} />
+                      )}
+                      {link.icon === 'TiktokLogo' && (
+                        <TiktokLogoIcon size={24} />
+                      )}
                       {link.label}
                     </Button>
                   ))}

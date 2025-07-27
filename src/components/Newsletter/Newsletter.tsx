@@ -7,7 +7,6 @@ import styles from './Newsletter.module.scss';
 import { Button, InputText } from '@backstabbersgame/design-system';
 import Image from 'next/image';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import newsletterContent from '../../content/solara/newsletter.json';
 import { validateEmail } from '../../utils/validateEmail';
 import { Variant } from '../../types/variant';
 import {

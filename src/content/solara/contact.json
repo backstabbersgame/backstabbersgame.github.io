@@ -2,7 +2,7 @@
   "icon": "/images/icons/envelope-simple.svg",
   "iconAlt": "Envelope",
   "title": "Entre em contato",
-  "description": "Lorem ipsum dolor sit amet consectetur. Sit aliquet\\nelementum enim sed sed tristique fringilla.",
+  "description": "Você tem alguma dúvida, feedback, ideia ou pedidos para as estrelas?\\nMande suas mensagens intergalaticas para Solara!",
   "placeholders": {
     "name": "Nome*",
     "email": "E-mail*",
@@ -27,7 +27,10 @@
   "socialsTitle": "Siga nossas redes etc",
   "socialLinks": [
     { "icon": "InstagramLogo", "href": "https://www.instagram.com/solarabg/" },
-    { "icon": "YoutubeLogo", "href": "https://www.youtube.com/@BackstabbersGame" },
+    {
+      "icon": "YoutubeLogo",
+      "href": "https://www.youtube.com/@BackstabbersGame"
+    },
     { "icon": "TiktokLogo", "href": "https://www.tiktok.com/@backstabbersgame" }
   ]
 }

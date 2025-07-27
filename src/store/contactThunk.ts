@@ -5,7 +5,7 @@ export interface AttachmentData {
   name: string;
   type: string;
   size: number;
-  content: string; // base64
+  content: string;
 }
 
 function fileToBase64(file: File): Promise<AttachmentData> {
@@ -31,6 +31,9 @@ export const sendContactEmail = createAsyncThunk<
   { rejectValue: string }
 >('contact/sendContactEmail', async (formData, { rejectWithValue }) => {
   try {
+    if (!formData.name || !formData.email || !formData.message) {
+      return rejectWithValue('Preencha os campos obrigatórios.');
+    }
     if (formData.files.length > 5) {
       return rejectWithValue('Máximo de 5 arquivos permitidos.');
     }
@@ -51,11 +54,13 @@ export const sendContactEmail = createAsyncThunk<
       attachments,
     };
 
-    const response = await fetch('/api/contact', {
+    const apiURL = process.env.NEXT_PUBLIC_API_URL;
+    const response = await fetch(`${apiURL}/api/contact`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
+      credentials: 'include',
       body: JSON.stringify(payload),
     });
 
