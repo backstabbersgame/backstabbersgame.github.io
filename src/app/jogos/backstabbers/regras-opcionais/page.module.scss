@@ -1,0 +1,180 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+.white {
+  background-color: colors.$neutral-0;
+}
+
+.gray {
+  background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.subtitle {
+  width: 88vw;
+}
+
+.h1 {
+  color: colors.$neutral-800;
+}
+
+.h2Opcional,
+.h2 {
+  color: colors.$neutral-800;
+  align-self: center;
+  font-size: typography.$font-size-24;
+  padding-top: 24px;
+}
+
+.p {
+  color: colors.$neutral-600;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 0;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .background {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+  }
+
+  .background2 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    gap: 16px;
+  }
+
+  .name {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+  }
+
+  .p {
+    text-align: center;
+  }
+
+  .content2 {
+    gap: 48px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .section1 {
+    padding-bottom: 48px;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .background {
+    padding: 56px 0;
+  }
+
+  .section {
+    margin-top: 140px;
+  }
+
+  .background2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    gap: 16px;
+  }
+
+  .verticalSections {
+    display: flex;
+  }
+
+  .section1 {
+    padding-left: 6vw;
+    padding-right: 3vw;
+  }
+
+  .section2 {
+    padding-left: 3vw;
+    padding-right: 6vw;
+    padding-bottom: 48px;
+  }
+
+  .h2Opcional {
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+
+  .h2 {
+    padding-top: 48px;
+    padding-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$ultra-wide-screen) {
+  .subtitle,
+  .content,
+  .content2 {
+    width: 70vw;
+  }
+
+  .section1 {
+    padding-left: 15vw;
+  }
+
+  .section2 {
+    padding-right: 15vw;
+  }
+}

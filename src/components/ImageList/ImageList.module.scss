@@ -1,0 +1,158 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.white {
+  background-color: colors.$neutral-0;
+}
+
+.gray {
+  background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.background {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 24px 0 24px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  width: 100%;
+}
+
+.details{
+  width: 100%;
+}
+
+.h2 {
+  color: colors.$neutral-600;
+
+  &.size {
+    font-size: typography.$font-size-20;
+  }
+}
+
+.list {
+  // padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: colors.$neutral-600;
+}
+
+.sublist {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  color: colors.$neutral-500;
+}
+
+.sub {
+  display: flex;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: colors.$primary-500;
+  margin: 7px 7px 0 7px;
+}
+
+.p {
+  font-size: typography.$font-size-14;
+  font-weight: typography.$font-weight-regular;
+  color: colors.$neutral-600;
+  width: 95%;
+  white-space: pre-line;
+}
+
+.pDesc {
+  font-size: typography.$font-size-14;
+  font-weight: typography.$font-weight-regular;
+  color: colors.$neutral-600;
+  white-space: pre-line;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .background {
+    // background-color: transparent;
+  }
+
+  .container {
+    padding: 48px 0;
+    width: 100%;
+  }
+
+  .container-without-padding {
+    width: 100%;
+  }
+
+  .list {
+    padding-top: 32px;
+  }
+
+  .list-without-padding {
+    padding-top: 0;
+  }
+
+  .p {
+    font-size: typography.$font-size-16;
+    width: 100%;
+  }
+
+  .h2 {
+    &.size {
+      font-size: typography.$font-size-24;
+    }
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .background {
+    width: 100%;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  .container-without-padding {
+    width: 100%;
+  }
+
+  .list {
+    padding-top: 0;
+  }
+
+  .list-without-padding {
+    padding-top: 0;
+  }
+}

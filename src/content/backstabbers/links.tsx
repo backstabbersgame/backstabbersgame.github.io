@@ -20,20 +20,20 @@ export const links: LinksArray = [
     name: 'Como jogar',
     href: '/jogos/backstabbers/como-jogar',
   },
-  // {
-  //   id: 'componentes',
-  //   name: 'Componentes',
-  //   href: '/jogos/backstabbers/componentes',
-  // },
+  {
+    id: 'componentes',
+    name: 'Componentes',
+    href: '/jogos/backstabbers/componentes',
+  },
   {
     id: 'casos-especiais',
     name: 'Casos especiais',
-    href: 'https://solarastudios.com.br/site/casos.html',
+    href: '/jogos/backstabbers/casos-especiais',
   },
   {
     id: 'regras-opcionais',
     name: 'Regras opcionais',
-    href: 'https://solarastudios.com.br/site/regras.html',
+    href: '/jogos/backstabbers/regras-opcionais',
   },
 ];
 
@@ -84,29 +84,29 @@ export const menuItems: MenuItemsArray = [
     },
     href: '/jogos/backstabbers/como-jogar',
   },
-  // {
-  //   id: 'componentes',
-  //   label: 'Componentes',
-  //   icon: {
-  //     svgActive: (
-  //       <Image
-  //         width={24}
-  //         height={24}
-  //         alt={'Peça de quebra-cabeça com gradiente em azul e lilás'}
-  //         src={'/images/icons/puzzle-piece.svg'}
-  //       />
-  //     ),
-  //     svgInactive: (
-  //       <Image
-  //         width={24}
-  //         height={24}
-  //         alt={'Peça de quebra-cabeça com gradiente em cinza e branco'}
-  //         src={'/images/icons/puzzle-piece-inactive.svg'}
-  //       />
-  //     ),
-  //   },
-  //   href: '/jogos/backstabbers/componentes',
-  // },
+  {
+    id: 'componentes',
+    label: 'Componentes',
+    icon: {
+      svgActive: (
+        <Image
+          width={24}
+          height={24}
+          alt={'Peça de quebra-cabeça com gradiente em azul e lilás'}
+          src={'/images/icons/puzzle-piece.svg'}
+        />
+      ),
+      svgInactive: (
+        <Image
+          width={24}
+          height={24}
+          alt={'Peça de quebra-cabeça com gradiente em cinza e branco'}
+          src={'/images/icons/puzzle-piece-inactive.svg'}
+        />
+      ),
+    },
+    href: '/jogos/backstabbers/componentes',
+  },
   {
     id: 'casos-especiais',
     label: 'Casos especiais',
@@ -128,7 +128,7 @@ export const menuItems: MenuItemsArray = [
         />
       ),
     },
-    href: 'https://solarastudios.com.br/site/casos.html',
+    href: '/jogos/backstabbers/casos-especiais',
   },
   {
     id: 'regras-opcionais',
@@ -151,7 +151,7 @@ export const menuItems: MenuItemsArray = [
         />
       ),
     },
-    href: 'https://solarastudios.com.br/site/regras.html',
+    href: '/jogos/backstabbers/regras-opcionais',
   },
 ];
 

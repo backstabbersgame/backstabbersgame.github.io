@@ -39,6 +39,10 @@
 
 .h2 {
   color: colors.$neutral-600;
+
+  &.size {
+    font-size: typography.$font-size-20;
+  }
 }
 
 .list {
@@ -89,13 +93,27 @@
     width: 100%;
   }
 
+  .container-without-padding {
+    width: 100%;
+  }
+
   .list {
     padding-top: 32px;
+  }
+
+  .list-without-padding {
+    padding-top: 0;
   }
 
   .p {
     font-size: typography.$font-size-16;
     width: 100%;
+  }
+
+  .h2 {
+    &.size {
+      font-size: typography.$font-size-24;
+    }
   }
 }
 
@@ -107,5 +125,9 @@
   .container {
     width: 100%;
     padding: 64px 0;
+  }
+
+  .container-without-padding {
+    width: 100%;
   }
 }

@@ -10,12 +10,12 @@ interface ComponentsProps {
 }
 
 const Components = ({ data }: ComponentsProps) => {
-  const content = { ...data.comoJogar };
+  const content = { ...data };
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
 
   const filterItems = Object.entries(
-    (content.components as Record<string, string>) ?? {}
+    (content as Record<string, string>) ?? {}
   ).filter(([key]) => key.startsWith('item'));
 
   const items = filterItems.map((value: [string, string], idx: number) => (
@@ -38,14 +38,14 @@ const Components = ({ data }: ComponentsProps) => {
             src={`/images/icons/star.svg`}
             alt={'Estrela com gradiente azul e lilás'}
           />
-          <h2 className={styles.h2}>{content.components.title}</h2>
+          <h2 className={styles.h2}>{content.title}</h2>
         </div>
         <div className={styles.content}>
           <Image
-            src={content.components.card.src}
-            alt={content.components.card.alt}
-            width={content.components.card.width}
-            height={content.components.card.height}
+            src={content.card.src}
+            alt={content.card.alt}
+            width={content.card.width}
+            height={content.card.height}
             className={styles.card}
           />
           <ul className={styles.list}>{items}</ul>

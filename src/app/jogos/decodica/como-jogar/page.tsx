@@ -52,7 +52,7 @@ const componentsMap = {
           />
         </div>
       </div>
-      <Components data={data} />
+      <Components data={data.comoJogar.components} />
       {/* DECO */}
       <div className={`${styles.background2} ${styles.gray}`}>
         <div className={styles.container}>

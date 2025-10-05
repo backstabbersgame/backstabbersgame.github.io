@@ -1,0 +1,280 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.white {
+  background-color: colors.$neutral-0;
+}
+
+.gray {
+  background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.section {
+  margin-top: 60px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.verticalSections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardsSection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 88vw;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.clearButton {
+  background: transparent;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:focus {
+    outline: 2px solid #4b5563;
+    outline-offset: 2px;
+  }
+}
+
+.title {
+  color: colors.$neutral-600;
+  font-size: typography.$font-size-16;
+}
+
+.niveis,
+.nomes {
+  width: 88vw;
+  margin-bottom: -11px;
+}
+
+.button {
+  width: 88vw;
+  justify-content: center;
+}
+
+.background2 {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.listHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.headerContainer {
+  display: flex;
+  align-items: center;
+  width: 88vw;
+}
+
+.headerText {
+  color: colors.$neutral-600;
+}
+
+.selected {
+  color: colors.$primary-500;
+}
+
+.duoMode {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.renderedSection {
+  padding-bottom: 32px;
+}
+.headerDuo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 36px;
+  margin-bottom: 20px;
+  width: 88vw;
+}
+
+.highlightCards {
+  display: flex;
+  flex-direction: column;
+  width: 88vw;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  color: colors.$neutral-600;
+  font-size: typography.$font-size-20;
+  align-items: center;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .background {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+  }
+  .name {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .h1 {
+    color: colors.$neutral-800;
+  }
+
+  .cardsSection {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .highlightCards {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .title {
+    font-size: typography.$font-size-20;
+  }
+  .h2 {
+    font-size: typography.$font-size-24;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .background {
+    padding: 56px 0;
+  }
+
+  .section {
+    margin-top: 140px;
+  }
+
+  .background2 {
+    // background-color: colors.$neutral-50;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    gap: 16px;
+  }
+
+  .verticalSections {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .cardsSection {
+    padding-right: 3vw;
+    padding-left: 6vw;
+  }
+
+  .inputs {
+    display: flex;
+    gap: 1vw;
+  }
+
+  .niveis,
+  .nomes {
+    width: 24.5vw;
+  }
+
+  .button {
+    width: 50vw;
+  }
+
+  .renderedSection {
+    padding-top: 48px;
+    width: 50vw;
+  }
+
+  .background2.gray {
+    height: -webkit-fill-available;
+    height: -moz-available;
+    justify-content: flex-start;
+    max-height: 500vh;
+  }
+
+  .highlightCards {
+    padding-left: 3vw;
+    padding-right: 6vw;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$ultra-wide-screen) {
+  .content,
+  .content2 {
+    width: 70vw;
+  }
+
+  .cardsSection {
+    padding-left: 15vw;
+  }
+
+  .highlightCards {
+    padding-right: 15vw;
+  }
+
+  .niveis,
+  .nomes {
+    width: 17vw;
+  }
+
+  .button {
+    width: 35vw;
+  }
+
+  .renderedSection {
+    padding-top: 48px;
+    width: 35vw;
+  }
+}

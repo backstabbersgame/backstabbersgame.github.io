@@ -17,12 +17,22 @@ interface ItemWithSteps {
 
 interface Props {
   data: any;
-  section: string;
-  color: string;
+  section?: string;
+  color?: string;
+  removePadding?: boolean;
+  size?: string;
+  starSize?: number;
 }
 
-const BulletedList = ({ data, section, color }: Props) => {
-  const content = { ...data[section] };
+const BulletedList = ({
+  data,
+  section,
+  color,
+  removePadding = false,
+  size,
+  starSize,
+}: Props) => {
+  const content = section && { ...data[section] };
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isTablet = currentBreakpoint === 'tablet';
@@ -85,11 +95,13 @@ const BulletedList = ({ data, section, color }: Props) => {
 
   return (
     <div
-      className={`${styles.background} ${styles[color]}`}
+      className={`${styles.background} ${color ? styles[color] : ''}`}
       style={isTablet && section === 'goal' ? { width: '100%' } : {}}
     >
       <div
-        className={styles.container}
+        className={
+          removePadding ? styles['container-without-padding'] : styles.container
+        }
         style={
           isMobile
             ? { width: '88vw' }
@@ -102,14 +114,22 @@ const BulletedList = ({ data, section, color }: Props) => {
       >
         <div className={styles.header}>
           <Image
-            width={isMobile ? 20 : 32}
-            height={isMobile ? 20 : 32}
+            width={isMobile ? 20 : starSize === 20 ? 20 : 32}
+            height={isMobile ? 20 : starSize === 20 ? 20 : 32}
             src={`/images/icons/star.svg`}
             alt={'Estrela com gradiente azul e lilás'}
           />
-          <h2 className={styles.h2}>{content.title}</h2>
+          <h2 className={`${styles.h2} ${size === '20' ? styles.size : ''} `}>
+            {content.title}
+          </h2>
         </div>
-        <ul className={styles.list}>{items}</ul>
+        <ul
+          className={
+            removePadding ? styles['list-without-padding'] : styles.list
+          }
+        >
+          {items}
+        </ul>
       </div>
     </div>
   );

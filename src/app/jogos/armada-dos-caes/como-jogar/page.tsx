@@ -53,7 +53,7 @@ const componentsMap = {
           />
         </div>
       </div>
-      <Components data={data} />
+      <Components data={data.comoJogar.components} />
       <div className={`${styles.background2} ${styles.gray}`}>
         <div className={styles.content2}>
           <MixedList
