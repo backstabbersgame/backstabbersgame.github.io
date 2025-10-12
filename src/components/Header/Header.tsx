@@ -45,7 +45,16 @@ const Header = ({
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const router = useRouter();
-  const pathname = usePathname();
+  const path = usePathname();
+  const colorMode = variant === 'solara' ? 'light' : 'dark';
+  const pathname = path.replace(/^\/(pt-BR|en)/, '');
+  const [currentLocale, setCurrentLocale] = useState<'pt-BR' | 'en'>(
+    path.startsWith('/pt-BR') ? 'pt-BR' : 'en'
+  );
+
+  useEffect(() => {
+    setCurrentLocale(path.startsWith('/pt-BR') ? 'pt-BR' : 'en');
+  }, [path, currentLocale]);
 
   const pageLink = () => {
     if (footerItems) {
@@ -63,18 +72,16 @@ const Header = ({
           setActiveLink(menuItems[0].href);
         }
       };
-
       window.addEventListener('scroll', handleScroll);
-
       return () => {
         window.removeEventListener('scroll', handleScroll);
       };
     }
-  }, [menuItems]);
+  }, [menuItems, activeLink]);
 
   useEffect(() => {
-    const menuMatch = menuItems.find((item) => item.href === pathname);
-    const linkMatch = links.find((link) => link.href === pathname);
+    const menuMatch = menuItems.find((item) => item.href.includes(path));
+    const linkMatch = links.find((link) => link.href.includes(path));
 
     if (menuMatch) {
       setActiveItem(menuMatch.id);
@@ -88,19 +95,27 @@ const Header = ({
       setActiveLink(pathname);
       setActiveItem('');
     }
+
     const title =
-      links.find((link) => link.href === pathname && link.name !== 'Início')
+      links.find((link) => link.href.endsWith(pathname) && link.id !== 'inicio')
         ?.name || '';
     setPageTitle(title);
-  }, [pathname, menuItems, links]);
+  }, [pathname, menuItems, links, path]);
 
   const scrollToHash = (href: string) => {
-    if (href.startsWith('#')) {
-      const target = document.getElementById(href.substring(1));
+    if (href.startsWith(`/${currentLocale}#`)) {
+      const target = document.getElementById(
+        href.replace(/^\/(pt-BR|en)/, '').substring(1)
+      );
       if (target) {
         target.scrollIntoView({ behavior: 'smooth' });
       }
     }
+  };
+
+  const handleLocaleChange = (locale: 'pt-BR' | 'en') => {
+    const newPath = path.replace(/^\/(pt-BR|en)/, `/${locale}`);
+    window.location.href = newPath;
   };
 
   const handleLogoClick = () => {
@@ -120,22 +135,25 @@ const Header = ({
     setIsMenuOpen(true);
   };
 
-  // const handleToggleSubMenu = (id?: string) => {
-  //   if (id === 'jogos') {
-  //     setOpenSubMenu((currentState) => (currentState === id ? undefined : id));
-  //     setActiveItem('jogos');
-  //   }
-  // };
+  const handleToggleSubMenu = (id?: string) => {
+    setOpenSubMenu((currentState) => (currentState === id ? undefined : id));
+    if (id) {
+      setActiveItem(id);
+    }
+  };
 
   const handleLinkClick = (href: string) => {
-    if (href === pathname) {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      setActiveItem(menuItems[0].id);
-      setActiveLink(menuItems[0].href);
-      return;
-    }
+    console.log('path', path);
+    console.log('href - linkclick', href);
 
-    if (href.startsWith('#')) {
+    // if (href === pathname) {
+    //   window.scrollTo({ top: 0, behavior: 'smooth' });
+    //   setActiveItem(menuItems[0].id);
+    //   setActiveLink(menuItems[0].href);
+    //   return;
+    // }
+
+    if (href.startsWith(`/${currentLocale}#`)) {
       scrollToHash(href);
     } else {
       router.push(href);
@@ -143,6 +161,7 @@ const Header = ({
 
     setActiveLink(href);
     const menuItem = menuItems.find((item) => item.href === href);
+    console.log('menuItem link-click', menuItem);
     if (menuItem) {
       setActiveItem(menuItem.id);
       setOpenSubMenu(undefined);
@@ -174,8 +193,8 @@ const Header = ({
 
   const handleNavigate = (href: string) => {
     setIsMenuOpen(false);
-    
-    if (href.startsWith('#')) {
+
+    if (href.startsWith(`/${currentLocale}#`)) {
       scrollToHash(href);
     } else {
       router.push(href);
@@ -184,7 +203,8 @@ const Header = ({
     setActiveLink(href);
     setOpenSubMenu(undefined);
     const menuItem = menuItems.find(
-      (item) => item.href === href //|| item.subItems?.some((sub) => sub.href === href)
+      (item) =>
+        item.href === href || item.subItems?.some((sub) => sub.href === href)
     );
 
     if (menuItem) {
@@ -207,8 +227,15 @@ const Header = ({
         pageLink={pageLink()}
         gameTitle={gameTitle}
         pageTitle={pageTitle}
-        pathname={activeLink}
+        pathname={activeLink.replace(/^\/(pt-BR|en)/, '')}
         onBack={() => router.back()}
+        currentLocale={currentLocale}
+        onLocaleChange={handleLocaleChange}
+        options={[
+          { value: 'pt-BR', label: '🇧🇷 Português' },
+          { value: 'en', label: '🇬🇧 English' },
+        ]}
+        colorMode={colorMode}
       />
       <ModalMenu
         isGame={isGame}
@@ -218,8 +245,8 @@ const Header = ({
         activeItem={activeItem}
         onItemSelect={handleItemSelect}
         customItems={menuItems}
-        // openSubMenu={openSubMenu}
-        // onToggleSubMenu={handleToggleSubMenu}
+        openSubMenu={openSubMenu}
+        onToggleSubMenu={handleToggleSubMenu}
         onNavigate={handleNavigate}
         isSubpage={isSubpage}
         customFooterItems={footerItems}

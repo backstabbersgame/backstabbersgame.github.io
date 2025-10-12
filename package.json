@@ -11,7 +11,7 @@
     "deploy": "gh-pages -d out -r https://x-access-token:${GITHUB_TOKEN}@github.com/backstabbersgame/backstabbersgame.github.io.git"
   },
   "dependencies": {
-    "@backstabbersgame/design-system": "1.0.36",
+    "@backstabbersgame/design-system": "1.0.37",
     "@hookform/resolvers": "^4.1.3",
     "@phosphor-icons/react": "^2.1.7",
     "@reduxjs/toolkit": "^2.6.1",
@@ -21,6 +21,7 @@
     "formidable": "^3.5.4",
     "googleapis": "^146.0.0",
     "next": "15.2.2",
+    "next-intl": "^4.3.9",
     "nodemailer": "^7.0.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

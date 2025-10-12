@@ -4,11 +4,8 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './Store.module.scss';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import storeContent from '../../content/solara/store.json';
 
-const store = storeContent;
-
-const Store = () => {
+const Store = ({ store }: { store: any }) => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
@@ -69,7 +66,7 @@ const Store = () => {
             </div>
             <div className={styles['store-payments']}>
               {!isMobileOrTablet && <hr className={styles.line} />}
-              {store.payments.map((payment, index) => (
+              {store.payments.map((payment: any, index: number) => (
                 <React.Fragment key={payment.title}>
                   <div className={styles.payment}>
                     <Image

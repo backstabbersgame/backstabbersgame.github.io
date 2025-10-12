@@ -20,11 +20,10 @@ import {
   InputTextArea,
   Upload,
 } from '@backstabbersgame/design-system';
-import contactData from '../../content/solara/contact.json';
 
 export const useAppDispatch = () => useDispatch<AppDispatch>();
 
-const ContactForm = () => {
+const ContactForm = ({ contactData }: { contactData: any }) => {
   const dispatch = useAppDispatch();
   const { loading, success, error } = useSelector(
     (state: RootState) => state.contact

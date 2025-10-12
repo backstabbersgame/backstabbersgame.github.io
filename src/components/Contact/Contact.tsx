@@ -18,12 +18,9 @@ import {
   TiktokLogoIcon,
   YoutubeLogoIcon,
 } from '@phosphor-icons/react/dist/ssr';
-import contactContent from '../../content/solara/contact.json';
 import ContactForm from '../ContactForm/ContactForm';
 
-const contact = contactContent;
-
-const Contact = () => {
+const Contact = ({ contact }: { contact: any }) => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isMobileOrTablet = isMobile || currentBreakpoint === 'tablet';
@@ -32,7 +29,10 @@ const Contact = () => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   return (
-    <section className={styles.contact} id='contato'>
+    <section
+      className={styles.contact}
+      id='contato'
+    >
       <div className={styles['contact-container']}>
         <header className={styles['contact-header']}>
           <Image
@@ -51,7 +51,7 @@ const Contact = () => {
           </div>
         </header>
         <section className={styles['contact-form']}>
-          <ContactForm />
+          <ContactForm contactData={contact} />
         </section>
         <section className={styles.community}>
           <div>
@@ -78,7 +78,7 @@ const Contact = () => {
             <h4 className={styles.h4}>{contact.socialsTitle}</h4>
           </div>
           <div className={styles.links}>
-            {contact.socialLinks.map((social, index) => (
+            {contact.socialLinks.map((social: any, index: number) => (
               <a
                 key={index}
                 href={social.href}

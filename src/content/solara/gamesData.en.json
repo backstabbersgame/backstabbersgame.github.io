@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "Backstabbers Expansion",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/backstabbers-expansion.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/backstabbers-expansion.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamond with gradient",
+        "title": "Over 1000 copies sold",
+        "description": "Catarse success in 2024, Backstabbers is the new favorite at gaming tables!"
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Sword",
+        "title": "5 game modes",
+        "description": "In addition to the traditional way, Backstabbers can be played in 4 more modes. Play a quick mode, a complete game in just one match, conquer all opponents' coins or play in pairs."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Heart",
+        "title": "Evolve while playing",
+        "description": "In addition to 5 levels where the game grows with the player, Backstabbers also has 3 expansions that increase the fun even more!"
+      }
+    ],
+    "link": "/jogos/backstabbers",
+    "buttonText": "Game details"
+  },
+  {
+    "id": 2,
+    "name": "Order to Chaos",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/ordem-ao-caos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/ordem-ao-caos.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamond with gradient",
+        "title": "3 in 1",
+        "description": "Two games that come together in a third game."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Sword",
+        "title": "Expanding the universe",
+        "description": "Learn more about the Cat Gang and the Guardians Armada."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Heart",
+        "title": "Coming soon",
+        "description": "Sign up for the pre-campaign and guarantee your gift!"
+      }
+    ],
+    "link": "/jogos/ordem-ao-caos",
+    "buttonText": "Game details"
+  },
+  {
+    "id": 3,
+    "name": "Cats' Rebellion",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/rebeliao-dos-gatos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/rebeliao-dos-gatos.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamond with gradient",
+        "title": "Chaos in the gang",
+        "description": "Nala's reign is in danger!"
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Sword",
+        "title": "I don't have this color",
+        "description": "Various breeds of kittens to fall in love with and adopt"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Heart",
+        "title": "Coming soon",
+        "description": "Sign up for the pre-campaign and guarantee your gift!"
+      }
+    ],
+    "link": "/jogos/rebeliao-dos-gatos",
+    "buttonText": "Game details"
+  },
+  {
+    "id": 4,
+    "name": "Dogs' Armada",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/armada-dos-caes.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/armada-dos-caes.png",
+        "width": 620,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamond with gradient",
+        "title": "It was him!",
+        "description": "Defend your honor and distribute poop to opponents."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Sword",
+        "title": "Learn more",
+        "description": "New breeds of guardians, which is your favorite dog?"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Heart",
+        "title": "Coming soon",
+        "description": "Sign up for the pre-campaign and guarantee your gift!"
+      }
+    ],
+    "link": "/jogos/armada-dos-caes",
+    "buttonText": "Game details"
+  },
+  {
+    "id": 5,
+    "name": "DECODICA",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/decodica.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/decodica.png",
+        "width": 629,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamond with gradient",
+        "title": "Play as you want",
+        "description": "Various ways to play, versatile cards and lots of fun."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Sword",
+        "title": "Train your skills",
+        "description": "Interpretation, speed, improvisation, memory, persuasion. Who will be the best?"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Heart",
+        "title": "Customize",
+        "description": "Assemble your box as you want with card stickers"
+      }
+    ],
+    "link": "/jogos/decodica",
+    "buttonText": "Game details"
+  }
+]

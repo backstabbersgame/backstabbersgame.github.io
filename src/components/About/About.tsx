@@ -5,11 +5,8 @@ import Image from 'next/image';
 import styles from './About.module.scss';
 import { Button } from '@backstabbersgame/design-system';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import aboutContent from '../../content/solara/about.json';
 
-const about = aboutContent;
-
-const About = () => {
+const About = ({ about }: { about: any }) => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isMobileOrTablet = isMobile || currentBreakpoint === 'tablet';
@@ -17,7 +14,10 @@ const About = () => {
 
   return (
     <>
-      <section className={styles.about} id='sobre'>
+      <section
+        className={styles.about}
+        id='sobre'
+      >
         <div className={styles['about-container']}>
           <header className={styles['about-header']}>
             <Image

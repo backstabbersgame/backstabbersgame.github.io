@@ -1,7 +1,8 @@
 'use client';
 
-import Solara from './Solara';
+import { redirect } from 'next/navigation';
+import { defaultLocale } from '../lib/i18n';
 
 export default function App() {
-  return <Solara />;
+  redirect(`/${defaultLocale}`);
 }

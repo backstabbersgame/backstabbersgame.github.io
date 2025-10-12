@@ -6,12 +6,8 @@ import styles from './Game.module.scss';
 import Image from 'next/image';
 import { Button, Carousel } from '@backstabbersgame/design-system';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import gamesData from '../../content/solara/gamesData.json';
-import gameContent from '../../content/solara/game.json';
 
-const game = gameContent;
-
-const Game = () => {
+const Game = ({ game, gamesData }: { game: any; gamesData: any }) => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobileOrTablet =
     currentBreakpoint === 'mobile' || currentBreakpoint === 'tablet';

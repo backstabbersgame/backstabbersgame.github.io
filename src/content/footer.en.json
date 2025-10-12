@@ -1,0 +1,35 @@
+{
+  "logo": {
+    "alt": "Solara logo",
+    "mobile": "/images/logos/solara-horizontal-light.svg",
+    "desktop": "/images/logos/solara-light.svg"
+  },
+  "sections": [
+    {
+      "title": "Social media",
+      "className": "sociais",
+      "links": [
+        {
+          "icon": "InstagramLogo",
+          "label": "Instagram",
+          "href": "https://www.instagram.com/solarabg/"
+        },
+        {
+          "icon": "YoutubeLogo",
+          "label": "YouTube",
+          "href": "https://www.youtube.com/@BackstabbersGame"
+        },
+        {
+          "icon": "TiktokLogo",
+          "label": "Tik Tok",
+          "href": "https://www.tiktok.com/@backstabbersgame"
+        }
+      ]
+    }
+  ],
+  "legal": [
+    { "label": "Privacy", "href": "" },
+    { "label": "Terms", "href": "" }
+  ],
+  "copyright": "Copyright 2025 © Solara Studios"
+}

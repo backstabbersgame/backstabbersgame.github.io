@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import styles from './Footer.module.scss';
 import Image from 'next/image';
 import { Button } from '@backstabbersgame/design-system';
@@ -19,14 +19,15 @@ import {
   YoutubeLogoIcon,
 } from '@phosphor-icons/react/dist/ssr';
 import useBreakpoint from '../../hooks/useBreakpoint';
-import footerContent from '../../content/footer.json';
 
-const footer = footerContent;
-const Footer = () => {
+const Footer = ({ footer }: { footer: any }) => {
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
   const isMobileOrTablet = isMobile || currentBreakpoint === 'tablet';
+
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
+  if (!footer) return null;
 
   return (
     <section className={styles.footer}>
@@ -50,14 +51,14 @@ const Footer = () => {
             )}
           </div>
           <div className={styles.right}>
-            {footer.sections.map((section) => (
+            {footer.sections.map((section: any) => (
               <section
                 key={section.title}
                 className={styles[section.className]}
               >
                 <h4 className={styles.h4}>{section.title}</h4>
                 <div className={styles.links}>
-                  {section.links.map((link, idx) => (
+                  {section.links.map((link: any, idx: any) => (
                     <Button
                       key={idx}
                       variant='link'
@@ -98,7 +99,7 @@ const Footer = () => {
         </div>
         <section className={styles.brand}>
           <div className={styles['brand-buttons']}>
-            {footer.legal.map((item, idx) => (
+            {footer.legal.map((item: any, idx: any) => (
               <Button
                 key={idx}
                 className={styles['brand-btn']}

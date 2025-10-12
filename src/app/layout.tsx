@@ -1,29 +1,18 @@
-import type { Metadata } from 'next';
+import { ReactNode } from 'react';
 import './globals.scss';
 import 'dotenv/config';
 import ClientProvider from './ClientProvider';
 import '@backstabbersgame/design-system/styles/index.css';
-import Footer from '../components/Footer/Footer';
-
-export const metadata: Metadata = {
-  title: 'Solara Studios',
-  description:
-    'A Solara é seu novo destino para diversão entre amigos! Um estúdio brasileiro, cheio de personalidade e representatividade.',
-};
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: ReactNode;
 }>) {
   return (
-    <html
-      lang='pt-BR'
-      suppressHydrationWarning
-    >
-      <body>
+    <html>
+      <body suppressHydrationWarning>
         <ClientProvider>{children}</ClientProvider>
-        <Footer />
       </body>
     </html>
   );
