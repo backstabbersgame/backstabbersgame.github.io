@@ -34,7 +34,7 @@
         "description": "In addition to 5 levels where the game grows with the player, Backstabbers also has 3 expansions that increase the fun even more!"
       }
     ],
-    "link": "/jogos/backstabbers",
+    "link": "/en/jogos/backstabbers",
     "buttonText": "Game details"
   },
   {
@@ -72,7 +72,7 @@
         "description": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
-    "link": "/jogos/ordem-ao-caos",
+    "link": "/en/jogos/ordem-ao-caos",
     "buttonText": "Game details"
   },
   {
@@ -110,7 +110,7 @@
         "description": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
-    "link": "/jogos/rebeliao-dos-gatos",
+    "link": "/en/jogos/rebeliao-dos-gatos",
     "buttonText": "Game details"
   },
   {
@@ -148,7 +148,7 @@
         "description": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
-    "link": "/jogos/armada-dos-caes",
+    "link": "/en/jogos/armada-dos-caes",
     "buttonText": "Game details"
   },
   {
@@ -186,7 +186,7 @@
         "description": "Assemble your box as you want with card stickers"
       }
     ],
-    "link": "/jogos/decodica",
+    "link": "/en/jogos/decodica",
     "buttonText": "Game details"
   }
 ]

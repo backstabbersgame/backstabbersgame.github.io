@@ -34,7 +34,7 @@
         "description": "Além de 5 níveis onde o jogo cresce com o jogador, Backstabbers também conta com 3 expansões que aumentam ainda mais a diversão!"
       }
     ],
-    "link": "/jogos/backstabbers",
+    "link": "/pt-BR/jogos/backstabbers",
     "buttonText": "Detalhes do jogo"
   },
   {
@@ -72,7 +72,7 @@
         "description": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
-    "link": "/jogos/ordem-ao-caos",
+    "link": "/pt-BR/jogos/ordem-ao-caos",
     "buttonText": "Detalhes do jogo"
   },
   {
@@ -110,7 +110,7 @@
         "description": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
-    "link": "/jogos/rebeliao-dos-gatos",
+    "link": "/pt-BR/jogos/rebeliao-dos-gatos",
     "buttonText": "Detalhes do jogo"
   },
   {
@@ -148,7 +148,7 @@
         "description": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
-    "link": "/jogos/armada-dos-caes",
+    "link": "/pt-BR/jogos/armada-dos-caes",
     "buttonText": "Detalhes do jogo"
   },
   {
@@ -186,7 +186,7 @@
         "description": "Monte sua caixa como quiser com adesivos das cartas"
       }
     ],
-    "link": "/jogos/decodica",
+    "link": "/pt-BR/jogos/decodica",
     "buttonText": "Detalhes do jogo"
   }
 ]
