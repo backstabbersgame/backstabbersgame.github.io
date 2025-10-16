@@ -1945,7 +1945,7 @@
       }
     },
     "item6": {
-      "imageSrc": "/images/chars/gua.svg",
+      "imageSrc": "/images/chars/dc.svg",
       "imageAlt": "Personagem Duas Caras",
       "title": "Duas Caras",
       "subtitle": "Nível 2",
@@ -2649,7 +2649,7 @@
   "gc": {
     "title": "Guarda-Costas",
     "item1": {
-      "imageSrc": "/images/chars/gua.svg",
+      "imageSrc": "/images/chars/gc.svg",
       "imageAlt": "Personagem Guarda-Costas",
       "title": "Guarda-Costas",
       "subtitle": "Nível 4",
@@ -3028,7 +3028,7 @@
       }
     },
     "item4": {
-      "imageSrc": "/images/chars/nega.svg",
+      "imageSrc": "/images/chars/fof.svg",
       "imageAlt": "Personagem Fofoqueira",
       "title": "Fofoqueira",
       "subtitle": "Nível 3",
@@ -3092,7 +3092,7 @@
   "sorr": {
     "title": "Sorrateira",
     "item1": {
-      "imageSrc": "/images/chars/met.svg",
+      "imageSrc": "/images/chars/trai.svg",
       "imageAlt": "Personagem Traidora",
       "title": "Traidora",
       "subtitle": "Nível 5",
@@ -3417,7 +3417,7 @@
       "imageSrc": "/images/chars/gc.svg",
       "imageAlt": "Personagem Guarda-Costas",
       "title": "Guarda-Costas",
-      "subtitle": "Nível 1",
+      "subtitle": "Nível 4",
       "steps": {
         "1": "Jogadores com Guarda-Costas podem se defender."
       }
@@ -3441,7 +3441,7 @@
       }
     },
     "item6": {
-      "imageSrc": "/images/chars/arr.svg",
+      "imageSrc": "/images/chars/vir.svg",
       "imageAlt": "Personagem Vírus",
       "title": "Vírus",
       "subtitle": "Nível 5",
@@ -3709,7 +3709,7 @@
       }
     },
     "item3": {
-      "imageSrc": "/images/chars/vir.svg",
+      "imageSrc": "/images/chars/dc.svg",
       "imageAlt": "Personagem Duas Caras",
       "title": "Duas Caras",
       "subtitle": "Nível 2",
@@ -3870,7 +3870,7 @@
       "imageSrc": "/images/chars/ama.svg",
       "imageAlt": "Personagem Amante",
       "title": "Amante",
-      "subtitle": "Nível 5",
+      "subtitle": "Nível 1",
       "steps": {
         "1": "Caso o oponente coloque a Amante em sua reserva, ela não é ativada, pois não foi pedido para *VER* nem *ADIVINHAR.*"
       }

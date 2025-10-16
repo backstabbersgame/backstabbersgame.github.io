@@ -1945,7 +1945,7 @@
       }
     },
     "item6": {
-      "imageSrc": "/images/chars/gua.svg",
+      "imageSrc": "/images/chars/dc.svg",
       "imageAlt": "Two-Faced Character",
       "title": "Two-Faced",
       "subtitle": "Level 2",
@@ -2649,7 +2649,7 @@
   "gc": {
     "title": "Bodyguard",
     "item1": {
-      "imageSrc": "/images/chars/gua.svg",
+      "imageSrc": "/images/chars/gc.svg",
       "imageAlt": "Bodyguard Character",
       "title": "Bodyguard",
       "subtitle": "Level 4",
@@ -3028,7 +3028,7 @@
       }
     },
     "item4": {
-      "imageSrc": "/images/chars/nega.svg",
+      "imageSrc": "/images/chars/fof.svg",
       "imageAlt": "Gossiper Character",
       "title": "Gossiper",
       "subtitle": "Level 3",
@@ -3092,7 +3092,7 @@
   "sorr": {
     "title": "Sneaky",
     "item1": {
-      "imageSrc": "/images/chars/met.svg",
+      "imageSrc": "/images/chars/trai.svg",
       "imageAlt": "Traitor Character",
       "title": "Traitor",
       "subtitle": "Level 5",
@@ -3417,7 +3417,7 @@
       "imageSrc": "/images/chars/gc.svg",
       "imageAlt": "Bodyguard Character",
       "title": "Bodyguard",
-      "subtitle": "Level 1",
+      "subtitle": "Level 4",
       "steps": {
         "1": "Players with Bodyguard can defend themselves."
       }
@@ -3441,7 +3441,7 @@
       }
     },
     "item6": {
-      "imageSrc": "/images/chars/arr.svg",
+      "imageSrc": "/images/chars/vir.svg",
       "imageAlt": "Virus Character",
       "title": "Virus",
       "subtitle": "Level 5",
@@ -3709,7 +3709,7 @@
       }
     },
     "item3": {
-      "imageSrc": "/images/chars/vir.svg",
+      "imageSrc": "/images/chars/dc.svg",
       "imageAlt": "Two-Faced Character",
       "title": "Two-Faced",
       "subtitle": "Level 2",
@@ -3870,7 +3870,7 @@
       "imageSrc": "/images/chars/ama.svg",
       "imageAlt": "Lover Character",
       "title": "Lover",
-      "subtitle": "Level 5",
+      "subtitle": "Level 1",
       "steps": {
         "1": "If the opponent places the Lover in their reserve, it is not activated, because they were not asked to *SEE* or *GUESS.*"
       }
