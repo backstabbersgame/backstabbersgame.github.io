@@ -172,21 +172,12 @@
     "duoMode": {
       "title": "Duo Mode",
       "item1": {
-        "imageSrc": "/images/chars/ass.svg",
-        "imageAlt": "Assassin Character",
-        "title": "Assassin",
+        "imageSrc": "/images/chars/anj.svg",
+        "imageAlt": "Angel Character",
+        "title": "Angel",
         "subtitle": "Level 1",
         "steps": {
-          "1": "When playing as a duo, you can use the Assassin's action on your partner."
-        }
-      },
-      "item2": {
-        "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
-        "subtitle": "Level 3",
-        "steps": {
-          "1": "When playing as a duo, the target can reflect the Assassin onto their partner."
+          "1": "When playing as a duo, you can use the Angel's action on your partner."
         }
       }
     },
@@ -246,7 +237,7 @@
       "title": "Reflection",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If it is reflected. The Reflection does not choose a new number; if the target is eliminated, the coin is still yours."
+        "1": "If it is reflected. The Reflection does not choose a new number; if the target is eliminated, the coin goes to the player that used the Assassin."
       }
     },
     "item2": {
@@ -773,7 +764,7 @@
       "title": "Wanted",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you have the Wanted and the Kidnapper in your hand and both are activated, the Catcher takes precedence."
+        "1": "If you have the Wanted and the Kidnapper in your hand and both are activated, the Kidnapper takes precedence."
       }
     },
     "item9": {
@@ -789,7 +780,7 @@
       "imageSrc": "/images/chars/seq.svg",
       "imageAlt": "Kidnapper Character",
       "title": "Kidnapper",
-      "subtitle": "Level 3",
+      "subtitle": "Level 1",
       "steps": {
         "1": "Not allowed to react when you were the player who started the action."
       }
@@ -832,7 +823,7 @@
       "imageSrc": "/images/chars/seq.svg",
       "imageAlt": "Kidnapper Character",
       "title": "Kidnapper",
-      "subtitle": "Level 3",
+      "subtitle": "Level 1",
       "steps": {
         "1": "If your target protects themselves with a Kidnapper you lose the action. The target doesn't need to replace the card, because they will take one from you."
       }
@@ -1066,7 +1057,7 @@
       "title": "Manipulator",
       "subtitle": "Level 5",
       "steps": {
-        "1": "The Two-Faced is activated by the Manipulator. Steal action."
+        "1": "The Two-Faced is not activated by the Manipulator. Steal action."
       }
     },
     "item8": {
@@ -1075,7 +1066,7 @@
       "title": "Fence",
       "subtitle": "Level 5",
       "steps": {
-        "1": "The Two-Faced is activated by the Fence. Steal action."
+        "1": "The Two-Faced is not activated by the Fence. Steal action."
       }
     },
     "item9": {
@@ -1084,7 +1075,7 @@
       "title": "Cartomancer",
       "subtitle": "Level 5",
       "steps": {
-        "1": "The Two-Faced is activated by the Advanced Cartomancer. Steal action."
+        "1": "The Two-Faced is not activated by the Advanced Cartomancer. Steal action."
       }
     },
     "item10": {
@@ -1093,7 +1084,7 @@
       "title": "Dealer",
       "subtitle": "Level 2",
       "steps": {
-        "1": "The Two-Faced is activated by the Advanced Dealer. Steal action."
+        "1": "The Two-Faced is not activated by the Advanced Dealer. Steal action."
       }
     },
     "item11": {
@@ -1330,15 +1321,6 @@
         "subtitle": "Level 2",
         "steps": {
           "1": "The sum values should only be revealed after the pairs decide who will participate in the comparison."
-        }
-      },
-      "item4": {
-        "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Arsonist Character",
-        "title": "Arsonist",
-        "subtitle": "Level 2",
-        "steps": {
-          "1": "When playing as a duo, you CANNOT use the Arsonist's action on your partner."
         }
       }
     },
@@ -1706,6 +1688,15 @@
       }
     },
     "item5": {
+      "imageSrc": "/images/chars/pol.svg",
+      "imageAlt": "Politician Character",
+      "title": "Politician",
+      "subtitle": "Level 3",
+      "steps": {
+        "1": "The Player can still use the Politician, changing the value of their Leader for the value of a Leader at the side."
+      }
+    },
+    "item6": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Inertia Character",
       "steps": {
@@ -1868,6 +1859,15 @@
       }
     },
     "item6": {
+      "imageSrc": "/images/chars/aju.svg",
+      "imageAlt": "Helper Character",
+      "title": "Helper",
+      "subtitle": "Level 1",
+      "steps": {
+        "1": "Does not activate the Helper."
+      }
+    },
+    "item7": {
       "imageSrc": "/images/chars/dit.svg",
       "imageAlt": "Dictator Character",
       "title": "Dictator",
@@ -1876,7 +1876,7 @@
         "1": "If activated during the round it was blocked by the Dictator, the Gossiper should not be played."
       }
     },
-    "item7": {
+    "item8": {
       "imageSrc": "/images/chars/dec.svg",
       "imageAlt": "Hegemony Character",
       "steps": {
@@ -1914,7 +1914,7 @@
       "title": "Manager",
       "subtitle": "Level 3",
       "steps": {
-        "1": "Permanent or Turn cards that are placed as Leader by the Manager have no action, must be discarded normally in the next turn. Cards: *Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Referee, Dictator, Denier, Bad Omen and Cheater.*"
+        "1": "Permanent or Turn cards that are placed as Leader by the Manager have no action, must be discarded normally in the next turn. Cards: *Guardian, Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Referee, Dictator, Denier, Bad Omen and Cheater.*"
       }
     },
     "item3": {
@@ -2055,6 +2055,15 @@
         "1": "*SACRIFICE.* Choose a card:\\n- Reveal it and place it in the discard pile.\\n- Draw a new card.\\nIf you are eliminated and this card is in your Field:\\n- Draw a card from the discard pile and return to the game. Discard the Sacrifice."
       }
     },
+    "item11": {
+      "imageSrc": "/images/chars/emp.svg",
+      "imageAlt": "Entrepreneur Character",
+      "title": "Entrepreneur",
+      "subtitle": "Level 2",
+      "steps": {
+        "1": "If you steal the Entrepreneur, you can Invest, if you have coins."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Duo Mode",
@@ -2105,7 +2114,7 @@
         "title": "Politician",
         "subtitle": "Level 3",
         "steps": {
-          "1": "*ELECTION (Advanced Politician):* If the second Politician is used while the first is in another player's Field, players who don't have a Politician and are not protected must give a card from their hand to the Politician they choose to vote for. The Politician who receives the most votes (cards) takes both Politician cards to their Field. The winning politician must, without looking, shuffle the received cards and then return them to their voters. If a Politician is moved to another Field, elections are held again. Elections can activate the Epidemic."
+          "1": "*ELECTION (Advanced Politician):* If the second Politician is used while the first is in another player's Field, players who don't have a Politician and are not protected must give a card from their hand to the Politician they choose to vote for. The Politician who receives the most votes (cards) takes both Politician cards to their Field. The winning politician must, without looking, shuffle the received cards and then return them to their voters. If a Politician is moved to another Field, elections are held again."
         }
       }
     }
@@ -2455,15 +2464,6 @@
       "subtitle": "Level 3",
       "steps": {
         "1": "The player can show the Gossiper without meeting its prerequisites."
-      }
-    },
-    "item7": {
-      "imageSrc": "/images/chars/usu.svg",
-      "imageAlt": "Usurper Character",
-      "title": "Usurper",
-      "subtitle": "Level 3",
-      "steps": {
-        "1": "If the Lover is in a Field or in the Discard pile, the Usurper becomes it, so it counts as a Secret Card."
       }
     },
     "item8": {
@@ -3006,7 +3006,7 @@
       "title": "Denier",
       "subtitle": "Level 4",
       "steps": {
-        "1": "Reactive cards cannot be used as defense for a Player who has the Reactive Denier on the Field, and they cannot use cards of this type to defend themselves from other players. Cards: *Loan Shark, Two-Faced, Bodyguard, Reflex, and Kidnapper.*"
+        "1": "Reactive cards cannot be used as defense for a Player who has the Reactive or Automatic Denier on the Field, and they cannot use cards of this type to defend themselves from other players."
       }
     },
     "item2": {
@@ -3015,16 +3015,7 @@
       "title": "Wanted",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you guess a card from someone who has Wanted, or someone guesses a card of yours while you have Wanted and the Reactive Denier is on your field, the owner of Wanted is not eliminated and does not gain a coin."
-      }
-    },
-    "item3": {
-      "imageSrc": "/images/chars/nega.svg",
-      "imageAlt": "Denier Character",
-      "title": "Denier",
-      "subtitle": "Level 4",
-      "steps": {
-        "1": "Automatic cards are not activated in your hand and cannot choose you as a target while the Automatic Denier is on your field. Cards: *Catcher, Gossiper, Traitor, and Virus.*"
+        "1": "If you guess a card from someone who has Wanted, or someone guesses a card of yours while you have Wanted and the Denier is on your field, the owner of Wanted is not eliminated and does not gain a coin."
       }
     },
     "item4": {
@@ -3033,7 +3024,7 @@
       "title": "Gossiper",
       "subtitle": "Level 3",
       "steps": {
-        "1": "You can play the Gossiper without meeting the prerequisites while you have the Automatic Denier on the field, but it will have no action."
+        "1": "You can play the Gossiper without meeting the prerequisites while you have the Denier on the field, but it will have no action."
       }
     },
     "item5": {
@@ -3042,7 +3033,7 @@
       "title": "Traitor",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you draw the Traitor while you have the Automatic Denier on the field, discard it and start your turn again."
+        "1": "If you draw the Traitor while you have the Denier on the field, discard it and start your turn again."
       }
     },
     "item6": {
@@ -3051,7 +3042,7 @@
       "title": "Virus",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you receive the Virus while you have the Automatic Denier on the field, do not activate it, just keep it for yourself. You also do not participate in the Virus action under any circumstances."
+        "1": "If you receive the Virus while you have the Denier on the field, do not activate it, just keep it for yourself. You also do not participate in the Virus action under any circumstances."
       }
     }
   },
@@ -3288,7 +3279,7 @@
       "title": "Loan Shark",
       "subtitle": "Level 5",
       "steps": {
-        "1": "Cannot be used when you yourself initiated the comparison."
+        "1": "Can be used when you yourself initiated the comparison."
       }
     },
     "isDuoMode": true,
@@ -3625,7 +3616,7 @@
       "title": "Dictator",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If the Intimidator is blocked by the Dictator, it is not activated, even if the leaders are different."
+        "1": "If the Intimidator is blocked by the Dictator, it is not activated."
       }
     },
     "item8": {
@@ -3664,7 +3655,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Inertia Character",
       "steps": {
-        "1": "If included in the Follow Clues action of the Detective, activates the Intimidator."
+        "1": "During the Measure of Inertia, you cannot replace the Intimidator, so keep it."
       }
     },
     "item13": {
@@ -3696,16 +3687,7 @@
       "title": "Virus",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you draw the Virus from a player's hand, execute the Virus action."
-      }
-    },
-    "item2": {
-      "imageSrc": "/images/chars/vir.svg",
-      "imageAlt": "Virus Character",
-      "title": "Virus",
-      "subtitle": "",
-      "steps": {
-        "1": "When this card passes from a player's HAND to another player's HAND, the player who receives it must:\\n- Immediately play this card.\\n- Discard all cards in their hand.\\n- Draw one card less than the number they discarded."
+        "1": "If you draw the Virus from a player's hand, Virus is not activated, since it goes direct to your Leader."
       }
     },
     "item3": {
@@ -3714,7 +3696,7 @@
       "title": "Two-Faced",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If you draw Two-Faced from a player's hand, you lose a card."
+        "1": "If you draw Two-Faced from a player's hand, it is not activated."
       }
     },
     "item4": {
@@ -4130,7 +4112,7 @@
       "title": "Manipulator",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you draw the Virus during the Manipulator's action, execute the Virus action."
+        "1": "If you draw the Virus during the Manipulator's action, DO NOT execute the Virus action."
       }
     },
     "item11": {
