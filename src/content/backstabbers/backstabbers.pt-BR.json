@@ -387,7 +387,7 @@
         "title": "Traidora",
         "subtitle": "Nível 5",
         "steps": {
-          "1": "Caso pegue a Traidora durante a ação da Sorrateira, Gerente, Trapaceira ou do Traficante, você não perde esta carta (mais informações nos Casos Especiais específicos)."
+          "1": "Caso pegue a Traidora durante a ação da Sorrateira, Gerente Avançado, Trapaceira ou do Traficante, você não perde esta carta (mais informações nos Casos Especiais específicos)."
         }
       },
       "item4": {
@@ -414,7 +414,7 @@
         "title": "Anjo",
         "subtitle": "Nível 1",
         "steps": {
-          "1": "Não pode apostar em si mesmo."
+          "1": "Não pode escolher um alvo protegido."
         }
       }
     }
@@ -462,7 +462,7 @@
         "title": "Contrafeitiço",
         "subtitle": "Anjo",
         "steps": {
-          "1": "Caso escolha o jogador que tem o Sacrifício em seu Campo, o jogador deve pegar uma carta do cemitério. Se já tiver o limite de cartas na mão, esta carta vai para sua Reserva."
+          "1": "Caso escolha o jogador que tem o Sacrifício em seu Campo, o jogador deve pegar uma carta do cemitério. Se já tiver o limite de cartas na mão, esta carta vai para sua Reserva. Em seguida o Sacrifício vai para o Descarte."
         }
       },
       "item2": {
@@ -471,10 +471,10 @@
         "title": "Eleições",
         "subtitle": "Político",
         "steps": {
-          "1": "Ocorre quando os dois Políticos estiverem em Campos de jogadores diferentes.",
+          "1": "Ocorre quando um Político é colocado no Campo de um jogador e outro jogador já tem um Político em Campo.",
           "2": "Todos jogadores que não têm Político e não estão protegidos devem entregar uma carta da mão para o Político em quem eles escolherem votar.",
           "3": "O Político que receber mais votos (cartas) leva as duas cartas de Político para seu Campo.",
-          "4": "O político vencedor deve, sem olhar, embaralhar as cartas recebidas e em seguida devolvê-las aos seus eleitores.",
+          "4": "O político vencedor deve, sem olhar, embaralhar todas as cartas usadas na eleição e em seguida devolvê-las aos eleitores.",
           "5": "Caso um Político seja movido para outro Campo, as eleições são realizadas novamente."
         }
       },
@@ -494,8 +494,8 @@
         "subtitle": "Reflexo",
         "steps": {
           "1": "Caso um jogador tenha o Reflexo durante a ação do Atirador.",
-          "2": "O jogador com o Reflexo deve escolher um novo número e o jogador do Atirador passa a ser alvo da ação.",
-          "3": "A ação acaba em quem jogou o Reflexo, que não conta como alvo. Pode ser refletido novamente."
+          "2": "O jogador com o Reflexo deve escolher um novo número e o jogador do Atirador passa a ser alvo da ação também.",
+          "3": "Quem jogou o Reflexo não conta como alvo. Pode ser refletido novamente."
         }
       },
       "item5": {
