@@ -88,7 +88,7 @@
       "title": "Cartomante",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso um jogador pegue a Amante da sua mão por conta da ação do Cartomante Avançada, você não é eliminado, Roubar não é igual a Ver."
+        "1": "Caso um jogador pegue a Amante da sua mão por conta da ação da Cartomante Avançada, você não é eliminado, Roubar não é igual a Ver."
       }
     },
     "item11": {
@@ -172,21 +172,12 @@
     "duoMode": {
       "title": "Modo Duo",
       "item1": {
-        "imageSrc": "/images/chars/ass.svg",
-        "imageAlt": "Personagem Assassino",
-        "title": "Assassino",
+        "imageSrc": "/images/chars/anj.svg",
+        "imageAlt": "Personagem Anjo",
+        "title": "Anjo",
         "subtitle": "Nível 1",
         "steps": {
-          "1": "Jogando em dupla, você pode usar a ação do Assassino em sua dupla."
-        }
-      },
-      "item2": {
-        "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Personagem Reflexo",
-        "title": "Reflexo",
-        "subtitle": "Nível 3",
-        "steps": {
-          "1": "Jogando em dupla, o alvo pode refletir o Assassino para sua dupla."
+          "1": "Jogando em dupla, você pode usar a ação do Anjo em sua dupla."
         }
       }
     },
@@ -246,7 +237,7 @@
       "title": "Reflexo",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Caso seja refletido. O Reflexo não escolhe um novo número, se o alvo for eliminado, a moeda ainda é sua."
+        "1": "Caso seja refletido. O Reflexo não escolhe um novo número. Se o alvo for eliminado, a moeda ainda é de quem jogou o Assassino."
       }
     },
     "item2": {
@@ -773,7 +764,7 @@
       "title": "Procurado",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso tenha o Procurado e o Sequestrador em sua mão e ambas forem ativadas, o Apanhador tem preferência."
+        "1": "Caso tenha o Procurado e o Sequestrador em sua mão e ambas forem ativadas, o Sequestrador tem preferência."
       }
     },
     "item9": {
@@ -789,7 +780,7 @@
       "imageSrc": "/images/chars/seq.svg",
       "imageAlt": "Personagem Sequestrador",
       "title": "Sequestrador",
-      "subtitle": "Nível 3",
+      "subtitle": "Nível 1",
       "steps": {
         "1": "Não é permitido reagir quando você foi o jogador que iniciou a ação."
       }
@@ -832,7 +823,7 @@
       "imageSrc": "/images/chars/seq.svg",
       "imageAlt": "Personagem Sequestrador",
       "title": "Sequestrador",
-      "subtitle": "Nível 3",
+      "subtitle": "Nível 1",
       "steps": {
         "1": "Caso o seu alvo se proteja com um Sequestrador você perde a ação. O alvo não precisa repor a carta, pois vai pegar uma sua."
       }
@@ -1066,7 +1057,7 @@
       "title": "Manipuladora",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "O Duas Caras é ativado pela Manipuladora. Ação de Roubar."
+        "1": "O Duas Caras não é ativado pela Manipuladora. Ação de Roubar."
       }
     },
     "item8": {
@@ -1075,7 +1066,7 @@
       "title": "Cambista",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "O Duas Caras é ativado pela Cambista. Ação de Roubar."
+        "1": "O Duas Caras não é ativado pela Cambista. Ação de Roubar."
       }
     },
     "item9": {
@@ -1084,7 +1075,7 @@
       "title": "Cartomante",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "O Duas Caras é ativado pela Cartomante Avançada. Ação de Roubar."
+        "1": "O Duas Caras não é ativado pela Cartomante Avançada. Ação de Roubar."
       }
     },
     "item10": {
@@ -1093,7 +1084,7 @@
       "title": "Traficante",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "O Duas Caras é ativado pelo Traficante Avançado. Ação de Roubar."
+        "1": "O Duas Caras não é ativado pelo Traficante Avançado. Ação de Roubar."
       }
     },
     "item11": {
@@ -1330,15 +1321,6 @@
         "subtitle": "Nível 2",
         "steps": {
           "1": "Os valores das somas só devem ser revelados depois que as duplas decidirem quem vai participar da compração."
-        }
-      },
-      "item4": {
-        "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Personagem Incendiária",
-        "title": "Incendiária",
-        "subtitle": "Nível 2",
-        "steps": {
-          "1": "Jogando em dupla, você NÃO pode usar a ação da Incendiária em sua dupla."
         }
       }
     },
@@ -1706,6 +1688,15 @@
       }
     },
     "item5": {
+      "imageSrc": "/images/chars/pol.svg",
+      "imageAlt": "Personagem Político",
+      "title": "Político",
+      "subtitle": "Nível 3",
+      "steps": {
+        "1": "O jogador pode utilizar o Político, alterando o valor do seu Líder pelo valor de um dos Líderes ao lado."
+      }
+    },
+    "item6": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
       "steps": {
@@ -1821,7 +1812,7 @@
     }
   },
   "fof": {
-    "title": "Anjo",
+    "title": "Fofoqueira",
     "item1": {
       "imageSrc": "/images/chars/traf.svg",
       "imageAlt": "Personagem Traficante",
@@ -1868,6 +1859,15 @@
       }
     },
     "item6": {
+      "imageSrc": "/images/chars/aju.svg",
+      "imageAlt": "Personagem Ajudante",
+      "title": "Ajudante",
+      "subtitle": "Nível 1",
+      "steps": {
+        "1": "Não ativa o Ajudante."
+      }
+    },
+    "item7": {
       "imageSrc": "/images/chars/dit.svg",
       "imageAlt": "Personagem Ditador",
       "title": "Ditador",
@@ -1876,7 +1876,7 @@
         "1": "Caso seja ativada durante a rodada em que foi bloqueada pelo Ditador, A Fofoqueira não deve ser jogada."
       }
     },
-    "item7": {
+    "item8": {
       "imageSrc": "/images/chars/dec.svg",
       "imageAlt": "Personagem Hegemonia",
       "steps": {
@@ -1914,7 +1914,7 @@
       "title": "Gerente",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Árbitro, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
+        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Guardião, Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Árbitro, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
       }
     },
     "item3": {
@@ -2055,6 +2055,15 @@
         "1": "*SACRIFÍCIO.* Escolha uma carta:\\n- Revele-a e coloque-a no cemitério.\\n- Compre uma nova carta.\\nSe você for eliminado e esta carta estiver em seu Campo:\\n- Compre uma carta do cemitério e volte a partida. Descarte o Sacrifício."
       }
     },
+    "item11": {
+      "imageSrc": "/images/chars/emp.svg",
+      "imageAlt": "Personagem Empreendedor",
+      "title": "Empreendedor",
+      "subtitle": "Nível 2",
+      "steps": {
+        "1": "Caso roube o Empreendedor, pode fazer um Investimento, caso tenha moedas."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Modo Duo",
@@ -2105,7 +2114,7 @@
         "title": "Político",
         "subtitle": "Nível 3",
         "steps": {
-          "1": "*ELEIÇÃO (Político Avançado):* Se o segundo Político for utilizado enquanto o primeiro está no Campo de outro jogador, os jogadores que não têm Político e não estão protegidos devem entregar uma carta da mão para o Político em quem eles escolherem votar. O Político que receber mais votos (cartas) leva as duas cartas de Político para seu Campo. O político vencedor deve, sem olhar, embaralhar as cartas recebidas e em seguida devolvê-las aos seus eleitores. Caso um Político seja movido para outro Campo, as eleições são realizadas novamente. Eleições podem ativar a Epidemia."
+          "1": "*ELEIÇÃO (Político Avançado):* Se o segundo Político for utilizado enquanto o primeiro está no Campo de outro jogador, os jogadores que não têm Político e não estão protegidos devem entregar uma carta da mão para o Político em quem eles escolherem votar. O Político que receber mais votos (cartas) leva as duas cartas de Político para seu Campo. O político vencedor deve, sem olhar, embaralhar as cartas recebidas e em seguida devolvê-las aos seus eleitores. Caso um Político seja movido para outro Campo, as eleições são realizadas novamente."
         }
       }
     }
@@ -2275,7 +2284,7 @@
     }
   },
   "sac": {
-    "title": "Incendiária",
+    "title": "Sacrifício",
     "item1": {
       "imageSrc": "/images/chars/sac.svg",
       "imageAlt": "Personagem Sacrifício",
@@ -2457,15 +2466,6 @@
         "1": "O jogador pode mostrar a Fofoqueira sem atingir seus pré-requisitos."
       }
     },
-    "item7": {
-      "imageSrc": "/images/chars/usu.svg",
-      "imageAlt": "Personagem Usurpadora",
-      "title": "Usurpadora",
-      "subtitle": "Nível 3",
-      "steps": {
-        "1": "Se a Amante estiver em um Campo ou no Descarte, a Usurpadora passa a ser ela, então vale como Carta Secreta."
-      }
-    },
     "item8": {
       "imageSrc": "/images/chars/nega.svg",
       "imageAlt": "Personagem Negacionista",
@@ -2511,7 +2511,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
       "steps": {
-        "1": "Durante a Medida do Próximo, você o alvo e os adjacentes mostram uma carta, apenas o dono da carta mais comum perde ela, os outros jogadores trocam a carta mostrada."
+        "1": "Durante a Medida do Próximo, você, o alvo e os adjacentes mostram uma carta, apenas o dono da carta mais comum perde ela, os outros jogadores trocam a carta mostrada."
       }
     },
     "item14": {
@@ -2911,7 +2911,7 @@
       "title": "Ditador",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso o Intrometida tenha sido bloqueado pelo Ditador, não é ativado."
+        "1": "Caso a Intrometida tenha sido bloqueado pelo Ditador, não é ativado."
       }
     },
     "item4": {
@@ -2920,7 +2920,7 @@
       "title": "Árbitro",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso jogador esteja bloqueado pelo Árbitro, ainda assim pode usar o Intrometida, caso os pré-requisitos sejam atingidos."
+        "1": "Caso jogador esteja bloqueado pelo Árbitro, ainda assim pode usar a Intrometida, caso os pré-requisitos sejam atingidos."
       }
     },
     "item5": {
@@ -3006,7 +3006,7 @@
       "title": "Negacionista",
       "subtitle": "Nível 4",
       "steps": {
-        "1": "Cartas Reativas não podem ser usadas como defesa para um Jogador que tem o Negacionista Reativo no Campo, o mesmo não pode usar cartas deste tipo para se defender de outros jogadores. Cartas: *Agiota, Duas Caras, Guarda-Costas, Reflexo e Sequestrador.*"
+        "1": "Cartas Reativas e Automáticas não podem ser usadas como defesa para um Jogador que tem o Negacionista no Campo, o mesmo não pode usar cartas deste tipo para se defender de outros jogadores."
       }
     },
     "item2": {
@@ -3015,16 +3015,7 @@
       "title": "Procurado",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso adivinhe uma carta de alguém que tem o Procurado, ou alguém adivinhe uma carta sua enquanto você tem o Procurado e o Negacionista Reativo está em seu campo, o dono do Procurado não é eliminado e nem ganha uma moeda."
-      }
-    },
-    "item3": {
-      "imageSrc": "/images/chars/nega.svg",
-      "imageAlt": "Personagem Negacionista",
-      "title": "Negacionista",
-      "subtitle": "Nível 4",
-      "steps": {
-        "1": "Cartas Automáticas não são ativadas na sua mão e nem podem escolher você como alvo enquanto o Negacionista Automático estiver em seu campo. Cartas: *Apanhador, Fofoqueira, Traidora e Vírus.*"
+        "1": "Caso adivinhe uma carta de alguém que tem o Procurado, ou alguém adivinhe uma carta sua enquanto você tem o Procurado e o Negacionista está em seu campo, o dono do Procurado não é eliminado e nem ganha uma moeda."
       }
     },
     "item4": {
@@ -3033,7 +3024,7 @@
       "title": "Fofoqueira",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Você pode jogar a Fofoqueira sem atingir os pré-requisitos enquanto tiver o Negacionista Automático no campo, porém ela não terá ação."
+        "1": "Você pode jogar a Fofoqueira sem atingir os pré-requisitos enquanto tiver o Negacionista no campo, porém ela não terá ação."
       }
     },
     "item5": {
@@ -3042,7 +3033,7 @@
       "title": "Traidora",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso pegue a Traidora enquanto tem o Negacionista Automático no campo, descarte ela e comece novamente o seu turno."
+        "1": "Caso pegue a Traidora enquanto tem o Negacionista no campo, descarte ela e comece novamente o seu turno."
       }
     },
     "item6": {
@@ -3051,7 +3042,7 @@
       "title": "Vírus",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso receba o Vírus enquanto tem o Negacionista Automático em campo, não ative ele, apenas fique com ele para você. Você também não participa da ação do Vírus em hipotese nenhuma."
+        "1": "Caso receba o Vírus enquanto tem o Negacionista em campo, não ative ele, apenas fique com ele para você. Você também não participa da ação do Vírus em hipotese nenhuma."
       }
     }
   },
@@ -3174,14 +3165,14 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
       "steps": {
-        "1": "Durante a Inércia, a Trapaceira não é ativado."
+        "1": "Durante a Inércia, a Trapaceira não é ativada."
       }
     },
     "item5": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Medida do Caos",
       "steps": {
-        "1": "Durante a Medida do Caos, a Trapaceira não é ativado."
+        "1": "Durante a Medida do Caos, a Trapaceira não é ativada."
       }
     },
     "isDuoMode": true,
@@ -3279,7 +3270,7 @@
       "title": "Ditador",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Não pode ser ativado caso esteja bloqueado pelo Ditador."
+        "1": "Pode ser ativado caso esteja bloqueado pelo Ditador."
       }
     },
     "item10": {
@@ -3625,7 +3616,7 @@
       "title": "Ditador",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Se o Intimidador estiver bloqueado pelo Ditador, não é ativado, mesmo que os líderes sejam diferentes."
+        "1": "Se o Intimidador estiver bloqueado pelo Ditador, não é ativado."
       }
     },
     "item8": {
@@ -3664,7 +3655,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
       "steps": {
-        "1": "Se for incluido na ação de Seguir Pistas do Detetive, ativa o Intimidador."
+        "1": "Durante a Medida da Inércia, você não pode trocar o Intimidador, então fique com ele."
       }
     },
     "item13": {
@@ -3696,16 +3687,7 @@
       "title": "Vírus",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso puxe o Vírus da mão de um jogador, execute a ação do Vírus."
-      }
-    },
-    "item2": {
-      "imageSrc": "/images/chars/vir.svg",
-      "imageAlt": "Personagem Vírus",
-      "title": "Vírus",
-      "subtitle": "",
-      "steps": {
-        "1": "Quando esta carta passar da MÃO de um jogador para a MÃO de outro, o jogador que receber deve:\\n- Imediatamente jogar esta carta.\\n- Descartar todas as cartas em sua mão.\\n- Comprar uma carta a menos do que as que descartou."
+        "1": "Caso puxe o Vírus da mão de um jogador, o Vírus não é ativado, pois ele não vai para sua mão e sim direto para o Líder."
       }
     },
     "item3": {
@@ -3714,7 +3696,7 @@
       "title": "Duas Caras",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso puxe o Duas Caras da mão de um jogador, você perde uma carta."
+        "1": "Caso puxe o Duas Caras da mão de um jogador, ele não é ativado."
       }
     },
     "item4": {
@@ -4130,7 +4112,7 @@
       "title": "Manipuladora",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso puxe o Vírus na ação da Manipuladora, execute a ação do Vírus."
+        "1": "Caso puxe o Vírus na ação da Manipuladora, não execute a ação do Vírus."
       }
     },
     "item11": {
