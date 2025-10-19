@@ -387,7 +387,7 @@
         "title": "Traitor",
         "subtitle": "Level 5",
         "steps": {
-          "1": "If you draw the Traitor during the action of the Sneaky, Manager, Cheater, or Dealer, you do not lose this card (more information in specific Special Cases)."
+          "1": "If you draw the Traitor during the action of the Sneaky, Advanced Manager, Cheater, or Dealer, you do not lose this card (more information in specific Special Cases)."
         }
       },
       "item4": {
@@ -414,7 +414,7 @@
         "title": "Angel",
         "subtitle": "Level 1",
         "steps": {
-          "1": "Cannot bet on themselves."
+          "1": "Cannot choose a player that is protected."
         }
       }
     }
@@ -462,7 +462,7 @@
         "title": "Counterspell",
         "subtitle": "Angel",
         "steps": {
-          "1": "If you choose the player who has Sacrifice in their Field, that player must take a card from the graveyard. If they already have the hand limit, this card goes to their Reserve."
+          "1": "If you choose the player who has Sacrifice in their Field, that player must take a card from the graveyard. If they already have the hand limit, this card goes to their Reserve. Then the Sacrifice goes to the Discard pile"
         }
       },
       "item2": {
@@ -471,10 +471,10 @@
         "title": "Elections",
         "subtitle": "Politician",
         "steps": {
-          "1": "Occurs when both Politicians are in different players' Fields.",
+          "1": "Occurs when a Politician is played and the other Politician is in a different players' Fields.",
           "2": "All players who don't have Politician and are not protected must give one card from their hand to the Politician they choose to vote for.",
           "3": "The Politician who receives the most votes (cards) takes both Politician cards to their Field.",
-          "4": "The winning politician must, without looking, shuffle the received cards and then return them to their voters.",
+          "4": "The winning politician must, without looking, shuffle the cards used in the Elections and then return them to the voters.",
           "5": "If a Politician is moved to another Field, elections are held again."
         }
       },
@@ -494,8 +494,8 @@
         "subtitle": "Reflection",
         "steps": {
           "1": "If a player has Reflection during the Shooter's action.",
-          "2": "The player with Reflection must choose a new number and the Shooter player becomes the target of the action.",
-          "3": "The action ends with whoever played Reflection, who doesn't count as a target. Can be reflected again."
+          "2": "The player with Reflection must choose a new number and the Shooter player also becomes a target of the action.",
+          "3": "Whoever played Reflection doesn't count as a target. Can be reflected again."
         }
       },
       "item5": {
