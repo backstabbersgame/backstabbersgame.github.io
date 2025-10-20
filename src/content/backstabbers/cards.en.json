@@ -1205,15 +1205,6 @@
         "1": "Even if the Entrepreneur is reactivated or returned to your Field, the investment is lost. In this case, you can make a new investment."
       }
     },
-    "item4": {
-      "imageSrc": "/images/chars/emp.svg",
-      "imageAlt": "Entrepreneur Character",
-      "title": "Entrepreneur",
-      "subtitle": "Level 2",
-      "steps": {
-        "1": "*INVESTMENT:* When playing the Entrepreneur, if you already have coins, you can invest one(1) of these coins to receive an extra card in your hand. If you already have the maximum number of cards, you are allowed to have one more card, until it is eliminated. If you win the game, you receive your investment back and the coins from the Entrepreneur's action. Otherwise, you lose your investment. Any action that deactivates or removes the Entrepreneur from your Field causes you to lose your investment. But not the extra card. When playing as a duo, both players in the duo gain an extra card, only one coin needs to be used."
-      }
-    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Duo Mode",
@@ -1496,15 +1487,6 @@
       "subtitle": "Level 5",
       "steps": {
         "1": "If the target takes the Traitor, executes its action normally."
-      }
-    },
-    "item2": {
-      "imageSrc": "/images/chars/trai.svg",
-      "imageAlt": "Traitor Character",
-      "title": "Traitor",
-      "subtitle": "",
-      "steps": {
-        "1": "This card has betrayed you. When you have this card in your hand: \\n- Discard it, if you cannot get rid of it.\\n- If it's your turn, play another card without drawing a new one."
       }
     },
     "item3": {
@@ -2046,15 +2028,6 @@
         "1": "If you steal the Sacrifice. The target loses the revival power and you must make a new sacrifice."
       }
     },
-    "item10": {
-      "imageSrc": "/images/chars/sac.svg",
-      "imageAlt": "Sacrifice Character",
-      "title": "Sacrifice",
-      "subtitle": "Level 3",
-      "steps": {
-        "1": "*SACRIFICE.* Choose a card:\\n- Reveal it and place it in the discard pile.\\n- Draw a new card.\\nIf you are eliminated and this card is in your Field:\\n- Draw a card from the discard pile and return to the game. Discard the Sacrifice."
-      }
-    },
     "item11": {
       "imageSrc": "/images/chars/emp.svg",
       "imageAlt": "Entrepreneur Character",
@@ -2592,15 +2565,6 @@
       "subtitle": "Level 5",
       "steps": {
         "1": "Activates the Virus normally, the player who receives the Virus must perform the Virus action immediately after concluding the Speculator's action."
-      }
-    },
-    "item5": {
-      "imageSrc": "/images/chars/vir.svg",
-      "imageAlt": "Virus Character",
-      "title": "Virus",
-      "subtitle": "Level 5",
-      "steps": {
-        "1": "When this card passes from a player's HAND to another player's HAND, the player who receives it must:\\n- Immediately play this card.\\n- Discard all cards in their hand.\\n- Draw one card less than the number they discarded."
       }
     },
     "item6": {
@@ -3644,13 +3608,6 @@
         "1": "If included in the Follow Clues action of the Detective, activates the Intimidator."
       }
     },
-    "item11": {
-      "imageSrc": "/images/chars/esp.svg",
-      "imageAlt": "Follow Clues from the Detective Character",
-      "steps": {
-        "1": "*Follow Clues (Detective):* If any player has cards of the same value as one of your target's cards in their Field, you must also see the cards in that player's hand."
-      }
-    },
     "item12": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Inertia Character",
@@ -3733,15 +3690,6 @@
       "subtitle": "Level 3",
       "steps": {
         "1": "If you draw the Gossiper, execute its action."
-      }
-    },
-    "item8": {
-      "imageSrc": "/images/chars/fof.svg",
-      "imageAlt": "Gossiper Character",
-      "title": "Gossiper",
-      "subtitle": "",
-      "steps": {
-        "1": "*Gossiper:* Choose a player to reveal the sum of the cards in their hand."
       }
     },
     "item9": {
@@ -4166,15 +4114,6 @@
       "steps": {
         "1": "If there are no cards in the Field, use the common Helper's action."
       }
-    },
-    "item4": {
-      "imageSrc": "/images/chars/aju.svg",
-      "imageAlt": "Helper Character",
-      "title": "Helper",
-      "subtitle": "",
-      "steps": {
-        "1": "During a comparison, add or subtract up to 2 points from the sum of the cards in your hand."
-      }
     }
   },
   "as": {
@@ -4406,22 +4345,13 @@
         "1": "If the target draws the Traitor, they execute its action normally."
       }
     },
-    "item2": {
-      "imageSrc": "/images/chars/trai.svg",
-      "imageAlt": "Traitor Character",
-      "title": "Traitor",
-      "subtitle": "",
-      "steps": {
-        "1": "This card has betrayed you. When you have this card in your hand: \\n- Discard it, if you have no way to get rid of it.\\n- If it is your turn, play another card without drawing a new one."
-      }
-    },
     "item3": {
       "imageSrc": "/images/chars/nec.svg",
       "imageAlt": "Necromancer Character",
-      "title": "Necromancer",
+      "title": "Gravedigger",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If there are no cards in the graveyard. The Necromancer loses the action."
+        "1": "If there are no cards in the graveyard. The Gravedigger loses the action."
       }
     }
   },
