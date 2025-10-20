@@ -4969,7 +4969,7 @@
       "title": "Manipuladora",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Quem teve a carta roubada não ativa a Ação e Reação, só o alvo da carta que foi roubada peloa Manipuladora. O alvo deve usar a mesma ação da carta que a Manipuladora roubou."
+        "1": "Quem teve a carta roubada não ativa a Ação e Reação, só o alvo da carta que foi roubada pela Manipuladora. O alvo deve usar a mesma ação da carta que a Manipuladora roubou."
       }
     },
     "item3": {
@@ -4983,7 +4983,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Medida",
       "steps": {
-        "1": "Cartas que Globais não ativam a Medida. Cartas: *Arruaceiro, Arruaceiro Avançado, Atirador e Cartomante.*"
+        "1": "Cartas Globais não ativam a Medida. Cartas: *Arruaceiro, Arruaceiro Avançado, Atirador e Cartomante.*"
       }
     },
     "item5": {
@@ -5461,7 +5461,7 @@
       "title": "Manipuladora",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "O alvo da Manipuladora deve repor a carta na próxima rodada. Se o Jogador ficar sem cartas, não pode ser alvo até repor suas cartas. O alvo da Manipuladora deve repor a carta na próxima rodada. Se o Jogador ficar sem cartas, não pode ser alvo até repor suas cartas."
+        "1": "O alvo da Manipuladora deve repor a carta na próxima rodada. Se o Jogador ficar sem cartas, não pode ser alvo até repor suas cartas."
       }
     },
     "item12": {
