@@ -1205,15 +1205,6 @@
         "1": "Mesmo que o Empreendedor seja reativado ou devolvido ao seu Campo, o investimento é perdido. Neste caso, você pode fazer um novo investimento."
       }
     },
-    "item4": {
-      "imageSrc": "/images/chars/emp.svg",
-      "imageAlt": "Personagem Empreendedor",
-      "title": "Empreendedor",
-      "subtitle": "Nível 2",
-      "steps": {
-        "1": "*INVESTIMENTO:* Quando jogar o Empreendedor, se você já tiver moedas, você pode investir uma(1) dessas moedas para receber uma carta extra na sua mão. Se você já tem o máximo de cartas, é permitido que você tenha mais uma carta, até que ela seja eliminada. Caso ganhe a partida, você recebe seu investimento de volta e as moedas da ação do Empreendedor. Caso contrário, você perde seu investimento. Qualquer ação que desative ou remova o Empreendedor do seu Campo, faz com que você perca seu investimento. Mas não a carta extra. Jogando em dupla, ambos os jogadores da dupla ganham uma carta extra, apenas uma moeda precisa ser usada."
-      }
-    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Modo Duo",
@@ -1496,15 +1487,6 @@
       "subtitle": "Nível 5",
       "steps": {
         "1": "Caso o alvo pegue a Traidora, executa sua ação normalmente."
-      }
-    },
-    "item2": {
-      "imageSrc": "/images/chars/trai.svg",
-      "imageAlt": "Personagem Traidora",
-      "title": "Traidora",
-      "subtitle": "",
-      "steps": {
-        "1": "Esta carta te traiu. Quando tiver esta carta em sua mão: \\n- Descarte-a, caso não tenha como se livrar dela.\\n- Se for seu turno, jogue outra carta sem comprar uma nova."
       }
     },
     "item3": {
@@ -2046,15 +2028,6 @@
         "1": "Caso roube o Sacrifício. O alvo perde o poder de reviver e você deve fazer um novo sacrifício."
       }
     },
-    "item10": {
-      "imageSrc": "/images/chars/sac.svg",
-      "imageAlt": "Personagem Sacrifício",
-      "title": "Sacrifício",
-      "subtitle": "Nível 3",
-      "steps": {
-        "1": "*SACRIFÍCIO.* Escolha uma carta:\\n- Revele-a e coloque-a no cemitério.\\n- Compre uma nova carta.\\nSe você for eliminado e esta carta estiver em seu Campo:\\n- Compre uma carta do cemitério e volte a partida. Descarte o Sacrifício."
-      }
-    },
     "item11": {
       "imageSrc": "/images/chars/emp.svg",
       "imageAlt": "Personagem Empreendedor",
@@ -2592,15 +2565,6 @@
       "subtitle": "Nível 5",
       "steps": {
         "1": "Ativa o Vírus normalmente, o jogador que receber o Vírus deve fazer a ação do Vírus logo após concluir o Especulador."
-      }
-    },
-    "item5": {
-      "imageSrc": "/images/chars/vir.svg",
-      "imageAlt": "Personagem Vírus",
-      "title": "Vírus",
-      "subtitle": "Nível 5",
-      "steps": {
-        "1": "Quando esta carta passar da MÃO de um jogador para a MÃO de outro, o jogador que receber deve:\\n- Imediatamente jogar esta carta.\\n- Descartar todas as cartas em sua mão.\\n- Comprar uma carta a menos do que as que descartou."
       }
     },
     "item6": {
@@ -3644,13 +3608,6 @@
         "1": "Se for incluido na ação de Seguir Pistas do Detetive, ativa o Intimidador."
       }
     },
-    "item11": {
-      "imageSrc": "/images/chars/esp.svg",
-      "imageAlt": "Personagem Seguir Pistas do Detetive",
-      "steps": {
-        "1": "*Seguir Pistas (Detetive):* Caso algum jogador tenha em seu Campo cartas do mesmo valor de uma das cartas do seu alvo, você deve ver também as cartas da mão desse jogador."
-      }
-    },
     "item12": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
@@ -3733,15 +3690,6 @@
       "subtitle": "Nível 3",
       "steps": {
         "1": "Caso puxe a Fofoqueira, execute a ação dela."
-      }
-    },
-    "item8": {
-      "imageSrc": "/images/chars/fof.svg",
-      "imageAlt": "Personagem Fofoqueira",
-      "title": "Fofoqueira",
-      "subtitle": "",
-      "steps": {
-        "1": "*Fofoqueira:* Escolha um jogador para revelar a soma das cartas em sua mão."
       }
     },
     "item9": {
@@ -4167,15 +4115,6 @@
       "steps": {
         "1": "Caso não existam cartas no Campo, use a ação do Ajudante comum."
       }
-    },
-    "item4": {
-      "imageSrc": "/images/chars/aju.svg",
-      "imageAlt": "Personagem Ajudante",
-      "title": "Ajudante",
-      "subtitle": "",
-      "steps": {
-        "1": "Durante uma comparação some ou subtraia até 2 pontos da soma das cartas da sua mão."
-      }
     }
   },
   "as": {
@@ -4407,22 +4346,13 @@
         "1": "Caso o alvo pegue a Traidora, executa sua ação normalmente."
       }
     },
-    "item2": {
-      "imageSrc": "/images/chars/trai.svg",
-      "imageAlt": "Personagem Traidora",
-      "title": "Traidora",
-      "subtitle": "",
-      "steps": {
-        "1": "Esta carta te traiu. Quando tiver esta carta em sua mão: \\n- Descarte-a, caso não tenha como se livrar dela.\\n- Se for seu turno, jogue outra carta sem comprar uma nova."
-      }
-    },
     "item3": {
       "imageSrc": "/images/chars/nec.svg",
       "imageAlt": "Personagem Necromante",
-      "title": "Necromante",
+      "title": "Coveira",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso não existam cartas no cemitério. A Necromante perde a ação."
+        "1": "Caso não existam cartas no cemitério. A Coveira perde a ação."
       }
     }
   },
