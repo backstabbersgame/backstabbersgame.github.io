@@ -4329,9 +4329,19 @@
       "imageSrc": "/images/chars/car.svg",
       "imageAlt": "Personagem Cartomante",
       "title": "Cartomante",
-      "subtitle": "Nível ",
+      "subtitle": "Nível 5",
       "steps": {
         "1": "Caso a carta seja Reativa, Automática ou Secreta, ela não tem ação."
+      }
+    }
+  },
+    "item11": {
+      "imageSrc": "/images/chars/car.svg",
+      "imageAlt": "Personagem Cartomante",
+      "title": "Cartomante",
+      "subtitle": "Nível 5",
+      "steps": {
+        "1": "Caso já tenha uma carta em segredo e execute a ação da Cartomante Avançada novamente, escolha qual das duas cartas deseja ficar e descarte a outra."
       }
     }
   },
