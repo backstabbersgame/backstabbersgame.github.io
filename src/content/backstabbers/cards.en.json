@@ -4328,9 +4328,19 @@
       "imageSrc": "/images/chars/car.svg",
       "imageAlt": "Cartomancer Character",
       "title": "Cartomancer",
-      "subtitle": "Level ",
+      "subtitle": "Level 5",
       "steps": {
         "1": "If the card is Reactive, Automatic, or Secret, it has no action."
+      }
+    }
+  },
+    "item11": {
+      "imageSrc": "/images/chars/car.svg",
+      "imageAlt": "Cartomancer Character",
+      "title": "Cartomancer",
+      "subtitle": "Level 5",
+      "steps": {
+        "1": "If you already have a card saved by the Cartomancer and you use the Advanced Cartomancer again, choose which card you want to save and discard the other."
       }
     }
   },
