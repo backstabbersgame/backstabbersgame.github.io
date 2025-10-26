@@ -248,6 +248,7 @@ const CasosEspeciais = ({
               variant='secondary'
               className={styles.button}
               arrowDown
+              disabled={card && selectedLevel ? false : true}
               onClick={() => setShowSection(true)}
             >
               {data.casosEspeciais.menu.buttonLabel}
