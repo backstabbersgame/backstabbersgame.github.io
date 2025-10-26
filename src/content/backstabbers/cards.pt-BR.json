@@ -4333,8 +4333,7 @@
       "steps": {
         "1": "Caso a carta seja Reativa, Automática ou Secreta, ela não tem ação."
       }
-    }
-  },
+    },
     "item11": {
       "imageSrc": "/images/chars/car.svg",
       "imageAlt": "Personagem Cartomante",

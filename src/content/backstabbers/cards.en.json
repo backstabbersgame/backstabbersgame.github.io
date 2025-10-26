@@ -4332,8 +4332,7 @@
       "steps": {
         "1": "If the card is Reactive, Automatic, or Secret, it has no action."
       }
-    }
-  },
+    },
     "item11": {
       "imageSrc": "/images/chars/car.svg",
       "imageAlt": "Cartomancer Character",
