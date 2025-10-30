@@ -3520,6 +3520,15 @@
   },
   "intm": {
     "title": "Intimidator",
+    "item0": {
+      "imageSrc": "/images/chars/intm.svg",
+      "imageAlt": "Intimidator Character",
+      "title": "Intimidator",
+      "subtitle": "Level 5",
+      "steps": {
+        "1": "When a player uses an action to See the cards in your hand and you have the Intimidator, let the player see your cards. While you have the Intimidator in your hand, if the same player selects you again as a target of any action. Play your Intimidator, the player loses a card and you draw a new one."
+      }
+    },
     "item1": {
       "imageSrc": "/images/chars/intm.svg",
       "imageAlt": "Intimidator Character",
