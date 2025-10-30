@@ -3520,7 +3520,15 @@
   },
   "intm": {
     "title": "Intimidador",
-    "item1": {
+    "item0": {
+      "imageSrc": "/images/chars/intm.svg",
+      "imageAlt": "Personagem Intimidador",
+      "title": "Intimidador",
+      "subtitle": "Nível 5",
+      "steps": {
+        "1": "Caso um jogador peça para ver suas cartas enquanto você tem o Intimidador em mãos, deixe a ação acontecer normalmente. A partir de agora, enquanto você permanecer com o Intimidador em mãos, caso esse mesmo jogador escolha você como alvo de qualquer ação: Jogue o Intimidador, o jogador perde uma carta e você compra uma nova."
+      }
+    },"item1": {
       "imageSrc": "/images/chars/intm.svg",
       "imageAlt": "Personagem Intimidador",
       "title": "Intimidador",
