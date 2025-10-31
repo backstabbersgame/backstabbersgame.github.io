@@ -888,32 +888,32 @@
     }
   },
   "arb": {
-    "title": "Referee",
+    "title": "Sentinel",
     "item1": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Referee Character",
-      "title": "Referee",
+      "imageAlt": "Sentinel Character",
+      "title": "Sentinel",
       "subtitle": "Level 2",
       "steps": {
-        "1": "The player blocked by the Referee still participates in any action against them."
+        "1": "The player blocked by the Sentinel still participates in any action against them."
       }
     },
     "item2": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Referee Character",
-      "title": "Referee",
+      "imageAlt": "Sentinel Character",
+      "title": "Sentinel",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If the Referee is removed from your Field, the target returns to play in the round."
+        "1": "If the Sentinel is removed from your Field, the target returns to play in the round."
       }
     },
     "item3": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Referee Character",
-      "title": "Referee",
+      "imageAlt": "Sentinel Character",
+      "title": "Sentinel",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If there are no available targets. The Referee loses its action."
+        "1": "If there are no available targets. The Sentinel loses its action."
       }
     },
     "isDuoMode": true,
@@ -921,11 +921,11 @@
       "title": "Duo Mode",
       "item1": {
         "imageSrc": "/images/chars/arb.svg",
-        "imageAlt": "Referee Character",
-        "title": "Referee",
+        "imageAlt": "Sentinel Character",
+        "title": "Sentinel",
         "subtitle": "Level 2",
         "steps": {
-          "1": "When playing as a duo, you can use the Referee's action on your partner."
+          "1": "When playing as a duo, you can use the Sentinel's action on your partner."
         }
       }
     }
@@ -1887,7 +1887,7 @@
       "title": "Manager",
       "subtitle": "Level 3",
       "steps": {
-        "1": "Permanent or Turn cards that are still Leaders lose their action when targeted by the Manager. If they are already in the Permanent area, they are not affected. Cards: *Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Referee, Dictator, Denier, Bad Omen and Cheater.*"
+        "1": "Permanent or Turn cards that are still Leaders lose their action when targeted by the Manager. If they are already in the Permanent area, they are not affected. Cards: *Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Sentinel, Dictator, Denier, Bad Omen and Cheater.*"
       }
     },
     "item2": {
@@ -1896,7 +1896,7 @@
       "title": "Manager",
       "subtitle": "Level 3",
       "steps": {
-        "1": "Permanent or Turn cards that are placed as Leader by the Manager have no action, must be discarded normally in the next turn. Cards: *Guardian, Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Referee, Dictator, Denier, Bad Omen and Cheater.*"
+        "1": "Permanent or Turn cards that are placed as Leader by the Manager have no action, must be discarded normally in the next turn. Cards: *Guardian, Lucky, Inspector, Entrepreneur, Politician, Sacrifice, Security, Sentinel, Dictator, Denier, Bad Omen and Cheater.*"
       }
     },
     "item3": {
@@ -1994,11 +1994,11 @@
     },
     "item6": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Referee Character",
-      "title": "Referee",
+      "imageAlt": "Sentinel Character",
+      "title": "Sentinel",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If you steal the Referee, choose a new person who cannot play."
+        "1": "If you steal the Sentinel, choose a new person who cannot play."
       }
     },
     "item7": {

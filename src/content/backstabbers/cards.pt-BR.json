@@ -888,32 +888,32 @@
     }
   },
   "arb": {
-    "title": "Árbitro",
+    "title": "Sentinela",
     "item1": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "O jogador bloqueado pelo Árbitro ainda participa de qualquer ação contra ele."
+        "1": "O jogador bloqueado pelo Sentinela ainda participa de qualquer ação contra ele."
       }
     },
     "item2": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso o Árbitro seja removido da seu Campo, o alvo volta a jogar na rodada."
+        "1": "Caso o Sentinela seja removido da seu Campo, o alvo volta a jogar na rodada."
       }
     },
     "item3": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso não existam alvos disponíveis. O Árbitro perde a ação."
+        "1": "Caso não existam alvos disponíveis. O Sentinela perde a ação."
       }
     },
     "isDuoMode": true,
@@ -921,11 +921,11 @@
       "title": "Modo Duo",
       "item1": {
         "imageSrc": "/images/chars/arb.svg",
-        "imageAlt": "Personagem Árbitro",
-        "title": "Árbitro",
+        "imageAlt": "Personagem Sentinela",
+        "title": "Sentinela",
         "subtitle": "Nível 2",
         "steps": {
-          "1": "Jogando em dupla, você pode usar a ação do Árbitro em sua dupla."
+          "1": "Jogando em dupla, você pode usar a ação do Sentinela em sua dupla."
         }
       }
     }
@@ -1887,7 +1887,7 @@
       "title": "Gerente",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Cartas Permanentes ou de Turno que ainda estão como Líder, perdem a ação quando são alvo do Gerente. Caso já estejam na área Permanente, não são afetadas. Cartas: *Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Árbitro, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
+        "1": "Cartas Permanentes ou de Turno que ainda estão como Líder, perdem a ação quando são alvo do Gerente. Caso já estejam na área Permanente, não são afetadas. Cartas: *Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Sentinela, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
       }
     },
     "item2": {
@@ -1896,7 +1896,7 @@
       "title": "Gerente",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Guardião, Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Árbitro, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
+        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Guardião, Sortudo, Fiscal, Empreendedor, Político, Sacrifício, Segurança, Sentinela, Ditador, Negacionista, Mau Presságio e Trapaçeira.*"
       }
     },
     "item3": {
@@ -1994,11 +1994,11 @@
     },
     "item6": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso roube o Árbitro, escolha uma nova pessoa para não jogar."
+        "1": "Caso roube o Sentinela, escolha uma nova pessoa para não jogar."
       }
     },
     "item7": {
@@ -2801,11 +2801,11 @@
     },
     "item12": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso você esteja bloqueado pelo Árbitro, ainda assim pode reagir com o Impostor."
+        "1": "Caso você esteja bloqueado pelo Sentinela, ainda assim pode reagir com o Impostor."
       }
     },
     "item13": {
@@ -2880,11 +2880,11 @@
     },
     "item4": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Caso jogador esteja bloqueado pelo Árbitro, ainda assim pode usar a Intrometida, caso os pré-requisitos sejam atingidos."
+        "1": "Caso jogador esteja bloqueado pelo Sentinela, ainda assim pode usar a Intrometida, caso os pré-requisitos sejam atingidos."
       }
     },
     "item5": {
@@ -4467,7 +4467,7 @@
       "title": "Gerente",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Cartas Permanentes ou de Turno que ainda estão como Líder, perdem a ação quando são alvo do Gerente. Caso já estejam na área Permanente, não são afetadas. Cartas: *Árbitro, Ditador, Empreendedor, Fiscal, Mau Presságio, Negacionista, Político, Sacrifício, Segurança, Sortudo e Trapaceira.*"
+        "1": "Cartas Permanentes ou de Turno que ainda estão como Líder, perdem a ação quando são alvo do Gerente. Caso já estejam na área Permanente, não são afetadas. Cartas: *Sentinela, Ditador, Empreendedor, Fiscal, Mau Presságio, Negacionista, Político, Sacrifício, Segurança, Sortudo e Trapaceira.*"
       }
     },
     "item2": {
@@ -4476,7 +4476,7 @@
       "title": "Gerente",
       "subtitle": "Nível 3",
       "steps": {
-        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Árbitro, Ditador, Empreendedor, Fiscal, Mau Presságio, Negacionista, Político, Sacrifício, Segurança, Sortudo e Trapaceira.*"
+        "1": "Cartas Permanentes ou de Turno que são colocadas como Líder pelo Gerente não tem ação, devem ser descartadas normalmente na próxima jogada. Cartas: *Sentinela, Ditador, Empreendedor, Fiscal, Mau Presságio, Negacionista, Político, Sacrifício, Segurança, Sortudo e Trapaceira.*"
       }
     },
     "item3": {
@@ -5658,7 +5658,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Medida do Caos",
       "steps": {
-        "1": "A ação da Medida do Caos não consome uma rodada, então cartas de Turno de duração de apenas uma rodada não perdem seu poder. Cartas: *Árbitro, Ditador e Guardião.*"
+        "1": "A ação da Medida do Caos não consome uma rodada, então cartas de Turno de duração de apenas uma rodada não perdem seu poder. Cartas: *Sentinela, Ditador e Guardião.*"
       }
     },
     "item5": {
@@ -5672,11 +5672,11 @@
     },
     "item6": {
       "imageSrc": "/images/chars/arb.svg",
-      "imageAlt": "Personagem Árbitro",
-      "title": "Árbitro",
+      "imageAlt": "Personagem Sentinela",
+      "title": "Sentinela",
       "subtitle": "Nível 2",
       "steps": {
-        "1": "Jogarores bloqueados pelo Árbitro também participam da ação da Medida do Caos."
+        "1": "Jogarores bloqueados pelo Sentinela também participam da ação da Medida do Caos."
       }
     },
     "item7": {

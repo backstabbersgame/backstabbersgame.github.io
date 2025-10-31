@@ -14,7 +14,7 @@ export const lvl1: Record<string, string> = {
 };
 
 export const lvl2: Record<string, string> = {
-  arb: 'Referee',
+  arb: 'Sentinel',
   ati: 'Shooter',
   dc: 'Two-Faced',
   dit: 'Dictator',
