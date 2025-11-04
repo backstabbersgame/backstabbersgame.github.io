@@ -65,8 +65,8 @@ const Solara = async ({ params }: { params: { locale: Locale } }) => {
       />
     ),
     About: () => <About about={data.about} />,
-    Contact: () => <Contact contact={data.contact} />,
     Store: () => <Store store={data.store} />,
+    Contact: () => <Contact contact={data.contact} />,
     Newsletter: () => (
       <Newsletter
         variant='solara'
@@ -120,15 +120,24 @@ const Solara = async ({ params }: { params: { locale: Locale } }) => {
                     marginTop: '-2px',
                   }}
                 />
-                <div className={styles.gradient}>{Component()}</div>
+                <div className={styles.white}>{Component()}</div>
               </React.Fragment>
             );
           }
-
-          if (['Contact', 'Store'].includes(section.component)) {
+          if (section.component === 'Store') {
             return (
               <div
                 className={styles.gradient}
+                key={index}
+              >
+                {Component()}
+              </div>
+            );
+          }
+          if (section.component === 'Contact') {
+            return (
+              <div
+                className={styles.white}
                 key={index}
               >
                 {Component()}

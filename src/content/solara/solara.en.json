@@ -15,8 +15,8 @@
     { "component": "Hero", "visible": true },
     { "component": "Game", "visible": true },
     { "component": "About", "visible": true },
-    { "component": "Contact", "visible": true },
     { "component": "Store", "visible": false },
+    { "component": "Contact", "visible": true },
     { "component": "Newsletter", "visible": true },
     { "component": "Footer", "visible": true }
   ],

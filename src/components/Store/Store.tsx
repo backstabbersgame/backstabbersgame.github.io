@@ -4,6 +4,7 @@ import React from 'react';
 import Image from 'next/image';
 import styles from './Store.module.scss';
 import useBreakpoint from '../../hooks/useBreakpoint';
+import Link from 'next/link';
 
 const Store = ({ store }: { store: any }) => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -24,72 +25,84 @@ const Store = ({ store }: { store: any }) => {
   const boardgamesHeight = isMobile ? 210 : 418;
 
   return (
-    <>
-      <section
-        className={styles.store}
-        id='lojinha'
-      >
-        <div className={styles['store-container']}>
-          <header className={styles['store-header']}>
-            <Image
-              width={isMobileOrTablet ? 24 : 32}
-              height={isMobileOrTablet ? 24 : 32}
-              src={`${store.icon}`}
-              alt={store.iconAlt}
-            />
-            <div className={styles['section-title']}>
-              <h2 className={styles['section-title-one']}>
-                {store.titleOne.replace(/\\n/g, '\n')}&nbsp;
-              </h2>
-              <h2 className={styles['section-title-two']}>
-                {store.titleTwo.replace(/\\n/g, '\n')}
-              </h2>
-              <h2>{store.titleThree}</h2>
-            </div>
-          </header>
-          <div className={styles['store-content']}>
-            <div className={styles['store-merch']}>
+    <section
+      className={styles.store}
+      id='lojinha'
+    >
+      <div className={styles['store-container']}>
+        <header className={styles['store-header']}>
+          <Image
+            width={isMobileOrTablet ? 24 : 32}
+            height={isMobileOrTablet ? 24 : 32}
+            src={`${store.icon}`}
+            alt={store.iconAlt}
+          />
+          <div className={styles['section-title']}>
+            <h2 className={styles['section-title-one']}>
+              {store.titleOne.replace(/\\n/g, '\n')}&nbsp;
+            </h2>
+            <h2 className={styles['section-title-two']}>
+              {store.titleTwo.replace(/\\n/g, '\n')}
+            </h2>
+            <h2>{store.titleThree}</h2>
+          </div>
+        </header>
+        <div className={styles['store-content']}>
+          <div className={styles['store-merch']}>
+            <Link
+              href={store.boardgames.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              className={styles.merch}
+            >
               <Image
                 width={boardgamesWidth}
                 height={boardgamesHeight}
                 src={`${boardgamesSrc}`}
                 alt={store.boardgames.image.alt}
-                className={styles.merch}
+                className={styles.merchImg}
               />
+            </Link>
+            <Link
+              href={store.collectibles.url}
+              target='_blank'
+              rel='noopener noreferrer'
+              className={styles.merch}
+            >
               <Image
                 width={collectiblesWidth}
                 height={collectiblesHeight}
                 src={`${collectiblesSrc}`}
                 alt={store.collectibles.image.alt}
-                className={styles.merch}
+                className={styles.merchImg}
               />
-            </div>
-            <div className={styles['store-payments']}>
-              {!isMobileOrTablet && <hr className={styles.line} />}
-              {store.payments.map((payment: any, index: number) => (
-                <React.Fragment key={payment.title}>
-                  <div className={styles.payment}>
-                    <Image
-                      width={24}
-                      height={24}
-                      src={`${payment.icon}`}
-                      alt={payment.iconAlt}
-                    />
-                    <div>
-                      <p className={styles.p}>{payment.title}</p>
-                      {/* <p className={styles.subp}>{payment.subtitle}</p> */}
-                    </div>
+            </Link>
+          </div>
+          <div className={styles['store-payments']}>
+            {!isMobileOrTablet && <hr className={styles.line} />}
+            {store.payments.map((payment: any, index: number) => (
+              <React.Fragment key={payment.title}>
+                <div className={styles.payment}>
+                  <Image
+                    width={24}
+                    height={24}
+                    src={`${payment.icon}`}
+                    alt={payment.iconAlt}
+                  />
+                  <div>
+                    <p className={styles.p}>{payment.title}</p>
+                    <p className={styles.subp}>{payment.subtitle}</p>
                   </div>
-                  {index !== store.payments.length - 1 && (
-                    <hr className={styles.line} />
-                  )}
-                </React.Fragment>
-              ))}
-            </div>
+                </div>
+                {index !== store.payments.length - 1 && (
+                  <hr className={styles.line} />
+                )}
+              </React.Fragment>
+            ))}
           </div>
         </div>
-      </section>
-    </>
+      </div>
+    </section>
   );
 };
 

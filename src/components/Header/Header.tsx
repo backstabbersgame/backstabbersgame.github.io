@@ -143,9 +143,6 @@ const Header = ({
   };
 
   const handleLinkClick = (href: string) => {
-    console.log('path', path);
-    console.log('href - linkclick', href);
-
     // if (href === pathname) {
     //   window.scrollTo({ top: 0, behavior: 'smooth' });
     //   setActiveItem(menuItems[0].id);
@@ -161,7 +158,6 @@ const Header = ({
 
     setActiveLink(href);
     const menuItem = menuItems.find((item) => item.href === href);
-    console.log('menuItem link-click', menuItem);
     if (menuItem) {
       setActiveItem(menuItem.id);
       setOpenSubMenu(undefined);

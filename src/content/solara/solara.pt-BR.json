@@ -2,12 +2,14 @@
   "links": [
     { "id": "inicio", "name": "Início", "href": "" },
     { "id": "jogos", "name": "Jogos", "href": "#jogos" },
+    { "id": "lojinha", "name": "Lojinha", "href": "#lojinha" },
     { "id": "contato", "name": "Contato", "href": "#contato" },
     { "id": "newsletter", "name": "Newsletter", "href": "#newsletter" }
   ],
   "menuLabels": {
     "inicio": "Início",
     "jogos": "Jogos",
+    "lojinha": "Lojinha",
     "contato": "Contato",
     "newsletter": "Newsletter"
   },
@@ -15,8 +17,8 @@
     { "component": "Hero", "visible": true },
     { "component": "Game", "visible": true },
     { "component": "About", "visible": true },
+    { "component": "Store", "visible": true },
     { "component": "Contact", "visible": true },
-    { "component": "Store", "visible": false },
     { "component": "Newsletter", "visible": true },
     { "component": "Footer", "visible": true }
   ],
@@ -121,6 +123,7 @@
     "titleTwo": "lojinha",
     "titleThree": "!",
     "collectibles": {
+      "url": "https://loja.infinitepay.io/solara-studios",
       "image": {
         "alt": "Colecionáveis: bottons, camisetas e ecobags",
         "mobile": "/images/mobile/collectibles.png",
@@ -128,6 +131,7 @@
       }
     },
     "boardgames": {
+      "url": "https://loja.infinitepay.io/solara-studios",
       "image": {
         "alt": "Caixa do jogo Backstabbers",
         "mobile": "/images/mobile/boardgames.png",
@@ -139,19 +143,19 @@
         "icon": "/images/icons/lock-key.svg",
         "iconAlt": "Cadeado",
         "title": "COMPRA 100% SEGURA",
-        "subtitle": "Lorem ipsum dolor"
+        "subtitle": ""
       },
       {
         "icon": "/images/icons/credit-card.svg",
         "iconAlt": "Cartão de crédito",
         "title": "PAGUE COMO QUISER",
-        "subtitle": "Lorem ipsum dolor"
+        "subtitle": ""
       },
       {
         "icon": "/images/icons/truck.svg",
         "iconAlt": "Caminhão",
         "title": "ENTREGA PARA TODO BRASIL",
-        "subtitle": "Lorem ipsum dolor"
+        "subtitle": ""
       }
     ]
   },
