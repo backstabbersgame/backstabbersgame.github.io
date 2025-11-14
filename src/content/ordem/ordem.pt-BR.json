@@ -58,7 +58,7 @@
     "src": "Como jogar",
     "overview": {
       "title": "Visão geral",
-      "item1": "3 a 6 jogadores",
+      "item1": "2 a 6 jogadores",
       "item2": "Maiores de 14 anos",
       "item3": "30 minutos, em média"
     },
@@ -66,14 +66,14 @@
       "backgroundMobile": "white",
       "background": "transparent",
       "title": "Objetivo",
-      "item1": "Restabeleça a paz entre Cães e Gatos somando 40 pontos ou mais ao final de uma rodada."
+      "item1": "Restabeleça a paz entre Cães e Gatos somando 30 pontos ou mais ao final de uma rodada."
     },
     "preparation": {
       "backgroundMobile": "gradient",
       "background": "transparent",
       "title": "Preparação",
       "item1": "Remova todas as cartas de pontos (elas não serão utilizadas);",
-      "item2": "Embaralhe todas as demais cartas (exceto as de cocô) em um único baralho;",
+      "item2": "Embaralhe todas as demais cartas (exceto as de cocô) em um único baralho, junto com as cartas especiais de Ordem ao Caos;",
       "item3": "Distribua *5* cartas para cada jogador;",
       "item4": "Entregue *1* carta de cocô a cada jogador;",
       "item5": "Embaralhe as cartas de cocô junto ao baralho e forme a Pilha de Compras;",
@@ -137,7 +137,7 @@
       "background": "transparent",
       "title": "Pontuação",
       "item1": {
-        "title": "O jogo termina quando um jogador atinge *40 ou mais pontos* ao final de uma rodada.",
+        "title": "O jogo termina quando um jogador atinge *30 ou mais pontos* ao final de uma rodada.",
         "steps": {
           "1": "O jogador com mais pontos é declarado o pacificador de Etheria!",
           "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
@@ -150,7 +150,7 @@
       "background": "transparent",
       "title": "Fim do jogo",
       "item1": {
-        "title": "O jogo termina quando um jogador atinge 40 ou mais pontos ao final de uma rodada.",
+        "title": "O jogo termina quando um jogador atinge 30 ou mais pontos ao final de uma rodada.",
         "steps": {
           "1": "O jogador com mais pontos é declarado o pacificador de Etheria!",
           "2": "Em caso de empate, vence quem tiver feito mais pontos na última rodada.",
