@@ -66,14 +66,14 @@
       "backgroundMobile": "white",
       "background": "transparent",
       "title": "Goal",
-      "item1": "Restore peace between Dogs and Cats by scoring 40 points or more at the end of a round."
+      "item1": "Restore peace between Dogs and Cats by scoring 30 points or more at the end of a round."
     },
     "preparation": {
       "backgroundMobile": "gradient",
       "background": "transparent",
       "title": "Preparation",
       "item1": "Remove all point cards (they will not be used);",
-      "item2": "Shuffle all other cards (except the poop cards) into a single deck;",
+      "item2": "Shuffle all other cards (except the poop cards) into a single deck, including the Order to Chaos especial cards;",
       "item3": "Deal *5* cards to each player;",
       "item4": "Give *1* poop card to each player;",
       "item5": "Shuffle the poop cards into the deck and form the Draw Pile;",
@@ -137,7 +137,7 @@
       "background": "transparent",
       "title": "Scoring",
       "item1": {
-        "title": "The game ends when a player reaches *40 or more points* at the end of a round.",
+        "title": "The game ends when a player reaches *30 or more points* at the end of a round.",
         "steps": {
           "1": "The player with the most points is declared the peacemaker of Etheria!",
           "2": "In case of a tie, the player with the most points in the last round wins.",
@@ -150,7 +150,7 @@
       "background": "transparent",
       "title": "End of game",
       "item1": {
-        "title": "The game ends when a player reaches 40 or more points at the end of a round.",
+        "title": "The game ends when a player reaches 30 or more points at the end of a round.",
         "steps": {
           "1": "The player with the most points is declared the peacemaker of Etheria!",
           "2": "In case of a tie, the player with the most points in the last round wins.",
