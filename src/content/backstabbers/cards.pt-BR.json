@@ -889,6 +889,15 @@
   },
   "arb": {
     "title": "Sentinela",
+    "item0": {
+      "imageSrc": "/images/chars/seg.svg",
+      "imageAlt": "Personagem Segurança",
+      "title": "Segurança",
+      "subtitle": "Nível 2",
+      "steps": {
+        "1": "O Sentinela não é uma ação contra o campo de um jogador, então ele não é bloqueado pelo Segurança"
+      }
+    },
     "item1": {
       "imageSrc": "/images/chars/arb.svg",
       "imageAlt": "Personagem Sentinela",
