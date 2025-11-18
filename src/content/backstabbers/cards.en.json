@@ -889,6 +889,15 @@
   },
   "arb": {
     "title": "Sentinel",
+    "item0": {
+      "imageSrc": "/images/chars/seg.svg",
+      "imageAlt": "Security Character",
+      "title": "Security",
+      "subtitle": "Nível 2",
+      "steps": {
+        "1": "The Sentinel is not an action against players field, so it is not blocked by the Security."
+      }
+    },
     "item1": {
       "imageSrc": "/images/chars/arb.svg",
       "imageAlt": "Sentinel Character",
