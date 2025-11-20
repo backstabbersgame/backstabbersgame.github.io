@@ -1214,6 +1214,15 @@
         "1": "Mesmo que o Empreendedor seja reativado ou devolvido ao seu Campo, o investimento é perdido. Neste caso, você pode fazer um novo investimento."
       }
     },
+    "item4": {
+      "imageSrc": "/images/chars/emp.svg",
+      "imageAlt": "Personagem Empreendedor",
+      "title": "Empreendedor",
+      "subtitle": "Nível 3",
+      "steps": {
+        "1": "Caso um Zumbi elimine todos os jogadores restantes em uma única ação e tenha o Empreendedor em seu campo, ele recebe 2 moedas."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Modo Duo",
