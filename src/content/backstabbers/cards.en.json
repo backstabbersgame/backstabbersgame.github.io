@@ -1214,6 +1214,15 @@
         "1": "Even if the Entrepreneur is reactivated or returned to your Field, the investment is lost. In this case, you can make a new investment."
       }
     },
+    "item4": {
+      "imageSrc": "/images/chars/emp.svg",
+      "imageAlt": "Entrepreneur Character",
+      "title": "Entrepreneur",
+      "subtitle": "Level 3",
+      "steps": {
+        "1": "If a Zombie eliminates all the remaining players with only one action and have the Entrepreneur in their field, They receive 2 coins."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Duo Mode",
