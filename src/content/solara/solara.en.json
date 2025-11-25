@@ -165,9 +165,17 @@
       "alt": "Paper plane"
     },
     "image": {
-      "alt": "Personagem",
-      "mobile": "/images/mobile/dealer.png",
-      "desktop": "/images/desktop/dealer.png"
+      "alt": "Character Dealer",
+      "mobile": {
+        "src": "/images/mobile/dealer.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/dealer.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Thank you for subscribing!",

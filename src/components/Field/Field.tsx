@@ -13,7 +13,7 @@ type Item = {
 };
 
 const Field = ({ data }: FieldProps) => {
-  const content = { ...data.comoJogar };
+  const content = { ...data };
 
   const filterItems = Object.entries(
     (content.field as Record<string, Item>) ?? {}

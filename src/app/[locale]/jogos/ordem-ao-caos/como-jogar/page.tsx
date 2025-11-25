@@ -49,7 +49,7 @@ const ComoJogar = ({ params }: { params: Promise<{ locale: Locale }> }) => {
 
           <div className={styles.content}>
             <div className={styles.left}>
-              <Overview data={data} />
+              <Overview data={data.comoJogar} />
               <BulletedList
                 data={data.comoJogar}
                 section='goal'

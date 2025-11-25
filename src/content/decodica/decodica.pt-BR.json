@@ -370,8 +370,16 @@
     },
     "image": {
       "alt": "Cuscuz",
-      "mobile": "/images/mobile/cuscuz.png",
-      "desktop": "/images/desktop/cuscuz.png"
+      "mobile": {
+        "src": "/images/mobile/cuscuz.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/cuscuz.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Obrigado por se inscrever!",

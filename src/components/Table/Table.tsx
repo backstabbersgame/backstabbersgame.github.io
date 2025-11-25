@@ -1,5 +1,5 @@
 'use client';
-import React from 'react';
+import React, { Fragment } from 'react';
 import Image from 'next/image';
 import styles from './Table.module.scss';
 
@@ -7,13 +7,21 @@ interface TableProps {
   data: any;
 }
 
+type Card = {
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  classname: string;
+};
+
 type Item = {
   title: string;
   subtitle: string;
 };
 
 const Table = ({ data }: TableProps) => {
-  const content = { ...data.comoJogar };
+  const content = { ...data };
 
   const filterItems = Object.entries(
     (content.table as Record<string, Item>) ?? {}
@@ -31,21 +39,46 @@ const Table = ({ data }: TableProps) => {
       </li>
     );
   });
+
+  const cardsItems = Object.entries(
+    (content.table as Record<string, Card>) ?? {}
+  ).filter(([key]) => key.startsWith('card'));
+
+  const cards = cardsItems.map(([key, value], idx) => {
+    const { src, alt, width, height, classname } = value;
+    return (
+      <Fragment key={idx}>
+        <Image
+          src={src}
+          alt={alt}
+          width={width}
+          height={height}
+          className={`${styles[classname]}`}
+        />
+      </Fragment>
+    );
+  });
+
   return (
     <div className={styles.background}>
       <div className={styles.container}>
         <div className={styles.header}>
-          <Image
-            width={20}
-            height={20}
-            src={`/images/icons/star.svg`}
-            alt={'Estrela com gradiente azul e lilás'}
-          />
-          <h3 className={styles.h3}>{content.table.title}</h3>
+          {content.table.title && (
+            <>
+              <Image
+                width={20}
+                height={20}
+                src={`/images/icons/star.svg`}
+                alt={'Estrela com gradiente azul e lilás'}
+              />
+              <h3 className={styles.h3}>{content.table.title}</h3>
+            </>
+          )}
         </div>
         <div className={styles.content}>
           <div className={styles.cards}>
-            <Image
+            {cards}
+            {/* <Image
               width={content.table.card1.width}
               height={content.table.card1.height}
               src={content.table.card1.src}
@@ -65,7 +98,7 @@ const Table = ({ data }: TableProps) => {
               src={content.table.card3.src}
               alt={content.table.card3.alt}
               className={styles.imgV}
-            />
+            /> */}
           </div>
           <ul className={styles.list}>{items}</ul>
         </div>

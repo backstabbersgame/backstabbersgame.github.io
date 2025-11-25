@@ -34,10 +34,14 @@ const Newsletter = ({ variant, data }: NewsletterProps) => {
   const [status, setStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
   const imageSrc = isMobile
-    ? content.newsletter.image.mobile
-    : content.newsletter.image.desktop;
-  const imageWidth = isMobile ? 320 : 620;
-  const imageHeight = isMobile ? 285 : 394;
+    ? content.newsletter.image.mobile.src
+    : content.newsletter.image.desktop.src;
+  const imageWidth: number = isMobile
+    ? content.newsletter.image.mobile.width
+    : content.newsletter.image.desktop.width;
+  const imageHeight: number = isMobile
+    ? content.newsletter.image.mobile.height
+    : content.newsletter.image.desktop.height;
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -79,8 +83,6 @@ const Newsletter = ({ variant, data }: NewsletterProps) => {
               {content.newsletter.description.replace(/\\n/g, '\n')}
             </p>
           </div>
-
-          {/* {variant === 'solara' || variant === 'ordem' ? ( */}
           <form
             onSubmit={handleSubmit}
             noValidate

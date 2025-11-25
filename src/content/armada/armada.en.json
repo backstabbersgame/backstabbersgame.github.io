@@ -213,8 +213,16 @@
     },
     "image": {
       "alt": "Eclipse rabbit",
-      "mobile": "/images/mobile/eclipse.png",
-      "desktop": "/images/desktop/eclipse.png"
+      "mobile": {
+        "src": "/images/mobile/eclipse.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/eclipse.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Thank you for subscribing!",

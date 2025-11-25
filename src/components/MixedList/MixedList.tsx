@@ -1,6 +1,6 @@
 'use client';
 
-import React from 'react';
+import React, { Fragment } from 'react';
 import Image from 'next/image';
 import useBreakpoint from '../../hooks/useBreakpoint';
 import styles from './MixedList.module.scss';
@@ -45,7 +45,7 @@ const MixedList = ({ data, section, color }: Props) => {
     }
     const { title, steps } = value as ItemWithSteps;
     return (
-      <>
+      <Fragment key={key}>
         <li
           key={key}
           className={styles.item}
@@ -65,7 +65,7 @@ const MixedList = ({ data, section, color }: Props) => {
             ))}
           </ul>
         )}
-      </>
+      </Fragment>
     );
   });
 

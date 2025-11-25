@@ -4,4 +4,5 @@ export type Variant =
   | 'ordem'
   | 'rebeliao'
   | 'armada'
-  | 'decodica';
+  | 'decodica'
+  | 'drag';

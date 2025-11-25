@@ -15,7 +15,7 @@ interface OverviewProps {
 }
 
 const Overview = ({ data }: OverviewProps) => {
-  const content = { ...data.comoJogar };
+  const content = { ...data };
   const { currentBreakpoint } = useBreakpoint();
   const isMobile = currentBreakpoint === 'mobile';
 

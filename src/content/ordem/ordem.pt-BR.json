@@ -55,7 +55,7 @@
       { "component": "VideoGallery", "visible": false },
       { "component": "Newsletter", "visible": true }
     ],
-    "src": "Como jogar",
+    "title": "Como jogar",
     "overview": {
       "title": "Visão geral",
       "item1": "2 a 6 jogadores",
@@ -215,8 +215,16 @@
     },
     "image": {
       "alt": "Gato da raça sphynx",
-      "mobile": "/images/mobile/sphynx.png",
-      "desktop": "/images/desktop/sphynx.png"
+      "mobile": {
+        "src": "/images/mobile/sphynx.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/sphynx.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Obrigado por se inscrever!",

@@ -50,7 +50,7 @@ const ComoJogar = ({ params }: { params: Promise<{ locale: Locale }> }) => {
 
           <div className={styles.content}>
             <div className={styles.left}>
-              <Overview data={data} />
+              <Overview data={data.comoJogar} />
               <BulletedList
                 data={data.comoJogar}
                 section='goal'
@@ -72,8 +72,8 @@ const ComoJogar = ({ params }: { params: Promise<{ locale: Locale }> }) => {
             />
           </div>
         </div>
-        <Table data={data} />
-        <Field data={data} />
+        <Table data={data.comoJogar} />
+        <Field data={data.comoJogar} />
         <div className={`${styles.background2} ${styles.gray}`}>
           <div className={styles.content2}>
             <MixedList

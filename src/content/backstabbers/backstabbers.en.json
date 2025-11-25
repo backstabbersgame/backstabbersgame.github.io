@@ -113,8 +113,16 @@
     },
     "image": {
       "alt": "Seer character",
-      "mobile": "/images/mobile/vidente.png",
-      "desktop": "/images/desktop/vidente.png"
+      "mobile": {
+        "src": "/images/mobile/vidente.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/vidente.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Thank you for subscribing!",

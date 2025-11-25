@@ -1,6 +1,6 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import { Variant } from 'src/types/variant';
+import { Variant } from '../../types/variant';
 import useBreakpoint from '../../hooks/useBreakpoint';
 
 export const HandleContainer = (variant: Variant) => {
@@ -78,6 +78,21 @@ export const HandleContainer = (variant: Variant) => {
         : { height: 'clamp(365px, 45vh, 70vh)' };
     } else if (isTablet) {
       return { height: '260px', justifyContent: 'space-between' };
+    } else {
+      return {
+        justifyContent: 'normal',
+      };
+    }
+  }
+  if (variant === 'drag') {
+    if (isMobile) {
+      return width === 768
+        ? { height: '75vh' }
+        : {
+            height: 'clamp(500px, 70vh, 610px)',
+          };
+    } else if (isTablet) {
+      return { height: '294px', justifyContent: 'space-between' };
     } else {
       return {
         justifyContent: 'normal',
@@ -203,6 +218,36 @@ export const HandleImageContainer = (variant: Variant): React.CSSProperties => {
             justifyContent: 'center',
           };
   }
+  if (variant === 'drag') {
+    return isMobile
+      ? {
+          position: 'absolute',
+          left: '0',
+          right: '0',
+          bottom: '-7px',
+          zIndex: '1',
+          display: 'flex',
+          justifyContent: 'center',
+          // height: '40%',
+        }
+      : isTablet
+        ? {
+            position: 'absolute',
+            left: '0',
+            bottom: '0',
+            zIndex: '1',
+            display: 'flex',
+            justifyContent: 'center',
+          }
+        : {
+            position: 'absolute',
+            left: '350px',
+            bottom: '-10px',
+            zIndex: '1',
+            display: 'flex',
+            justifyContent: 'center',
+          };
+  }
   return {};
 };
 
@@ -319,6 +364,28 @@ export const HandleImageSize = (variant: Variant): React.CSSProperties => {
         : {
             width: 'auto',
             height: '407px',
+            position: 'relative',
+            transform: 'translateY(0.5%)',
+          };
+  }
+  if (variant === 'drag') {
+    return isMobile
+      ? {
+          width: 'auto',
+          height: '350px',
+          position: 'relative',
+          transform: 'translateY(0.5%)',
+        }
+      : isTablet
+        ? {
+            width: 'auto',
+            height: '350px',
+            position: 'relative',
+            transform: 'translateY(2%) translateX(70%)',
+          }
+        : {
+            width: 'auto',
+            height: '435px',
             position: 'relative',
             transform: 'translateY(0.5%)',
           };

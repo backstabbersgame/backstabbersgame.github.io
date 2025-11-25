@@ -1,5 +1,5 @@
 {
-  "links":[
+  "links": [
     { "id": "inicio", "name": "Home", "href": "/jogos/rebeliao-dos-gatos" },
     {
       "id": "como-jogar",
@@ -18,7 +18,7 @@
     }
   ],
   "footer": {
-     "label": "Back to Solara"
+    "label": "Back to Solara"
   },
   "menuLabels": {
     "inicio": "Cats' Rebellion",
@@ -211,8 +211,16 @@
     },
     "image": {
       "alt": "Cat with a witch hat and holding a toy",
-      "mobile": "/images/mobile/preto.png",
-      "desktop": "/images/desktop/preto.png"
+      "mobile": {
+        "src": "/images/mobile/preto.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/preto.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Obrigado por se inscrever!",

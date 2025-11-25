@@ -8,7 +8,7 @@
     },
     {
       "id": "componentes",
-      "name": "Components",
+      "name": "Componentes",
       "href": "/jogos/backstabbers/componentes"
     },
     {
@@ -113,8 +113,16 @@
     },
     "image": {
       "alt": "Personagem vidente",
-      "mobile": "/images/mobile/vidente.png",
-      "desktop": "/images/desktop/vidente.png"
+      "mobile": {
+        "src": "/images/mobile/vidente.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/vidente.png",
+        "width": 620,
+        "height": 394
+      }
     },
     "message": {
       "success": "Obrigado por se inscrever!",
@@ -158,19 +166,22 @@
         "src": "/images/cards/card1.svg",
         "alt": "Carta horizontal com logo do Backstabbers",
         "width": 131.27,
-        "height": 86.41
+        "height": 86.41,
+        "classname": "img"
       },
       "card2": {
         "src": "/images/cards/card2.svg",
         "alt": "Carta vertical com logo do Backstabbers",
         "width": 86.41,
-        "height": 131.27
+        "height": 131.27,
+        "classname": "imgV"
       },
       "card3": {
         "src": "/images/cards/card3.svg",
         "alt": "Carta do Assassino",
         "width": 86.41,
-        "height": 131.27
+        "height": 131.27,
+        "classname": "imgV"
       },
       "item1": {
         "title": "Cemitério",

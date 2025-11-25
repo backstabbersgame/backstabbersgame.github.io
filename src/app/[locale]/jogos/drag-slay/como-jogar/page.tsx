@@ -23,7 +23,7 @@ const ComoJogar = ({ params }: { params: Promise<{ locale: Locale }> }) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const content = await getLocalizedContent('rebeliao', locale);
+      const content = await getLocalizedContent('drag', locale);
       setData(content);
     };
     fetchData();
@@ -85,41 +85,73 @@ const ComoJogar = ({ params }: { params: Promise<{ locale: Locale }> }) => {
             />
             <BulletedList
               data={data.comoJogar}
-              section='endRound'
+              section='endGame'
               color={
                 isMobile || isTablet
-                  ? data.comoJogar.endRound.backgroundMobile
-                  : data.comoJogar.endRound.background
+                  ? data.comoJogar.endGame.backgroundMobile
+                  : data.comoJogar.endGame.background
               }
             />
           </div>
         </div>
-        <div className={styles.content2}>
-          <BulletedList
-            data={data.comoJogar}
-            section='score'
-            color={
-              isMobile || isTablet
-                ? data.comoJogar.score.backgroundMobile
-                : data.comoJogar.score.background
-            }
-          />
-          <BulletedList
-            data={data.comoJogar}
-            section='endGame'
-            color={
-              isMobile || isTablet
-                ? data.comoJogar.endGame.backgroundMobile
-                : data.comoJogar.endGame.background
-            }
-          />
+        {/* MODO FAMÍLIA */}
+        <div className={`${styles.background2} `}>
+          <div
+            className={`${styles.container} ${isMobile || isTablet ? styles.gray : styles.white}`}
+          >
+            <h2 className={`${styles.h2} `}>
+              {data.comoJogar.familyMode.title}
+            </h2>
+            <div className={styles.content2}>
+              <BulletedList
+                data={data.comoJogar.familyMode}
+                section='goalD'
+                color={
+                  isMobile || isTablet
+                    ? data.comoJogar.familyMode.goalD.backgroundMobile
+                    : data.comoJogar.familyMode.goalD.background
+                }
+              />
+              <BulletedList
+                data={data.comoJogar.familyMode}
+                section='preparation'
+                color={
+                  isMobile || isTablet
+                    ? data.comoJogar.familyMode.preparation.backgroundMobile
+                    : data.comoJogar.familyMode.preparation.background
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.background2} ${styles.gray}`}>
+          <div className={styles.content2}>
+            <BulletedList
+              data={data.comoJogar.familyMode}
+              section='generalRules'
+              color={
+                isMobile || isTablet
+                  ? data.comoJogar.familyMode.generalRules.backgroundMobile
+                  : data.comoJogar.familyMode.generalRules.background
+              }
+            />
+            <BulletedList
+              data={data.comoJogar.familyMode}
+              section='endGame'
+              color={
+                isMobile || isTablet
+                  ? data.comoJogar.familyMode.endGame.backgroundMobile
+                  : data.comoJogar.familyMode.endGame.background
+              }
+            />
+          </div>
         </div>
       </section>
     ),
     VideoGallery: () => <VideoGallery data={data} />,
     Newsletter: () => (
       <Newsletter
-        variant='rebeliao'
+        variant='drag'
         data={data}
       />
     ),
