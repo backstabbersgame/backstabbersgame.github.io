@@ -65,11 +65,16 @@ export async function getSolaraLinks(locale: Locale) {
           label: 'Decodica',
           href: `/${locale}/jogos/decodica`,
         },
+        {
+          id: 'drag',
+          label: 'Drag Slay',
+          href: `/${locale}/jogos/drag-slay`,
+        },
       ],
     },
     {
       id: 'lojinha',
-      label: menuLabels.store,
+      label: menuLabels.lojinha,
       icon: <ShoppingBagIcon size={24} />,
       href: `/${locale}#lojinha`,
     },
