@@ -4098,6 +4098,15 @@
         "1": "Colocar o Vírus na Reserva de outro jogador não faz com que ele seja ativado."
       }
     },
+    "item12": {
+      "imageSrc": "/images/chars/cam.svg",
+      "imageAlt": "Personagem Cambista",
+      "title": "Cambista",
+      "subtitle": "Nível 5",
+      "steps": {
+        "1": "Caso o Vírus seja pego pelo jogador que usou o Cambista, espere a ação acabar para realizar a ação do Vírus. Se o Vírus voltar para a mão do mesmo jogador ou for para a pilha de compras, apenas o jogador do Cambista deve realizar a ação do Vírus. Caso o Vírus passe para a mão de outro jogador, tanto o jogador do Cambista quanto o jogador que recebeu o Vírus realizam a ação dele."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Modo Duo",
