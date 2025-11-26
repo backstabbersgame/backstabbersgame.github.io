@@ -3510,6 +3510,15 @@
         "1": "If there are no available targets. The Cambist loses the action."
       }
     },
+     "item9": {
+      "imageSrc": "/images/chars/vir.svg",
+      "imageAlt": "Virus Character",
+      "title": "Virus",
+      "subtitle": "Level 5",
+      "steps": {
+        "1": "If the Virus is taken by the player who used the Cambist, wait until the end of the action to activate the Virus. If the Virus goes back to the original owner or goes to the draw pile, only the player who used the Cambist should execute the Virus action. If the Virus goes to a new player, both the player and the Cambist owner should execute the Virus action."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Duo Mode",
