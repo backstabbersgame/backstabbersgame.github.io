@@ -178,12 +178,12 @@
       "card1": {
         "src": "/images/cards/cards-modo-diversidade.png",
         "alt": "Carta do jogo drag slay",
-        "width": 570,
-        "height": 500
+        "width": 664,
+        "height": 569
       }
     },
     "dressADrag": {
-      "backgroundMobile": "gray",
+      "backgroundMobile": "white",
       "background": "transparent",
       "title": "Montando uma Drag",
       "item1": "Quando um jogador conseguir completar os 3 itens de uma das Drags no topo de uma das famílias ele deve gritar SLAY! para montar a Drag.",

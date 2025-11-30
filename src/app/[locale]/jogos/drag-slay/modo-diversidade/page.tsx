@@ -27,6 +27,7 @@ const ModoDiversidade = ({
   const isTablet = currentBreakpoint === 'tablet';
   const [data, setData] = useState<any>(null);
 
+  console.log(isTablet);
   useEffect(() => {
     const fetchData = async () => {
       const content = await getLocalizedContent('drag', locale);
@@ -40,16 +41,14 @@ const ModoDiversidade = ({
   const componentsMap = {
     Content: (isMobile: boolean, isTablet: boolean) => (
       <section className={styles.section}>
-        <div
-          className={`${styles.background} ${isMobile ? styles.white : styles.gradient}`}
-        >
+        <div className={`${styles.background} ${styles.gradient}`}>
           {(isTablet || !isMobile) && (
             <div className={styles.name}>
               <Image
                 src='/images/icons/rainbow.svg'
                 width={32}
                 height={32}
-                alt='Ícone de nave espacial'
+                alt='Ícone de planeta com gradiente azul e lilás'
               />
               <h1 className={styles.h1}>{data.modoDiversidade.title}</h1>
             </div>
@@ -66,8 +65,8 @@ const ModoDiversidade = ({
                 section='goal'
                 color={
                   isMobile
-                    ? data.modoDiversidade.goal.backgroundMobile
-                    : data.modoDiversidade.goal.background
+                    ? data.comoJogar.goal.backgroundMobile
+                    : data.comoJogar.goal.background
                 }
               />
             </div>
@@ -82,9 +81,8 @@ const ModoDiversidade = ({
             />
           </div>
         </div>
-
         <div className={`${styles.background2} ${styles.gray}`}>
-          <div className={styles.content}>
+          <div className={styles.content2}>
             <MixedList
               data={data.modoDiversidade}
               section='gameFlow'
@@ -94,77 +92,39 @@ const ModoDiversidade = ({
                   : data.modoDiversidade.gameFlow.background
               }
             />
-            <Image
-              width={data.modoDiversidade.table.card1.width}
-              height={data.modoDiversidade.table.card1.height}
-              src={data.modoDiversidade.table.card1.src}
-              alt={data.modoDiversidade.table.card1.alt}
-              className={styles.img}
+            <div className={styles.table}>
+              <Image
+                width={data.modoDiversidade.gameFlow.card.width}
+                height={data.modoDiversidade.gameFlow.card.height}
+                src={data.modoDiversidade.gameFlow.card.src}
+                alt={data.modoDiversidade.gameFlow.card.alt}
+                className={styles.card}
+              />
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.background2} ${styles.white}`}>
+          <div className={styles.content2}>
+            <MixedList
+              data={data.modoDiversidade}
+              section='dressADrag'
+              color={
+                isMobile || isTablet
+                  ? data.modoDiversidade.dressADrag.backgroundMobile
+                  : data.modoDiversidade.dressADrag.background
+              }
+            />
+            <BulletedList
+              data={data.modoDiversidade}
+              section='endGame'
+              color={
+                isMobile || isTablet
+                  ? data.modoDiversidade.endGame.backgroundMobile
+                  : data.modoDiversidade.endGame.background
+              }
             />
           </div>
         </div>
-        <div className={styles.content2}>
-          <BulletedList
-            data={data.modoDiversidade}
-            section='dressADrag'
-            color={
-              isMobile || isTablet
-                ? data.modoDiversidade.dressADrag.backgroundMobile
-                : data.modoDiversidade.dressADrag.background
-            }
-          />
-          <BulletedList
-            data={data.modoDiversidade}
-            section='endGame'
-            color={
-              isMobile || isTablet
-                ? data.modoDiversidade.endGame.backgroundMobile
-                : data.modoDiversidade.endGame.background
-            }
-          />
-        </div>
-        {/* <div className={styles.verticalSections}>
-          <div className={styles.section1}>
-            <h2 className={styles.h2Opcional}>
-              {data.regrasOpcionais.regrasGerais.title}
-            </h2>
-            <BulletedList
-              data={data.regrasOpcionais.regrasGerais}
-              section='punicao'
-              color=''
-              size='20'
-              removePadding
-              starSize={20}
-            />
-            <BulletedList
-              data={data.regrasOpcionais.regrasGerais}
-              section='imposicao'
-              color=''
-              size='20'
-              removePadding
-              starSize={20}
-            />
-            <BulletedList
-              data={data.regrasOpcionais.regrasGerais}
-              section='revanche'
-              color=''
-              size='20'
-              removePadding
-              starSize={20}
-            />
-          </div>
-          <div className={`${styles.section2} ${styles.gray}`}>
-            <h2 className={styles.h2}>
-              {data.regrasOpcionais.regrasCartas.title}
-            </h2>
-            <ImageList
-              data={data.regrasOpcionais}
-              section='regrasCartas'
-              color='gray'
-              size='20'
-            />
-          </div>
-        </div> */}
       </section>
     ),
     Newsletter: () => (

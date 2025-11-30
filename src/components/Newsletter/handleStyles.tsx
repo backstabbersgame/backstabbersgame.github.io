@@ -89,7 +89,7 @@ export const HandleContainer = (variant: Variant) => {
       return width === 768
         ? { height: '75vh' }
         : {
-            height: 'clamp(500px, 70vh, 610px)',
+            height: 'clamp(650px, 70vh, 700px)',
           };
     } else if (isTablet) {
       return { height: '294px', justifyContent: 'space-between' };

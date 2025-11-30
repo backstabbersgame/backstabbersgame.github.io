@@ -87,29 +87,29 @@ export async function getDragLinks(locale: Locale) {
       },
       href: `/${locale}/jogos/drag-slay/modo-diversidade`,
     },
-    // {
-    //   id: 'drags',
-    //   label: menuLabels.drags,
-    //   icon: {
-    //     svgActive: (
-    //       <Image
-    //         width={24}
-    //         height={24}
-    //         alt={'Coroa com gradiente em azul e lilás'}
-    //         src={'/images/icons/crown.svg'}
-    //       />
-    //     ),
-    //     svgInactive: (
-    //       <Image
-    //         width={24}
-    //         height={24}
-    //         alt={'Coroa com gradiente em cinza e branco'}
-    //         src={'/images/icons/crown-inactive.svg'}
-    //       />
-    //     ),
-    //   },
-    //   href: `/${locale}/jogos/drag-slay/nossas-drags`,
-    // },
+    {
+      id: 'drags',
+      label: menuLabels.drags,
+      icon: {
+        svgActive: (
+          <Image
+            width={24}
+            height={24}
+            alt={'Coroa com gradiente em azul e lilás'}
+            src={'/images/icons/crown.svg'}
+          />
+        ),
+        svgInactive: (
+          <Image
+            width={24}
+            height={24}
+            alt={'Coroa com gradiente em cinza e branco'}
+            src={'/images/icons/crown-inactive.svg'}
+          />
+        ),
+      },
+      href: `/${locale}/jogos/drag-slay/nossas-drags`,
+    },
   ];
 
   const footerItems: FooterItemsArray = [

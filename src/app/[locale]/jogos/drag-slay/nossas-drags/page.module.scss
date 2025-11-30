@@ -27,37 +27,88 @@
   margin-top: 60px;
 }
 
-.subtitle {
-  display: flex;
+.heading {
   width: 100vw;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-top: 16px;
   margin-bottom: 16px;
 }
 
-.subtitle p {
-  width: 88vw;
+.h2 {
+  margin-top: 16px;
+  margin-left: 6vw;
 }
 
-.table {
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header h2 {
+  color: colors.$neutral-600;
+
+  &.size {
+    font-size: typography.$font-size-20;
+  }
+}
+
+.background {
+  width: 100vw;
+  align-items: center;
   display: flex;
   justify-content: center;
 }
 
-.card {
+.background2 {
+  width: 100vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.subtitle {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 88vw;
+}
+
+.subtitle p {
+  align-self: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 88vw;
+  gap: 16px;
+  padding: 16px 0;
+}
+
+.drag {
   width: 100%;
   height: auto;
 }
 
 @media only screen and (min-width: breakpoints.$tablet-min) {
   .background {
-    // background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 48px 0;
   }
+  .background2 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .name {
     display: flex;
     gap: 20px;
@@ -66,61 +117,69 @@
     padding-bottom: 48px;
   }
 
-  .h1 {
-    color: colors.$neutral-800;
+  .content2 {
+    display: flex;
+    width: 100%;
   }
+
   .content {
     display: flex;
-    flex-direction: row;
-    width: 88vw;
-    gap: 16px;
-  }
-
-  .content2 {
-    gap: 48px;
-  }
-
-  .left {
-    display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: center;
+    width: 44vw;
+    gap: 16px;
+    padding-top: 48px;
+  }
+
+  .drag {
     width: 100%;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: breakpoints.$laptop-min) {
-  .background {
-    padding: 56px 0;
+  .section {
+    margin-top: 100px;
   }
 
-  .section {
-    margin-top: 140px;
+  .name {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+    padding-top: 40px;
+  }
+
+  .heading {
+    margin-bottom: 0;
+    padding-bottom: 16px;
+  }
+
+  .background {
+    width: 100vw;
   }
 
   .background2 {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  .content {
-    padding-top: 48px;
+    width: auto;
   }
 
   .content2 {
+    width: 100vw;
     display: flex;
-    flex-direction: row;
-    width: 88vw;
-    gap: 16px;
+    justify-content: center;
+  }
+
+  .drag {
+    width: 100%;
+    height: auto;
   }
 }
 
 @media only screen and (min-width: breakpoints.$ultra-wide-screen) {
-  .content,
-  .content2 {
-    width: 70vw;
+  .content {
+    width: 35vw;
   }
-
   .subtitle p {
     width: 70vw;
   }

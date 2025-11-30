@@ -8,8 +8,13 @@
     },
     {
       "id": "diversidade",
-      "name": "Modo Diversidade",
+      "name": "Modo diversidade",
       "href": "/jogos/drag-slay/modo-diversidade"
+    },
+    {
+      "id": "drags",
+      "name": "Nossas drags",
+      "href": "/jogos/drag-slay/nossas-drags"
     }
   ],
   "footer": {
@@ -18,7 +23,8 @@
   "menuLabels": {
     "inicio": "Drag Slay",
     "como-jogar": "Como jogar",
-    "diversidade": "Modo Diversidade"
+    "diversidade": "Modo diversidade",
+    "drags": "Nossas drags"
   },
   "inicio": {
     "sections": [
@@ -172,10 +178,8 @@
           "4": "4. Descartar 3 (três) cartas para escolher uma das Drags do TOP (topo da pilha) de uma família e colocar ela no Bottom (fundo da pilha). Depois comprar 3 cartas.",
           "5": "5. Trocar 3 cartas com um jogador à sua escolha. Caso a pilha de compras chegue ao fim, embaralhe o descarte para formar a nova pilha."
         }
-      }
-    },
-    "table": {
-      "card1": {
+      },
+      "card": {
         "src": "/images/cards/cards-modo-diversidade.png",
         "alt": "Carta do jogo drag slay",
         "width": 570,
@@ -193,8 +197,7 @@
       "backgroundMobile": "white",
       "background": "transparent",
       "title": "Fim do jogo",
-      "item1": "Quando um jogador conseguir montar a quantidade necessária de Drags de famílias diferentes, ele vence o jogo, a quantidade de famílias depende do número de jogadores:",
-      "item2": {
+      "item1": {
         "title": "Quando um jogador conseguir montar a quantidade necessária de Drags de famílias diferentes, ele vence o jogo, a quantidade de famílias depende do número de jogadores:",
         "steps": {
           "1": "2 a 3 jogadores = 6 famílias",
@@ -202,7 +205,81 @@
           "3": "5 a 6 jogadores = 4 famílias"
         }
       },
-      "item3": "O jogo também acaba caso uma das pilhas de família chegue ao fim. Nesse momento o jogador com a maior diversidade de famílias ganha."
+      "item2": "O jogo também acaba caso uma das pilhas de família chegue ao fim. Nesse momento o jogador com a maior diversidade de famílias ganha."
+    }
+  },
+  "nossasDrags": {
+    "sections": [
+      { "component": "Content", "visible": true },
+      { "component": "VideoGallery", "visible": false },
+      { "component": "Newsletter", "visible": true }
+    ],
+    "title": "Nossas drags",
+    "subtitle": "Drag Slay é formado por 6 famílias Drag que representam diferentes talentos e habilidades do mundo Drag:",
+    "item1": {
+      "title": "HOUSE OF PRECIOSA",
+      "image": {
+        "src": "/images/drags/preciosas.png",
+        "alt": "As Preciosas não têm medo de desafios. Elas testam seus limites e brilham em cada detalhe. Perfeição, talento e espírito competitivo definem essa casa lendária. Não é à toa que são Pageant Queens aclamadas, sempre prontas para conquistar mais uma coroa.",
+        "width": 1416,
+        "height": 1648
+      }
+    },
+    "item2": {
+      "title": "HOUSE OF RISOS",
+      "image": {
+        "src": "/images/drags/risos.png",
+        "alt": "As Risos são as Comedy Queens do jogo. Mestres da gongação, do deboche e das piadas afiadas. Com humor ácido e carisma de sobra, elas transformam qualquer palco num verdadeiro show de risadas e improviso.",
+        "width": 1416,
+        "height": 1570
+      }
+    },
+    "item3": {
+      "title": "HOUSE OF TRAMAS",
+      "image": {
+        "src": "/images/drags/tramas.png",
+        "alt": "Elegância, conceito e muito estilo. As Tramas são conhecidas por suas Fashion Queens impecáveis, que entregam beleza, sofisticação e looks de cair o queixo. Cada aparição é uma passarela.",
+        "width": 1416,
+        "height": 1650
+      }
+    },
+    "item4": {
+      "title": "HOUSE OF GAGS",
+      "image": {
+        "src": "/images/drags/gags.png",
+        "alt": "Performances intensas, laces coladas e muito movimento. As Gags vivem pelo fator WOW. Especialistas em lipsyncs e no bom e velho bate-cabelo, são as verdadeiras showstoppers da noite.",
+        "width": 1416,
+        "height": 1663
+      }
+    },
+    "item5": {
+      "title": "CAMP AVANT-GATAS",
+      "image": {
+        "src": "/images/drags/avant.png",
+        "alt": "Exageradas, criativas e absolutamente imprevisíveis. As Avant-Gatas dominam o camp com humor, ousadia e estilo fora do comum, sempre desafiando o óbvio e conquistando o público com seu absurdo encantador.",
+        "width": 1416,
+        "height": 1653
+      }
+    },
+    "item6": {
+      "title": "MAISON MADNESS",
+      "description": "",
+      "image": {
+        "src": "/images/drags/madness.png",
+        "alt": "Nem tudo é brilho e glamour. As integrantes da Maison Madness transformam o medo em arte, explorando a expressão drag mais sombria e poderosa. São as Drag Monsters por excelência: intensas, livres e arrebatadoras.",
+        "width": 1416,
+        "height": 1637
+      }
+    },
+    "item7": {
+      "title": "Conheça nossas Estrelas!",
+      "description": "",
+      "image": {
+        "src": "/images/drags/drags-reais.png",
+        "alt": "Cartas de drags reais no drag slay",
+        "width": 1773,
+        "height": 2154
+      }
     }
   },
   "videoGallery": {
