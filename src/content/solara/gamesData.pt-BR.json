@@ -226,5 +226,43 @@
     ],
     "link": "/pt-BR/jogos/drag-slay",
     "buttonText": "Detalhes do jogo"
+  },
+  {
+    "id": 7,
+    "name": "Galhos",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/galhos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/galhos.png",
+        "width": 629,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Conecte-se com a Natureza",
+        "description": "Cresça seus Galhos e atraia fadas e espíritos da floresta."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Dia e Noite",
+        "description": "Jogue o modo noturno para mais desafios."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Orgulho da Comunidade",
+        "description": "Um jogo criado por uma Drag Queen!"
+      }
+    ],
+    "link": "/pt-BR/jogos/galhos",
+    "buttonText": "Detalhes do jogo"
   }
 ]

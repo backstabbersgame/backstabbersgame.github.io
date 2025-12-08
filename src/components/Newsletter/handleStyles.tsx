@@ -99,6 +99,21 @@ export const HandleContainer = (variant: Variant) => {
       };
     }
   }
+  if (variant === 'galhos') {
+    if (isMobile) {
+      return width === 768
+        ? { height: '100vh' }
+        : {
+            height: 'clamp(650px, 80vh, 800px)',
+          };
+    } else if (isTablet) {
+      return { height: '294px', justifyContent: 'space-between' };
+    } else {
+      return {
+        justifyContent: 'normal',
+      };
+    }
+  }
 };
 
 export const HandleImageContainer = (variant: Variant): React.CSSProperties => {
@@ -248,6 +263,36 @@ export const HandleImageContainer = (variant: Variant): React.CSSProperties => {
             justifyContent: 'center',
           };
   }
+  if (variant === 'galhos') {
+    return isMobile
+      ? {
+          position: 'absolute',
+          left: '0',
+          right: '0',
+          bottom: '-38px',
+          zIndex: '1',
+          display: 'flex',
+          justifyContent: 'center',
+          // height: '40%',
+        }
+      : isTablet
+        ? {
+            position: 'absolute',
+            left: '0',
+            bottom: '-35px',
+            zIndex: '1',
+            display: 'flex',
+            justifyContent: 'center',
+          }
+        : {
+            position: 'absolute',
+            left: '150px',
+            bottom: '-50px',
+            zIndex: '1',
+            display: 'flex',
+            justifyContent: 'center',
+          };
+  }
   return {};
 };
 
@@ -388,6 +433,28 @@ export const HandleImageSize = (variant: Variant): React.CSSProperties => {
             height: '435px',
             position: 'relative',
             transform: 'translateY(0.5%)',
+          };
+  }
+  if (variant === 'galhos') {
+    return isMobile
+      ? {
+          width: '107%',
+          height: 'auto',
+          position: 'relative',
+          transform: 'translateY(0.5%)',
+        }
+      : isTablet
+        ? {
+            width: 'auto',
+            height: '392px',
+            position: 'relative',
+            transform: 'translateX(21%)',
+          }
+        : {
+            width: 'auto',
+            height: '500px',
+            position: 'relative',
+            transform: 'translateY(7%)',
           };
   }
   return {};

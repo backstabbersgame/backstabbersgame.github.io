@@ -27,7 +27,6 @@ const ModoDiversidade = ({
   const isTablet = currentBreakpoint === 'tablet';
   const [data, setData] = useState<any>(null);
 
-  console.log(isTablet);
   useEffect(() => {
     const fetchData = async () => {
       const content = await getLocalizedContent('drag', locale);

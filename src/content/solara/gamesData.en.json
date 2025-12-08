@@ -188,5 +188,81 @@
     ],
     "link": "/en/jogos/decodica",
     "buttonText": "Game details"
+  },
+  {
+    "id": 6,
+    "name": "Drag Slay",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/dragslay.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/dragslay.png",
+        "width": 629,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Close and Beauty",
+        "description": "The most beautiful Queens of the Aura club."
+      },
+      {
+        "iconSrc": "/images/icons/star.svg",
+        "iconAlt": "Estrela",
+        "title": "Stars",
+        "description": "Cards from real and famous Queens of Brazil!"
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Diversity",
+        "description": "3 game modes, from frantic to strategic."
+      }
+    ],
+    "link": "/en/jogos/drag-slay",
+    "buttonText": "Game details"
+  },
+  {
+    "id": 7,
+    "name": "Galhos",
+    "images": {
+      "mobile": {
+        "src": "/images/mobile/galhos.png",
+        "width": 320,
+        "height": 285
+      },
+      "desktop": {
+        "src": "/images/desktop/galhos.png",
+        "width": 629,
+        "height": 394
+      }
+    },
+    "details": [
+      {
+        "iconSrc": "/images/icons/sketch-logo.svg",
+        "iconAlt": "Diamante com gradiente",
+        "title": "Connect with Nature",
+        "description": "Grow your branches and attract fairies and forest spirits."
+      },
+      {
+        "iconSrc": "/images/icons/sword.svg",
+        "iconAlt": "Espada",
+        "title": "Day and Night",
+        "description": "Play night mode for more challenges."
+      },
+      {
+        "iconSrc": "/images/icons/heart.svg",
+        "iconAlt": "Coração",
+        "title": "Community Pride",
+        "description": "A game created by a Drag Queen!"
+      }
+    ],
+    "link": "/en/jogos/galhos",
+    "buttonText": "Game details"
   }
 ]

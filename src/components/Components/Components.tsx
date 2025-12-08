@@ -31,15 +31,17 @@ const Components = ({ data }: ComponentsProps) => {
   return (
     <div className={styles.background}>
       <div className={styles.container}>
-        <div className={styles.header}>
-          <Image
-            width={isMobile ? 20 : 32}
-            height={isMobile ? 20 : 32}
-            src={`/images/icons/star.svg`}
-            alt={'Estrela com gradiente azul e lilás'}
-          />
-          <h2 className={styles.h2}>{content.title}</h2>
-        </div>
+        {content.title && (
+          <div className={styles.header}>
+            <Image
+              width={isMobile ? 20 : 32}
+              height={isMobile ? 20 : 32}
+              src={`/images/icons/star.svg`}
+              alt={'Estrela com gradiente azul e lilás'}
+            />
+            <h2 className={styles.h2}>{content.title}</h2>
+          </div>
+        )}
         <div className={styles.content}>
           <Image
             src={content.card.src}

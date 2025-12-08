@@ -1,0 +1,189 @@
+@use '@backstabbersgame/design-system/styles/partials/colors' as colors;
+@use '@backstabbersgame/design-system/styles/partials/typography' as typography;
+@use '@backstabbersgame/design-system/styles/partials/breakpoints' as
+  breakpoints;
+
+.white {
+  background-color: colors.$neutral-0;
+}
+
+.gray {
+  background-color: colors.$neutral-50;
+}
+
+.gradient {
+  background: linear-gradient(180deg, #ffffff 0%, #f3f4f6 100%);
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+}
+
+.subtitle {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.subtitle p {
+  width: 88vw;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.fadas {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 32px;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.fada {
+  width: 70%;
+  height: auto;
+}
+
+.card {
+  width: 90%;
+  height: auto;
+}
+
+@media only screen and (min-width: breakpoints.$tablet-min) {
+  .background {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 48px 0;
+  }
+  .name {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 48px;
+  }
+
+  .h1 {
+    color: colors.$neutral-800;
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    gap: 16px;
+  }
+
+  .content2 {
+    gap: 48px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .card {
+    width: 50%;
+    height: auto;
+  }
+
+  .table {
+    padding-bottom: 48px;
+  }
+
+  .fadas {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .fada {
+    width: 44%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$laptop-min) {
+  .background {
+    padding: 56px 0;
+  }
+
+  .section {
+    margin-top: 140px;
+  }
+
+  .background2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .content {
+    padding-top: 48px;
+  }
+
+  .content2 {
+    display: flex;
+    flex-direction: row;
+    width: 88vw;
+    gap: 32px;
+  }
+
+  .table {
+    padding-top: 48px;
+  }
+
+  .card {
+    width: 80%;
+    height: auto;
+  }
+
+
+  .fadas {
+    width: 90%;
+    display: flex;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .fada {
+    width: 47%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: breakpoints.$ultra-wide-screen) {
+  .content,
+  .content2 {
+    width: 70vw;
+  }
+
+  .subtitle p {
+    width: 70vw;
+  }
+}

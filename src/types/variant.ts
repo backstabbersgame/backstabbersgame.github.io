@@ -5,4 +5,5 @@ export type Variant =
   | 'rebeliao'
   | 'armada'
   | 'decodica'
-  | 'drag';
+  | 'drag'
+  | 'galhos';
