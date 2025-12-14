@@ -123,7 +123,7 @@
     "titleTwo": "lojinha",
     "titleThree": "!",
     "collectibles": {
-      "url": "https://loja.infinitepay.io/solara-studios",
+      "url": "https://solarastudios.lojavirtualnuvem.com.br/",
       "image": {
         "alt": "Colecionáveis: bottons, camisetas e ecobags",
         "mobile": "/images/mobile/collectibles.png",
@@ -131,7 +131,7 @@
       }
     },
     "boardgames": {
-      "url": "https://loja.infinitepay.io/solara-studios",
+      "url": "https://solarastudios.lojavirtualnuvem.com.br/",
       "image": {
         "alt": "Caixa do jogo Backstabbers",
         "mobile": "/images/mobile/boardgames.png",
