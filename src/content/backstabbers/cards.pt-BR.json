@@ -380,6 +380,15 @@
         "1": "Caso você esteja protegido por um Guardião. Protege seu Campo do *Juiz, Ladrão, Traficante, Usurpadora e Arruaceiro.*"
       }
     },
+    "item7": {
+      "imageSrc": "/images/chars/gua.svg",
+      "imageAlt": "Personagem Guardião",
+      "title": "Guardião",
+      "subtitle": "Nível 1",
+      "steps": {
+        "1": "Caso você esteja protegido por um Guardião. Protege também de receber cartas Reserva."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Modo Duo",
