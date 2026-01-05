@@ -5430,7 +5430,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Medida",
       "steps": {
-        "1": "Cartas que tem precisam puxar da pilha de compras serão jogadas sem ação. Cartas: *Anjo, Cartomante, Cartomante Avançada, Oráculo, Oráculo Avançado, Traficante, Sorrateira e Sorrateira Avançada.*"
+        "1": "Cartas que precisam puxar da pilha de compras serão jogadas sem ação. Cartas: *Anjo, Cartomante, Cartomante Avançada, Oráculo, Oráculo Avançado, Traficante, Sorrateira e Sorrateira Avançada.*"
       }
     },
     "item2": {
