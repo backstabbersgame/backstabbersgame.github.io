@@ -380,6 +380,15 @@
         "1": "If you are protected by a Guardian. Protects your Field from *Judge, Thief, Dealer, Usurper and Troublemaker.*"
       }
     },
+    "item6": {
+      "imageSrc": "/images/chars/gua.svg",
+      "imageAlt": "Guardian Character",
+      "title": "Guardian",
+      "subtitle": "Level 1",
+      "steps": {
+        "1": "If you are protected by a Guardian. Protects your from receiving an Reserve card."
+      }
+    },
     "isDuoMode": true,
     "duoMode": {
       "title": "Duo Mode",
