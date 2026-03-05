@@ -3653,6 +3653,13 @@
         "1": "If included in the Follow Clues action of the Detective, activates the Intimidator."
       }
     },
+    "item11": {
+      "imageSrc": "/images/chars/esp.svg",
+      "imageAlt": "Advanced Spies Character",
+      "steps": {
+        "1": "If you are the target of Detective or Secret Agent with the Intimidator in your hand, without being seen by the player yet, the action will not activate the Intimidator, even though it is separated in steps, because it is the same turn yet. If the Intimidator is still in your hand in the next action you are the same player's target, you can activate it."
+      }
+    },
     "item12": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Inertia Character",
