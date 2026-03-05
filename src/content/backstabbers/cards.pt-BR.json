@@ -3652,6 +3652,13 @@
         "1": "Se for incluido na ação de Seguir Pistas do Detetive, ativa o Intimidador."
       }
     },
+     "item11": {
+      "imageSrc": "/images/chars/esp.svg",
+      "imageAlt": "Personagem Espiãs Avançadas",
+      "steps": {
+        "1": "Se tiver o Intimidador e for alvo de ações da Infiltrada ou Agente Secreto, sem ter sido visto antes, a ação acontece totalmente sem ativar o Intimidador, mesmo que seja dividida em partes, pois ainda é a ação de um unico turno. Após isto, a próxima ação contra você pode ativar o Intimidador, caso ele permaneça em sua mão."
+      }
+    },
     "item12": {
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Personagem Inércia",
