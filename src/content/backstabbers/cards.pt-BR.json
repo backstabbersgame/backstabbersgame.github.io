@@ -3498,7 +3498,7 @@
       "title": "Cambista",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso haja apenas um alvo disponível. Execute a ação com apenas um alvo e a carta de um Campo."
+        "1": "Caso haja apenas um alvo disponível. Execute a ação com apenas um alvo e a carta de um Campo, considere a si mesmo como o segundo alvo, podendo escolher uma das cartas para trocar com uma carta da sua mão."
       }
     },
     "item7": {
@@ -3507,7 +3507,7 @@
       "title": "Cambista",
       "subtitle": "Nível 5",
       "steps": {
-        "1": "Caso não hajam cartas nos Campos. Realize a ação apenas com os jogadores."
+        "1": "Caso não hajam cartas nos Campos. Realize a ação apenas com os jogadores. Não devolva nenhuma carta para a Pilha de Compras"
       }
     },
     "item8": {
