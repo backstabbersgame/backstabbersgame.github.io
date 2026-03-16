@@ -3498,7 +3498,7 @@
       "title": "Cambist",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If there is only one available target. Execute the action with only one target and a card from one Field."
+        "1": "If there is only one available target. Execute the action with only one target and a card from one Field. Consider yourself as the second target, you can choose to trade one of your card with one of the cards in the action."
       }
     },
     "item7": {
@@ -3507,7 +3507,7 @@
       "title": "Cambist",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If there are no cards in the Fields. Perform the action only with the players."
+        "1": "If there are no cards in the Fields. Perform the action only with the players. Do not give back any card to the Draw Pile"
       }
     },
     "item8": {
