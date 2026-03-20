@@ -233,20 +233,20 @@
     "title": "Assassin",
     "item1": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If it is reflected. The Reflection does not choose a new number; if the target is eliminated, the coin goes to the player that used the Assassin."
+        "1": "If it is reflected. The Reflex does not choose a new number; if the target is eliminated, the coin goes to the player that used the Assassin."
       }
     },
     "item2": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Assassin against you. The action occurs normally."
+        "1": "If the Reflex needs to reflect the action of your own Assassin against you. The action occurs normally."
       }
     },
     "item3": {
@@ -281,8 +281,8 @@
       },
       "item2": {
         "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
+        "imageAlt": "Reflex Character",
+        "title": "Reflex",
         "subtitle": "Level 3",
         "steps": {
           "1": "When playing as a duo, the target can reflect the Assassin onto their partner."
@@ -420,7 +420,7 @@
       "title": "Shapeshifter",
       "subtitle": "Level 1",
       "steps": {
-        "1": "Can copy cards from a protected Field, but cannot use the action on players protected by: *Guardian, Security, Bodyguard and Reflection.*"
+        "1": "Can copy cards from a protected Field, but cannot use the action on players protected by: *Guardian, Security, Bodyguard and Reflex.*"
       }
     },
     "item3": {
@@ -455,8 +455,8 @@
     },
     "item2": {
       "imageSrc": "/images/chars/dc.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "If one of your targets has the Two-Faced in hand, it will not be activated."
@@ -464,11 +464,11 @@
     },
     "item3": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Negotiator against you. Swap with the other target, or with the draw pile, if there is no other target."
+        "1": "If the Reflex needs to reflect the action of your own Negotiator against you. Swap with the other target, or with the draw pile, if there is no other target."
       }
     },
     "item4": {
@@ -543,11 +543,11 @@
     },
     "item4": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Poor against you. The Poor loses its action."
+        "1": "If the Reflex needs to reflect the action of your own Poor against you. The Poor loses its action."
       }
     },
     "item5": {
@@ -638,11 +638,11 @@
     },
     "item4": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Rich against you. The Rich loses its action."
+        "1": "If the Reflex needs to reflect the action of your own Rich against you. The Rich loses its action."
       }
     },
     "item5": {
@@ -728,7 +728,7 @@
       "title": "Assassin",
       "subtitle": "Level 1",
       "steps": {
-        "1": "If you use the Assassin and the target uses Reflection to return the action against you. The Kidnapper will not be activated."
+        "1": "If you use the Assassin and the target uses Reflex to return the action against you. The Kidnapper will not be activated."
       }
     },
     "item4": {
@@ -778,11 +778,11 @@
     },
     "item9": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If you have the Reflection and the Kidnapper in your hand and both are activated, the Reflection takes precedence."
+        "1": "If you have the Reflex and the Kidnapper in your hand and both are activated, the Reflex takes precedence."
       }
     },
     "item10": {
@@ -866,20 +866,20 @@
     },
     "item5": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If it is reflected. The Reflection cannot change the chosen number, but the point still goes to whoever used the Seer."
+        "1": "If it is reflected. The Reflex cannot change the chosen number, but the point still goes to whoever used the Seer."
       }
     },
     "item6": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Seer against you. The action occurs normally."
+        "1": "If the Reflex needs to reflect the action of your own Seer against you. The action occurs normally."
       }
     },
     "isDuoMode": true,
@@ -1004,11 +1004,11 @@
       "title": "Optional Rules",
       "item1": {
         "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
+        "imageAlt": "Reflex Character",
+        "title": "Reflex",
         "subtitle": "Level 3",
         "steps": {
-          "1": "*RICOCHET:* If a player has the Reflection during the Shooter's action. The player with the Reflection must choose a new number and the Shooter player becomes the target of the action. The action ends with whoever played the Reflection, who doesn't count as a target. Can be reflected again."
+          "1": "*RICOCHET:* If a player has the Reflex during the Shooter's action. The player with the Reflex must choose a new number and the Shooter player becomes the target of the action. The action ends with whoever played the Reflex, who doesn't count as a target. Can be reflected again."
         }
       }
     }
@@ -1026,11 +1026,11 @@
     },
     "item2": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If you have the Reflection and the Two-Faced in your hand and both are activated, the Reflection takes precedence."
+        "1": "If you have the Reflex and the Two-Faced in your hand and both are activated, the Reflex takes precedence."
       }
     },
     "item3": {
@@ -1247,11 +1247,11 @@
     }
   },
   "inc": {
-    "title": "Arsonist",
+    "title": "Incendiary",
     "item1": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
         "1": "Only the cards in your hand count for the sum, the leader does not count."
@@ -1259,17 +1259,17 @@
     },
     "item2": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If a player is eliminated in the Arsonist's action, the player who wins the comparison gets the coin, not the one who used the Arsonist."
+        "1": "If a player is eliminated in the Incendiary's action, the player who wins the comparison gets the coin, not the one who used the Incendiary."
       }
     },
     "item3": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
         "1": "If a player runs out of cards during the comparison, their sum is zero."
@@ -1286,8 +1286,8 @@
     },
     "item5": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
         "1": "If there is only one target available, you must participate in the comparison."
@@ -1295,17 +1295,17 @@
     },
     "item6": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If there are no available targets. The Arsonist loses its action."
+        "1": "If there are no available targets. The Incendiary loses its action."
       }
     },
     "item7": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
         "1": "In case of a tie, no one loses a card."
@@ -1316,17 +1316,17 @@
       "title": "Duo Mode",
       "item1": {
         "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Arsonist Character",
-        "title": "Arsonist",
+        "imageAlt": "Incendiary Character",
+        "title": "Incendiary",
         "subtitle": "Level 2",
         "steps": {
-          "1": "When playing as a duo, you CANNOT use the Arsonist's action on your partner."
+          "1": "When playing as a duo, you CANNOT use the Incendiary's action on your partner."
         }
       },
       "item2": {
         "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Arsonist Character",
-        "title": "Arsonist",
+        "imageAlt": "Incendiary Character",
+        "title": "Incendiary",
         "subtitle": "Level 2",
         "steps": {
           "1": "When playing as a duo, if you need to participate in the comparison, the pair can choose which of the two should participate. Without looking at the other's cards."
@@ -1334,8 +1334,8 @@
       },
       "item3": {
         "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Arsonist Character",
-        "title": "Arsonist",
+        "imageAlt": "Incendiary Character",
+        "title": "Incendiary",
         "subtitle": "Level 2",
         "steps": {
           "1": "The sum values should only be revealed after the pairs decide who will participate in the comparison."
@@ -1347,11 +1347,11 @@
       "title": "Infinite Mode",
       "item1": {
         "imageSrc": "/images/chars/inc.svg",
-        "imageAlt": "Arsonist Character",
-        "title": "Arsonist",
+        "imageAlt": "Incendiary Character",
+        "title": "Incendiary",
         "subtitle": "Level 2",
         "steps": {
-          "1": "In infinite mode, if a player is eliminated in the Arsonist's action, the winner of the comparison gains one coin and the one who played the Arsonist gains one."
+          "1": "In infinite mode, if a player is eliminated in the Incendiary's action, the winner of the comparison gains one coin and the one who played the Incendiary gains one."
         }
       }
     }
@@ -1851,11 +1851,11 @@
     },
     "item4": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "If the Reflection needs to reflect the action of your own Gossiper against you. The action occurs normally."
+        "1": "If the Reflex needs to reflect the action of your own Gossiper against you. The action occurs normally."
       }
     },
     "item5": {
@@ -1897,8 +1897,8 @@
       "title": "Optional Rules",
       "item1": {
         "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
+        "imageAlt": "Reflex Character",
+        "title": "Reflex",
         "subtitle": "Level 3",
         "steps": {
           "1": "*GOSSIP CIRCLE:* If the Gossiper is reflected, all players must tell the sum of their cards only to the player next to them, in the game order. No defense or reaction should be considered in this action."
@@ -2120,11 +2120,11 @@
     }
   },
   "ref": {
-    "title": "Reflection",
+    "title": "Reflex",
     "item1": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "If the new target of the action is eliminated, the player who started the action gets the coin."
@@ -2132,8 +2132,8 @@
     },
     "item2": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "Not allowed to react when you were the player who started the action."
@@ -2154,7 +2154,7 @@
       "title": "Virus",
       "subtitle": "Level 5",
       "steps": {
-        "1": "Reflection cannot be used to protect against the Virus."
+        "1": "Reflex cannot be used to protect against the Virus."
       }
     },
     "item5": {
@@ -2163,7 +2163,7 @@
       "title": "Catcher",
       "subtitle": "Level 5",
       "steps": {
-        "1": "Reflection cannot be used to protect against the Catcher."
+        "1": "Reflex cannot be used to protect against the Catcher."
       }
     },
     "item6": {
@@ -2213,17 +2213,17 @@
     },
     "item11": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
-        "1": "Can reflect an action that has already been reflected to you, including to the player who used the previous Reflection."
+        "1": "Can reflect an action that has already been reflected to you, including to the player who used the previous Reflex."
       }
     },
     "item12": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "Also reflects actions against your Field."
@@ -2231,8 +2231,8 @@
     },
     "item13": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "Cannot reflect reactions."
@@ -2240,8 +2240,8 @@
     },
     "item14": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "Has priority over Reactive cards."
@@ -2249,8 +2249,8 @@
     },
     "item15": {
       "imageSrc": "/images/chars/ref.svg",
-      "imageAlt": "Reflection Character",
-      "title": "Reflection",
+      "imageAlt": "Reflex Character",
+      "title": "Reflex",
       "subtitle": "Level 3",
       "steps": {
         "1": "When there is no other target available, must reflect to whoever used the action."
@@ -2261,11 +2261,11 @@
       "title": "Duo Mode",
       "item1": {
         "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
+        "imageAlt": "Reflex Character",
+        "title": "Reflex",
         "subtitle": "Level 3",
         "steps": {
-          "1": "When playing as a duo, you can use the Reflection's action on your partner."
+          "1": "When playing as a duo, you can use the Reflex's action on your partner."
         }
       }
     },
@@ -2274,11 +2274,11 @@
       "title": "Optional Rules",
       "item1": {
         "imageSrc": "/images/chars/ref.svg",
-        "imageAlt": "Reflection Character",
-        "title": "Reflection",
+        "imageAlt": "Reflex Character",
+        "title": "Reflex",
         "subtitle": "Level 3",
         "steps": {
-          "1": "*RICOCHET:* If a player has the Reflection during the Shooter's action. The player with the Reflection must choose a new number and the Shooter player becomes the target of the action. The action ends with the Reflection, who doesn't count as a target. Can be reflected again."
+          "1": "*RICOCHET:* If a player has the Reflex during the Shooter's action. The player with the Reflex must choose a new number and the Shooter player becomes the target of the action. The action ends with the Reflex, who doesn't count as a target. Can be reflected again."
         }
       }
     }
@@ -2490,7 +2490,7 @@
       "title": "Comparator",
       "subtitle": "Level 4",
       "steps": {
-        "1": "Reactive and Automatic cards can be shown without being activated. Cards: *Loan Shark, Catcher, Two-Faced, Gossiper, Bodyguard, Wanted, Reflection, Kidnapper and Virus.*"
+        "1": "Reactive and Automatic cards can be shown without being activated. Cards: *Loan Shark, Catcher, Two-Faced, Gossiper, Bodyguard, Wanted, Reflex, Kidnapper and Virus.*"
       }
     },
     "item11": {
@@ -2877,14 +2877,14 @@
     }
   },
   "int": {
-    "title": "Meddler",
+    "title": "Intrusive",
     "item1": {
       "imageSrc": "/images/chars/apa.svg",
       "imageAlt": "Catcher Character",
       "title": "Catcher",
       "subtitle": "Level 5",
       "steps": {
-        "1": "If you have both the Catcher and the Meddler in hand and both are activated, the Catcher takes precedence."
+        "1": "If you have both the Catcher and the Intrusive in hand and both are activated, the Catcher takes precedence."
       }
     },
     "item2": {
@@ -2902,7 +2902,7 @@
       "title": "Dictator",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If the Meddler has been blocked by the Dictator, it is not activated."
+        "1": "If the Intrusive has been blocked by the Dictator, it is not activated."
       }
     },
     "item4": {
@@ -2911,13 +2911,13 @@
       "title": "Arbiter",
       "subtitle": "Level 2",
       "steps": {
-        "1": "If the player is blocked by the Arbiter, they can still use the Meddler, if the prerequisites are met."
+        "1": "If the player is blocked by the Arbiter, they can still use the Intrusive, if the prerequisites are met."
       }
     },
     "item5": {
       "imageSrc": "/images/chars/int.svg",
-      "imageAlt": "Meddler Character",
-      "title": "Meddler",
+      "imageAlt": "Intrusive Character",
+      "title": "Intrusive",
       "subtitle": "Level 4",
       "steps": {
         "1": "The player who used the reaction must replace the card they used and participate in the action used against them normally. Cards: *Loan Shark, Two-Faced, Bodyguard, Wanted, Reflex, and Kidnapper.*"
@@ -2925,8 +2925,8 @@
     },
     "item6": {
       "imageSrc": "/images/chars/int.svg",
-      "imageAlt": "Meddler Character",
-      "title": "Meddler",
+      "imageAlt": "Intrusive Character",
+      "title": "Intrusive",
       "subtitle": "Level 4",
       "steps": {
         "1": "If you have another reactive card in your hand that is activated by the action, you can use it normally without it being canceled. Cards: *Loan Shark, Two-Faced, Bodyguard, Wanted, Reflex, and Kidnapper.*"
@@ -2934,17 +2934,17 @@
     },
     "item7": {
       "imageSrc": "/images/chars/int.svg",
-      "imageAlt": "Meddler Character",
-      "title": "Meddler",
+      "imageAlt": "Intrusive Character",
+      "title": "Intrusive",
       "subtitle": "Level 4",
       "steps": {
-        "1": "Reactions cannot be used against the Meddler. Cards: *Loan Shark, Two-Faced, Bodyguard, Wanted, Reflex, and Kidnapper.*"
+        "1": "Reactions cannot be used against the Intrusive. Cards: *Loan Shark, Two-Faced, Bodyguard, Wanted, Reflex, and Kidnapper.*"
       }
     },
     "item8": {
       "imageSrc": "/images/chars/int.svg",
-      "imageAlt": "Meddler Character",
-      "title": "Meddler",
+      "imageAlt": "Intrusive Character",
+      "title": "Intrusive",
       "subtitle": "Level 4",
       "steps": {
         "1": "Can block reactions against yourself."
@@ -2952,8 +2952,8 @@
     },
     "item9": {
       "imageSrc": "/images/chars/int.svg",
-      "imageAlt": "Meddler Character",
-      "title": "Meddler",
+      "imageAlt": "Intrusive Character",
+      "title": "Intrusive",
       "subtitle": "Level 4",
       "steps": {
         "1": "Does not block your own reactions."
@@ -2963,7 +2963,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Inertia Character",
       "steps": {
-        "1": "During Inertia, if the Meddler is activated, the player and the target must only replace their cards in the next round, they become immune to actions. If they are participating in a comparison, their sum is zero."
+        "1": "During Inertia, if the Intrusive is activated, the player and the target must only replace their cards in the next round, they become immune to actions. If they are participating in a comparison, their sum is zero."
       }
     },
     "isDuoMode": true,
@@ -2971,20 +2971,20 @@
       "title": "Duo Mode",
       "item1": {
         "imageSrc": "/images/chars/int.svg",
-        "imageAlt": "Meddler Character",
-        "title": "Meddler",
+        "imageAlt": "Intrusive Character",
+        "title": "Intrusive",
         "subtitle": "Level 4",
         "steps": {
-          "1": "When playing as a duo, the Meddler's action is used against your partner."
+          "1": "When playing as a duo, the Intrusive's action is used against your partner."
         }
       },
       "item2": {
         "imageSrc": "/images/chars/int.svg",
-        "imageAlt": "Meddler Character",
-        "title": "Meddler",
+        "imageAlt": "Intrusive Character",
+        "title": "Intrusive",
         "subtitle": "Level 4",
         "steps": {
-          "1": "When playing as a duo, your partner can use a second reaction to defend you if the first one is canceled by the Meddler."
+          "1": "When playing as a duo, your partner can use a second reaction to defend you if the first one is canceled by the Intrusive."
         }
       }
     }
@@ -3612,11 +3612,11 @@
     },
     "item6": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
-        "1": "In the Arsonist's action, the one who loses the card to the Intimidator is the one who used the Arsonist and not the one who compared against you."
+        "1": "In the Incendiary's action, the one who loses the card to the Intimidator is the one who used the Incendiary and not the one who compared against you."
       }
     },
     "item7": {
@@ -3643,7 +3643,7 @@
       "title": "Intimidator",
       "subtitle": "Level 5",
       "steps": {
-        "1": "Only the Gossiper among the Automatic cards activates the Intimidator, because the other Automatic cards are not the opponent's choice. Cards: *Catcher, Gossiper, Meddler, Traitor, and Virus.*"
+        "1": "Only the Gossiper among the Automatic cards activates the Intimidator, because the other Automatic cards are not the opponent's choice. Cards: *Catcher, Gossiper, Intrusive, Traitor, and Virus.*"
       }
     },
     "item10": {
@@ -5044,7 +5044,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Measure Character",
       "steps": {
-        "1": "For cards with more than one target, the targets must choose together someone to participate in the action along with the attacker. Follow the special cases of the card in question. Cards: *Cambist and Arsonist.*"
+        "1": "For cards with more than one target, the targets must choose together someone to participate in the action along with the attacker. Follow the special cases of the card in question. Cards: *Cambist and Incendiary.*"
       }
     },
     "item4": {
@@ -5996,11 +5996,11 @@
     },
     "item15": {
       "imageSrc": "/images/chars/inc.svg",
-      "imageAlt": "Arsonist Character",
-      "title": "Arsonist",
+      "imageAlt": "Incendiary Character",
+      "title": "Incendiary",
       "subtitle": "Level 2",
       "steps": {
-        "1": "The Arsonist has more than one target and should not activate the Next Measure."
+        "1": "The Incendiary has more than one target and should not activate the Next Measure."
       }
     },
     "item16": {
@@ -6195,7 +6195,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Measure Character",
       "steps": {
-        "1": "Does not work for cards with no target, with more than one target, or Global cards. Cards: *Troublemaker, Advanced Troublemaker, Shooter, Cambist, Cartomancer, Advanced Cartomancer, Arsonist, Negotiator, Oracle, Advanced Oracle, Beggar, Dealer, Advanced Dealer, Usurper and Advanced Usurper.*"
+        "1": "Does not work for cards with no target, with more than one target, or Global cards. Cards: *Troublemaker, Advanced Troublemaker, Shooter, Cambist, Cartomancer, Advanced Cartomancer, Incendiary, Negotiator, Oracle, Advanced Oracle, Beggar, Dealer, Advanced Dealer, Usurper and Advanced Usurper.*"
       }
     },
     "isDuoMode": true,
@@ -6360,7 +6360,7 @@
       "imageSrc": "/images/chars/med.svg",
       "imageAlt": "Measure Character",
       "steps": {
-        "1": "In *COMPARISON* actions, the loser shows one card and draws another. Cards: *Arsonist, Poor and Rich.*"
+        "1": "In *COMPARISON* actions, the loser shows one card and draws another. Cards: *Incendiary, Poor and Rich.*"
       }
     },
     "item10": {
@@ -6455,7 +6455,7 @@
       "imageSrc": "/images/chars/dec.svg",
       "imageAlt": "Measure Character",
       "steps": {
-        "1": "Reactive and Automatic cards played due to their prerequisites do not count towards eliminating the Sovereign. However, if they are played as Leader on the player's turn, they count. Cards: *Loan Shark, Catcher, Two-Faced, Poisoner, Forger, Gossiper, Bodyguard, Impostor, Meddler, Reflex, Kidnapper, Traitor and Virus.*"
+        "1": "Reactive and Automatic cards played due to their prerequisites do not count towards eliminating the Sovereign. However, if they are played as Leader on the player's turn, they count. Cards: *Loan Shark, Catcher, Two-Faced, Poisoner, Forger, Gossiper, Bodyguard, Impostor, Intrusive, Reflex, Kidnapper, Traitor and Virus.*"
       }
     },
     "item2": {
