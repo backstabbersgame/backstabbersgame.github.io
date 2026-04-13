@@ -4,8 +4,8 @@ import React, { useMemo } from 'react';
 import styles from './Game.module.scss';
 
 import Image from 'next/image';
-import { Button, Carousel } from '@backstabbersgame/design-system';
 import useBreakpoint from '../../hooks/useBreakpoint';
+import { Carousel } from '@backstabbersgame/design-system';
 
 const Game = ({ game, gamesData }: { game: any; gamesData: any }) => {
   const { currentBreakpoint } = useBreakpoint();
@@ -48,13 +48,6 @@ const Game = ({ game, gamesData }: { game: any; gamesData: any }) => {
             autoPlay={true}
           />
         </div>
-        {/* <Button
-          variant='link'
-          arrowRight
-          className={styles.link}
-        >
-          {game.buttonLabel}
-        </Button> */}
       </div>
       <Image
         width={formsWidth}

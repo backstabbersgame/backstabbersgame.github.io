@@ -35,16 +35,6 @@ export async function generateMetadata({
     icons: {
       icon: '/images/favicon.ico',
     },
-    // openGraph: {
-    //   title: t('title'),
-    //   description: t('description'),
-    //   images: [
-    //     {
-    //       url: '/images/armada.png',
-    //       alt: t('title'),
-    //     },
-    //   ],
-    // },
   };
 }
 

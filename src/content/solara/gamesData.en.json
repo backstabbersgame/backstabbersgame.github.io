@@ -19,19 +19,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamond with gradient",
         "title": "Over 1000 copies sold",
-        "description": "Catarse success in 2024, Backstabbers is the new favorite at gaming tables!"
+        "subtitle": "Catarse success in 2024, Backstabbers is the new favorite at gaming tables!"
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Sword",
         "title": "5 game modes",
-        "description": "In addition to the traditional way, Backstabbers can be played in 4 more modes. Play a quick mode, a complete game in just one match, conquer all opponents' coins or play in pairs."
+        "subtitle": "In addition to the traditional way, Backstabbers can be played in 4 more modes. Play a quick mode, a complete game in just one match, conquer all opponents' coins or play in pairs."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Heart",
         "title": "Evolve while playing",
-        "description": "In addition to 5 levels where the game grows with the player, Backstabbers also has 3 expansions that increase the fun even more!"
+        "subtitle": "In addition to 5 levels where the game grows with the player, Backstabbers also has 3 expansions that increase the fun even more!"
       }
     ],
     "link": "/en/jogos/backstabbers",
@@ -57,19 +57,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamond with gradient",
         "title": "3 in 1",
-        "description": "Two games that come together in a third game."
+        "subtitle": "Two games that come together in a third game."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Sword",
         "title": "Expanding the universe",
-        "description": "Learn more about the Cat Gang and the Guardians Armada."
+        "subtitle": "Learn more about the Cat Gang and the Guardians Armada."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Heart",
         "title": "Coming soon",
-        "description": "Sign up for the pre-campaign and guarantee your gift!"
+        "subtitle": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
     "link": "/en/jogos/ordem-ao-caos",
@@ -95,19 +95,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamond with gradient",
         "title": "Chaos in the gang",
-        "description": "Nala's reign is in danger!"
+        "subtitle": "Nala's reign is in danger!"
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Sword",
         "title": "I don't have this color",
-        "description": "Various breeds of kittens to fall in love with and adopt"
+        "subtitle": "Various breeds of kittens to fall in love with and adopt"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Heart",
         "title": "Coming soon",
-        "description": "Sign up for the pre-campaign and guarantee your gift!"
+        "subtitle": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
     "link": "/en/jogos/rebeliao-dos-gatos",
@@ -133,19 +133,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamond with gradient",
         "title": "It was him!",
-        "description": "Defend your honor and distribute poop to opponents."
+        "subtitle": "Defend your honor and distribute poop to opponents."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Sword",
         "title": "Learn more",
-        "description": "New breeds of guardians, which is your favorite dog?"
+        "subtitle": "New breeds of guardians, which is your favorite dog?"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Heart",
         "title": "Coming soon",
-        "description": "Sign up for the pre-campaign and guarantee your gift!"
+        "subtitle": "Sign up for the pre-campaign and guarantee your gift!"
       }
     ],
     "link": "/en/jogos/armada-dos-caes",
@@ -171,19 +171,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamond with gradient",
         "title": "Play as you want",
-        "description": "Various ways to play, versatile cards and lots of fun."
+        "subtitle": "Various ways to play, versatile cards and lots of fun."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Sword",
         "title": "Train your skills",
-        "description": "Interpretation, speed, improvisation, memory, persuasion. Who will be the best?"
+        "subtitle": "Interpretation, speed, improvisation, memory, persuasion. Who will be the best?"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Heart",
         "title": "Customize",
-        "description": "Assemble your box as you want with card stickers"
+        "subtitle": "Assemble your box as you want with card stickers"
       }
     ],
     "link": "/en/jogos/decodica",
@@ -209,19 +209,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Close and Beauty",
-        "description": "The most beautiful Queens of the Aura club."
+        "subtitle": "The most beautiful Queens of the Aura club."
       },
       {
         "iconSrc": "/images/icons/star.svg",
         "iconAlt": "Estrela",
         "title": "Stars",
-        "description": "Cards from real and famous Queens of Brazil!"
+        "subtitle": "Cards from real and famous Queens of Brazil!"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Diversity",
-        "description": "3 game modes, from frantic to strategic."
+        "subtitle": "3 game modes, from frantic to strategic."
       }
     ],
     "link": "/en/jogos/drag-slay",
@@ -247,19 +247,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Connect with Nature",
-        "description": "Grow your branches and attract fairies and forest spirits."
+        "subtitle": "Grow your branches and attract fairies and forest spirits."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Day and Night",
-        "description": "Play night mode for more challenges."
+        "subtitle": "Play night mode for more challenges."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Community Pride",
-        "description": "A game created by a Drag Queen!"
+        "subtitle": "A game created by a Drag Queen!"
       }
     ],
     "link": "/en/jogos/galhos",

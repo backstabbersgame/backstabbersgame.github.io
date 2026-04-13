@@ -21,13 +21,7 @@ export async function generateMetadata({
       template: `%s | ${t('title')}`,
       default: t('title'),
     },
-    description: t('description'),
-    // keywords: t('keywords'),
-    // openGraph: {
-    //   title: t('title'),
-    //   description: t('description'),
-    //   locale: locale,
-    // },
+    description: t('description')
   };
 }
 

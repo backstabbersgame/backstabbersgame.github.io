@@ -19,19 +19,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Mais de 1000 cópias vendidas",
-        "description": "Sucesso do Catarse em 2024, Backstabbers é o novo queridinho das mesas!"
+        "subtitle": "Sucesso do Catarse em 2024, Backstabbers é o novo queridinho das mesas!"
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "5 modos de jogo",
-        "description": "Além da forma tradicional, Backstabbers pode ser jogado de mais 4 modos. Jogue um modo rápido, um jogo completo em apenas uma partida, conquiste todas as moedas dos oponentes ou jogue em dupla."
+        "subtitle": "Além da forma tradicional, Backstabbers pode ser jogado de mais 4 modos. Jogue um modo rápido, um jogo completo em apenas uma partida, conquiste todas as moedas dos oponentes ou jogue em dupla."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Evolua enquanto joga",
-        "description": "Além de 5 níveis onde o jogo cresce com o jogador, Backstabbers também conta com 3 expansões que aumentam ainda mais a diversão!"
+        "subtitle": "Além de 5 níveis onde o jogo cresce com o jogador, Backstabbers também conta com 3 expansões que aumentam ainda mais a diversão!"
       }
     ],
     "link": "/pt-BR/jogos/backstabbers",
@@ -57,19 +57,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "3 em 1",
-        "description": "Dois jogos que se juntam em um terceiro jogo."
+        "subtitle": "Dois jogos que se juntam em um terceiro jogo."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Expandindo o universo",
-        "description": "Conheça mais sobre a Gangue dos Gatos e a Armada dos Guardiões."
+        "subtitle": "Conheça mais sobre a Gangue dos Gatos e a Armada dos Guardiões."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Em breve",
-        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+        "subtitle": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
     "link": "/pt-BR/jogos/ordem-ao-caos",
@@ -95,19 +95,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Confusão na gangue",
-        "description": "O reinado de Nala está em perigo!"
+        "subtitle": "O reinado de Nala está em perigo!"
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Essa cor eu não tenho",
-        "description": "Várias raças de gatinhos para se apaixonar e adotar."
+        "subtitle": "Várias raças de gatinhos para se apaixonar e adotar."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Em breve",
-        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+        "subtitle": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
     "link": "/pt-BR/jogos/rebeliao-dos-gatos",
@@ -133,19 +133,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Foi ele!",
-        "description": "Defenda sua honra e distribua cocos para os oponentes."
+        "subtitle": "Defenda sua honra e distribua cocos para os oponentes."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Conheça mais",
-        "description": "Novas raças de guardiões, qual seu cachorro favorito?"
+        "subtitle": "Novas raças de guardiões, qual seu cachorro favorito?"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Em breve",
-        "description": "Inscreva-se na pré campanha e garanta seu brinde!"
+        "subtitle": "Inscreva-se na pré campanha e garanta seu brinde!"
       }
     ],
     "link": "/pt-BR/jogos/armada-dos-caes",
@@ -171,19 +171,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Jogue como quiser",
-        "description": "Várias formas de jogar, cartas versáteis e muita diversão."
+        "subtitle": "Várias formas de jogar, cartas versáteis e muita diversão."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Treine suas habilidades",
-        "description": "Interpretação, velocidade, improvisação, memória, persuasão. Quem será o melhor?"
+        "subtitle": "Interpretação, velocidade, improvisação, memória, persuasão. Quem será o melhor?"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Personalize",
-        "description": "Monte sua caixa como quiser com adesivos das cartas."
+        "subtitle": "Monte sua caixa como quiser com adesivos das cartas."
       }
     ],
     "link": "/pt-BR/jogos/decodica",
@@ -209,19 +209,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Close e Beleza",
-        "description": "As Queens mais bonitas da boate Aura."
+        "subtitle": "As Queens mais bonitas da boate Aura."
       },
       {
         "iconSrc": "/images/icons/star.svg",
         "iconAlt": "Estrela",
         "title": "Estrelas",
-        "description": "Cartas de Queens reais e famosas do Brasil!"
+        "subtitle": "Cartas de Queens reais e famosas do Brasil!"
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Diversidade",
-        "description": "3 modos de jogo, do frenético ao estratégico."
+        "subtitle": "3 modos de jogo, do frenético ao estratégico."
       }
     ],
     "link": "/pt-BR/jogos/drag-slay",
@@ -247,19 +247,19 @@
         "iconSrc": "/images/icons/sketch-logo.svg",
         "iconAlt": "Diamante com gradiente",
         "title": "Conecte-se com a Natureza",
-        "description": "Cresça seus Galhos e atraia fadas e espíritos da floresta."
+        "subtitle": "Cresça seus Galhos e atraia fadas e espíritos da floresta."
       },
       {
         "iconSrc": "/images/icons/sword.svg",
         "iconAlt": "Espada",
         "title": "Dia e Noite",
-        "description": "Jogue o modo noturno para mais desafios."
+        "subtitle": "Jogue o modo noturno para mais desafios."
       },
       {
         "iconSrc": "/images/icons/heart.svg",
         "iconAlt": "Coração",
         "title": "Orgulho da Comunidade",
-        "description": "Um jogo criado por uma Drag Queen!"
+        "subtitle": "Um jogo criado por uma Drag Queen!"
       }
     ],
     "link": "/pt-BR/jogos/galhos",
